@@ -52,6 +52,8 @@ The point of this exercise is to deepen your understanding of **polymorphism**, 
 
 By completing this exercise, you will improve your skills in designing systems that utilize inheritance, polymorphism, abstract base classes, and dynamic memory, all while managing object lifecycle and data efficiently. It also enforces the importance of flexible and extensible code.
 
+<br>
+
 :three: Question 1, Question 2 and BrickWall, Fireball, Polymorph, SpellBook and TargetGenerator - [Subject Text](https://github.com/younesmoukhlij/Exam-Rank-05_42/blob/main/cpp_module_02/subject.txt)
 
 <br>
