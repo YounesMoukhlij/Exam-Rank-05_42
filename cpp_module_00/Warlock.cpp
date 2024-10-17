@@ -6,7 +6,7 @@
 /*   By: youmoukh <youmoukh@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/17 14:20:09 by youmoukh          #+#    #+#             */
-/*   Updated: 2024/10/17 14:41:09 by youmoukh         ###   ########.fr       */
+/*   Updated: 2024/10/17 14:41:13 by youmoukh         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -41,6 +41,6 @@ void	Warlock::introduce() const
 Warlock::operator=(const Warlock& origine)
 {
 	this->name = origine.name;
-	this->title = origin
-	
+	this->title = origine.title;
+	r
 }
