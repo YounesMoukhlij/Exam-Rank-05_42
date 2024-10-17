@@ -28,6 +28,6 @@ class Warlock
 
 
 		const std::string&    const	getName() const;
-		constd::string&	const 	getTitle() const;
+		const std::string&	const 	getTitle() const;
 		void					introduce() const;
 };
