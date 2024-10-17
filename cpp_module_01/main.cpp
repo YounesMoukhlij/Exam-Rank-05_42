@@ -6,7 +6,7 @@
 /*   By: youmoukh <youmoukh@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/17 14:19:27 by youmoukh          #+#    #+#             */
-/*   Updated: 2024/10/17 15:06:36 by youmoukh         ###   ########.fr       */
+/*   Updated: 2024/10/17 15:06:43 by youmoukh         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,5 +30,5 @@ int main()
 
   richard.forgetSpell("Fwoosh");
   richard.launchSpell("Fwoosh", bob);
-}eturn (0);
+eturn (0);
 }
