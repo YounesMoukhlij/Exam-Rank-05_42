@@ -3,6 +3,8 @@
 
 :one: Warlock Class :: [Subject Text](https://github.com/younesmoukhlij/Exam-Rank-05_42/blob/main/cpp_module_00/subject.txt)
 
+<br>
+
 The point of this exercise is to ensure you understand and can implement several important C++ concepts:
 
 1. **Coplien's form (The Rule of Five)**: This requires implementing a class that properly manages resources and controls object lifecycle using constructors, destructors, and ensuring proper behavior when copying or assigning objects. Since the Warlock cannot be copied or assigned, you'll focus on explicitly deleting copy constructors and assignment operators.
