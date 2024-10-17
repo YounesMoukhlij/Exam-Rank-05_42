@@ -25,9 +25,7 @@ By the end, you'll have a better grasp of managing object lifecycles, enforcing 
 
 <br>
 
-### Total Excepted Files
 
-> 16 .cpp (c++ files) and 16 .hpp (header files) = 32 files total.
 
 <br>
 
