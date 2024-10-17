@@ -6,7 +6,7 @@
 /*   By: youmoukh <youmoukh@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/17 14:20:09 by youmoukh          #+#    #+#             */
-/*   Updated: 2024/10/17 14:38:06 by youmoukh         ###   ########.fr       */
+/*   Updated: 2024/10/17 14:38:08 by youmoukh         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,7 @@ const std::string& 	Warlock::getName() const
 	return (name);
 }
 
-sconst std::string& 	Warlock::getTitle() const
+const std::string& 	Warlock::getTitle() const
 {
 	return (title);	
 }
