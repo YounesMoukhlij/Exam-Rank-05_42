@@ -1,7 +1,7 @@
 # Exam Details
 3 Exercies in C++
 
-:one: Warlock Class - [Subject Text](https://github.com/younesmoukhlij/Exam-Rank-05_42/blob/main/cpp_module_00/subject.txt)
+:one: Warlock Class :: [Subject Text](https://github.com/younesmoukhlij/Exam-Rank-05_42/blob/main/cpp_module_00/subject.txt)
 
 The point of this exercise is to ensure you understand and can implement several important C++ concepts:
 
