@@ -56,7 +56,7 @@ By completing this exercise, you will improve your skills in designing systems t
 
 <br>
 
-:three: Question 1, Question 2 and BrickWall, Fireball, Polymorph, SpellBook and TargetGenerator - [Subject Text](https://github.com/younesmoukhlij/Exam-Rank-05_42/blob/main/cpp_module_02/subject.txt)
+:three:  and BrickWall, Fireball, Polymorph, SpellBook and TargetGenerator - [Subject Text](https://github.com/younesmoukhlij/Exam-Rank-05_42/blob/main/cpp_module_02/subject.txt)
 
 <br>
 
