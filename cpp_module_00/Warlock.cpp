@@ -6,7 +6,7 @@
 /*   By: youmoukh <youmoukh@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/17 14:20:09 by youmoukh          #+#    #+#             */
-/*   Updated: 2024/10/17 14:38:49 by youmoukh         ###   ########.fr       */
+/*   Updated: 2024/10/17 14:38:55 by youmoukh         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,7 +31,7 @@ const std::string& 	Warlock::getTitle() const
 
 void	Warlock::introduce() const
 {
-	I am Richard, Mistress of Magma!$
+	std::cout << _nI am Richard, Mistress of Magma!$
 }
 
 Warlock::operator=(const Warlock& origine)
