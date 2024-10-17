@@ -6,7 +6,7 @@
 /*   By: youmoukh <youmoukh@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/17 14:20:11 by youmoukh          #+#    #+#             */
-/*   Updated: 2024/10/17 14:37:44 by youmoukh         ###   ########.fr       */
+/*   Updated: 2024/10/17 14:37:48 by youmoukh         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,5 +29,5 @@ class Warlock
 
 		std::string&    const	getName() const;
 		std::string&	const 	getTitle() const;
-		void	introduce() const;
+		void					introduce() const;
 };
