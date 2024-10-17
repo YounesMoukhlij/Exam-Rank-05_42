@@ -1,5 +1,5 @@
 # Exam Details
-3 Exe in C++
+3 Exercies in C+
 
 :one: Warlock - [Subject Text](https://github.com/younesmoukhlij/Exam-Rank-05_42/blob/main/cpp_module_00/subject.txt)
 
