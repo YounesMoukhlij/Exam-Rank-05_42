@@ -6,8 +6,25 @@
 /*   By: youmoukh <youmoukh@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/17 15:48:26 by youmoukh          #+#    #+#             */
-/*   Updated: 2024/10/17 15:48:44 by youmoukh         ###   ########.fr       */
+/*   Updated: 2024/10/17 15:48:47 by youmoukh         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#pragma
+#pragma once
+
+class ASpell
+{
+private:
+	/* data */
+public:
+	ASpell(/* args */);
+	~ASpell();
+};
+
+ASpell::ASpell(/* args */)
+{
+}
+
+ASpell::~ASpell()
+{
+}
