@@ -23,6 +23,8 @@ By the end, you'll have a better grasp of managing object lifecycles, enforcing 
 
 :two: Question 1 and Aspell, Atarget, Dummy and Fwoosh - [Subject Text](https://github.com/younesmoukhlij/Exam-Rank-05_42/blob/main/cpp_module_01/subject.txt)
 
+<br>
+
 The point of this exercise is to deepen your understanding of **polymorphism**, **dynamic memory management**, and the use of **abstract classes** in C++. Here's what it aims to teach:
 
 1. **Abstract Classes & Polymorphism**:
