@@ -6,7 +6,7 @@
 /*   By: youmoukh <youmoukh@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/17 14:20:11 by youmoukh          #+#    #+#             */
-/*   Updated: 2024/10/17 14:48:23 by youmoukh         ###   ########.fr       */
+/*   Updated: 2024/10/17 14:48:30 by youmoukh         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,7 +23,7 @@ class Warlock
 		std::string	name;
 		std::string	title;
 	public:
-		Warlock(std::string&  _name, std::string&   _title);
+		Warlock(c std::string& _name, sc td::string&  _title);
 		~Warlock();
 
 
