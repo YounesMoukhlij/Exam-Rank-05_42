@@ -6,7 +6,7 @@
 /*   By: youmoukh <youmoukh@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/17 14:20:09 by youmoukh          #+#    #+#             */
-/*   Updated: 2024/10/17 14:39:57 by youmoukh         ###   ########.fr       */
+/*   Updated: 2024/10/17 14:40:01 by youmoukh         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,10 @@ Warlock::Warlock(std::string& _name, std::string& _title) : name(_name), title(_
 	std::cout << _name << " : This looks like another boring day." << std::endl;
 }
 
-Warlock::~Warlock(){}
+Warlock::~Warlock()
+{
+	std::cou
+}
 
 const std::string& 	Warlock::getName() const
 {
