@@ -6,7 +6,7 @@
 /*   By: youmoukh <youmoukh@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/17 15:48:26 by youmoukh          #+#    #+#             */
-/*   Updated: 2024/10/17 15:48:56 by youmoukh         ###   ########.fr       */
+/*   Updated: 2024/10/17 15:48:59 by youmoukh         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,8 @@
 class ASpell
 {
 private:
-	std::string name
+	std::string name;
+	std::string effect;
 public:
 	ASpell(/* args */);
 	~ASpell();
