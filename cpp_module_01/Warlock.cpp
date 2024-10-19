@@ -6,7 +6,7 @@
 /*   By: youmoukh <youmoukh@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/17 14:20:09 by youmoukh          #+#    #+#             */
-/*   Updated: 2024/10/19 14:11:25 by youmoukh         ###   ########.fr       */
+/*   Updated: 2024/10/19 14:11:26 by youmoukh         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -61,7 +61,8 @@ void Warlock::learnSpell(ASpell* spell)
 
 void Warlock::forgetSpell(std::string SpellName)
 {
-	if (_SpellBook.find(SpellName) != _SpellBook.end()){
+	if (_SpellBook.find(SpellName) != _SpellBook.end())
+	{
 		delete _SpellBook[SpellName];	
 		_SpellBook.erase(_SpellBook.find(SpellName));
 	}
