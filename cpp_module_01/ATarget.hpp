@@ -6,7 +6,7 @@
 /*   By: youmoukh <youmoukh@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/19 13:03:38 by youmoukh          #+#    #+#             */
-/*   Updated: 2024/10/19 13:17:27 by youmoukh         ###   ########.fr       */
+/*   Updated: 2024/10/19 13:17:41 by youmoukh         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,7 @@ class ATarget
 	public:
 		ATarget(const ATarget& origine);
 		ATarget();
-		ATarget(std::string type);
+		ATarget(std::string _type);
 		ATarget& operator=(const ATarget& origine);
 		virtual ~ATarget();
 		const std::string& getType() const;
