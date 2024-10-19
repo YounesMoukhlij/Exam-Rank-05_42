@@ -6,7 +6,7 @@
 /*   By: youmoukh <youmoukh@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/17 15:48:29 by youmoukh          #+#    #+#             */
-/*   Updated: 2024/10/19 13:33:11 by youmoukh         ###   ########.fr       */
+/*   Updated: 2024/10/19 13:33:21 by youmoukh         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,4 +23,7 @@ ASpell::ASpell(std::string _name, std:string _effects) : name(_name), effects(_e
 	
 }
 
-ASpASpell(const ASpell& origine);
+ASpell::ASpell(const ASpell& origine)
+{
+	*this = origine;
+}
