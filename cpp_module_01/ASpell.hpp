@@ -6,7 +6,7 @@
 /*   By: youmoukh <youmoukh@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/17 15:48:26 by youmoukh          #+#    #+#             */
-/*   Updated: 2024/10/19 14:06:32 by youmoukh         ###   ########.fr       */
+/*   Updated: 2024/10/19 14:06:34 by youmoukh         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,7 +26,7 @@ class ASpell
 		virtual ~ASpell();
 		std::string getName() const;
 		std::string getEffects() const;
-		irtual ASpell*  clone() = 0;
+		virtual ASpell*  clone() = 0;
 		
 };
 
