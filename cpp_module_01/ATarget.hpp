@@ -6,7 +6,7 @@
 /*   By: youmoukh <youmoukh@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/19 13:03:38 by youmoukh          #+#    #+#             */
-/*   Updated: 2024/10/19 13:16:07 by youmoukh         ###   ########.fr       */
+/*   Updated: 2024/10/19 13:16:15 by youmoukh         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,6 +28,6 @@ class ATarget
 		const std::string getName() const;
 		const std::string getEffects() const;
 		virtual ATarget*  clone() = 0;
-		getHitBySpell()
+		getHitBySpell(const Asp)
 		
 };
