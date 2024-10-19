@@ -6,7 +6,7 @@
 /*   By: youmoukh <youmoukh@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/17 15:48:26 by youmoukh          #+#    #+#             */
-/*   Updated: 2024/10/19 14:53:32 by youmoukh         ###   ########.fr       */
+/*   Updated: 2024/10/19 14:53:35 by youmoukh         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,6 +33,6 @@ class ASpell
 		void 		launch(ATarget const & target) const;
 		
 		
-		virtual ASpell*  clone() cns= 0;
+		virtual ASpell*  clone() const = 0;
 };
 
