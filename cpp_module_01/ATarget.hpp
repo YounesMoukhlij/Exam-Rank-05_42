@@ -6,7 +6,7 @@
 /*   By: youmoukh <youmoukh@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/19 13:03:38 by youmoukh          #+#    #+#             */
-/*   Updated: 2024/10/19 13:23:36 by youmoukh         ###   ########.fr       */
+/*   Updated: 2024/10/19 13:23:58 by youmoukh         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,7 +29,7 @@ class ATarget
 		ATarget& operator=(const ATarget& origine);
 		virtual ~ATarget();
 		
-		const std::string& getType() const;
+		 std::string& getType() const;
 		
 		virtual ATarget*  clone() = 0;
 		void getHitBySpell(const ASpell& aspell);
