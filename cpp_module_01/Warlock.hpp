@@ -6,7 +6,7 @@
 /*   By: youmoukh <youmoukh@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/17 14:20:11 by youmoukh          #+#    #+#             */
-/*   Updated: 2024/10/17 14:48:37 by youmoukh         ###   ########.fr       */
+/*   Updated: 2024/10/19 14:08:21 by youmoukh         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,5 +31,9 @@ class Warlock
 		const std::string&	 	getTitle() const;
 		void					introduce() const;
 		void					setTitle(const std::string& _title);
+		
+				void learnSpell(ASpell* spell);
+		void forgetSpell(std::string SpellName);
+		void launchSpell(std::string SpellName, ATarget const & target);
 
 };
