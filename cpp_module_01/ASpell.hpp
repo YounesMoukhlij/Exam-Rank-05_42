@@ -6,7 +6,7 @@
 /*   By: youmoukh <youmoukh@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/17 15:48:26 by youmoukh          #+#    #+#             */
-/*   Updated: 2024/10/19 13:12:57 by youmoukh         ###   ########.fr       */
+/*   Updated: 2024/10/19 13:13:13 by youmoukh         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,6 +20,7 @@ class ASpell
 		std::string name;
 		std::string effect;
 		ASpell(const ASpell& origine);
+		ASpell();
 		ASpell();
 	public:
 		ASpell& operator=(const ASpell& origine);
