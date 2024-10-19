@@ -6,26 +6,26 @@
 /*   By: youmoukh <youmoukh@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/19 13:03:35 by youmoukh          #+#    #+#             */
-/*   Updated: 2024/10/19 13:31:31 by youmoukh         ###   ########.fr       */
+/*   Updated: 2024/10/19 13:32:07 by youmoukh         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ATarget.hpp"
 
-ATarget::ATarget(std::string type) : _type(type)
+ATarget::ATarget(std::string _type) : type(_type)
 {
 
 }
 
-ATarget & ATarget::operator=(ATarget const & rhs)
+ATarget & ATarget::operator=(ATarget const & origine)
 {
-	_type = rhs.getType();
+	type = rhs.getType();
 	return *this;
 }
 
-ATarget::ATarget(ATarget const & obj)
+ATarget::ATarget(ATarget const & origine)
 {
-	*this = obj;
+	*this = origine;
 }
 
 ATarget::~ATarget()
@@ -35,10 +35,10 @@ ATarget::~ATarget()
 
 std::string ATarget::getType() const
 {
-	return (_type);
+	return (type);
 }
 
 void	ATarget::getHitBySpell(ASpell const & spell) const
 {
-	std::cout << _type << " has been " << spell.getEffects() << "!" << std::endl;
+	std::cout << type << " has been " << spell.getEffects() << "!" << std::endl;
 }
