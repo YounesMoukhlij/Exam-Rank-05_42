@@ -6,7 +6,7 @@
 /*   By: youmoukh <youmoukh@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/17 15:48:29 by youmoukh          #+#    #+#             */
-/*   Updated: 2024/10/19 13:37:04 by youmoukh         ###   ########.fr       */
+/*   Updated: 2024/10/19 14:06:06 by youmoukh         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@ ASpell::~ASpell()
 {
 }
 
-ASpell::ASpell(std::string _name, std:string _effects) : name(_name), effects(_effects)
+ASpell::ASpell(std::string _name, std::string _effects) : name(_name), effects(_effects)
 {
 	
 }
