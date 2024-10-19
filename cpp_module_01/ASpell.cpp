@@ -6,7 +6,7 @@
 /*   By: youmoukh <youmoukh@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/17 15:48:29 by youmoukh          #+#    #+#             */
-/*   Updated: 2024/10/19 15:01:48 by youmoukh         ###   ########.fr       */
+/*   Updated: 2024/10/19 15:02:07 by youmoukh         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -47,4 +47,5 @@ ASpell& ASpell::operator=(const ASpell& origine)
 {
 	name = origine.name;
 	effects = origine.effects;
+	return (*this);
 }
