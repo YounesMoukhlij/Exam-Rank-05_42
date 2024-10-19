@@ -6,16 +6,17 @@
 /*   By: youmoukh <youmoukh@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/17 15:48:26 by youmoukh          #+#    #+#             */
-/*   Updated: 2024/10/19 14:15:45 by youmoukh         ###   ########.fr       */
+/*   Updated: 2024/10/19 14:15:57 by youmoukh         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #pragma once
 
 #include <iostream>
-#include <iostream>
+#include "ATarget"
 
-cl
+class ATarget;
+
 class ASpell
 {
 	protected:
