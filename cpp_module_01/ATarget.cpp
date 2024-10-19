@@ -6,7 +6,7 @@
 /*   By: youmoukh <youmoukh@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/19 13:03:35 by youmoukh          #+#    #+#             */
-/*   Updated: 2024/10/19 13:32:07 by youmoukh         ###   ########.fr       */
+/*   Updated: 2024/10/19 14:15:29 by youmoukh         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@ ATarget::ATarget(std::string _type) : type(_type)
 
 ATarget & ATarget::operator=(ATarget const & origine)
 {
-	type = rhs.getType();
+	type = origine.getType();
 	return *this;
 }
 
