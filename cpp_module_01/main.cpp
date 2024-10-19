@@ -6,11 +6,15 @@
 /*   By: youmoukh <youmoukh@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/17 14:19:27 by youmoukh          #+#    #+#             */
-/*   Updated: 2024/10/17 15:06:48 by youmoukh         ###   ########.fr       */
+/*   Updated: 2024/10/19 14:51:59 by youmoukh         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "Warlock.hpp"
+#include "ASpell.hpp"
+#include "ATarget.hpp"
+#include "Dummy.hpp"
+#include "Fwoosh.hpp"
 
 /*
 	The main in subject :
