@@ -6,7 +6,7 @@
 /*   By: youmoukh <youmoukh@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/17 15:48:26 by youmoukh          #+#    #+#             */
-/*   Updated: 2024/10/19 13:11:23 by youmoukh         ###   ########.fr       */
+/*   Updated: 2024/10/19 13:12:27 by youmoukh         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,6 +26,7 @@ class ASpell
 		virtual ~ASpell();
 		const std::string getName() const;
 		const std::string getEffects() const;
+		viter
 		
 };
 
