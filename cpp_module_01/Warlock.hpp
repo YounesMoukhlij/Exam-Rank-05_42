@@ -6,7 +6,7 @@
 /*   By: youmoukh <youmoukh@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/17 14:20:11 by youmoukh          #+#    #+#             */
-/*   Updated: 2024/10/19 14:52:48 by youmoukh         ###   ########.fr       */
+/*   Updated: 2024/10/19 14:52:50 by youmoukh         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,7 +23,7 @@ class Warlock
 		Warlock();
 		Warlock(const Warlock& origine);
 		Warlock& operator=(const Warlock& origine);
-		std::map < std::string, ASpell * > Ope;
+		std::map < std::string, ASpell * > Opr;
 		std::string	name;
 		std::string	title;
 	public:

@@ -6,7 +6,7 @@
 /*   By: youmoukh <youmoukh@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/17 14:20:09 by youmoukh          #+#    #+#             */
-/*   Updated: 2024/10/19 14:11:26 by youmoukh         ###   ########.fr       */
+/*   Updated: 2024/10/19 14:52:58 by youmoukh         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -54,22 +54,22 @@ void Warlock::learnSpell(ASpell* spell)
 {
 	if (spell)
 	{
-		if (_SpellBook.find(spell->getName()) == _SpellBook.end())
-			_SpellBook[spell->getName()] = spell->clone();
+		if (Opr.find(spell->getName()) == Opr.end())
+			Opr[spell->getName()] = spell->clone();
 	}
 }
 
 void Warlock::forgetSpell(std::string SpellName)
 {
-	if (_SpellBook.find(SpellName) != _SpellBook.end())
+	if (Opr.find(SpellName) != Opr.end())
 	{
-		delete _SpellBook[SpellName];	
-		_SpellBook.erase(_SpellBook.find(SpellName));
+		delete Opr[SpellName];	
+		Opr.erase(Opr.find(SpellName));
 	}
 }
 
 void Warlock::launchSpell(std::string SpellName, ATarget const & target)
 {
-	if (_SpellBook.find(SpellName) != _SpellBook.end())
-		_SpellBook[SpellName]->launch(target);
+	if (Opr.find(SpellName) != Opr.end())
+		Opr[SpellName]->launch(target);
 }
