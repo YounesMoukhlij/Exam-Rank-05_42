@@ -6,7 +6,7 @@
 /*   By: youmoukh <youmoukh@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/17 14:20:11 by youmoukh          #+#    #+#             */
-/*   Updated: 2024/10/19 14:09:34 by youmoukh         ###   ########.fr       */
+/*   Updated: 2024/10/19 14:09:44 by youmoukh         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,7 @@
 
 #include <iostream>
 #include "ASpell.hpp"
+#include "A.hpp"
 
 class Warlock
 {
@@ -21,10 +22,9 @@ class Warlock
 		Warlock();
 		Warlock(const Warlock& origine);
 		Warlock& operator=(const Warlock& origine);
+		std::map < std::string, ASpell * > _SpellBook;
 		std::string	name;
 		std::string	title;
-		std::map < std::string, ASpell * > _SpellBook;
-		
 	public:
 		Warlock(const std::string& _name, const std::string&  _title);
 		~Warlock();
