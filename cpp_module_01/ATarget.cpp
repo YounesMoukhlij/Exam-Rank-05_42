@@ -6,7 +6,7 @@
 /*   By: youmoukh <youmoukh@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/19 13:03:35 by youmoukh          #+#    #+#             */
-/*   Updated: 2024/10/19 14:48:21 by youmoukh         ###   ########.fr       */
+/*   Updated: 2024/10/19 14:48:35 by youmoukh         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,7 +33,7 @@ ATarget::~ATarget()
 
 }
 
-std::string& ATarget::getType() const
+std::string ATarget::getType() const
 {
 	return (type);
 }
