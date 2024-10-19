@@ -6,7 +6,7 @@
 /*   By: youmoukh <youmoukh@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/17 14:20:11 by youmoukh          #+#    #+#             */
-/*   Updated: 2024/10/19 14:09:44 by youmoukh         ###   ########.fr       */
+/*   Updated: 2024/10/19 14:09:46 by youmoukh         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 #include <iostream>
 #include "ASpell.hpp"
-#include "A.hpp"
+#include "ATarget.hpp"
 
 class Warlock
 {
