@@ -6,7 +6,7 @@
 /*   By: youmoukh <youmoukh@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/17 14:20:09 by youmoukh          #+#    #+#             */
-/*   Updated: 2024/10/19 14:10:56 by youmoukh         ###   ########.fr       */
+/*   Updated: 2024/10/19 14:11:09 by youmoukh         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -53,6 +53,7 @@ void	Warlock::setTitle(const std::string& _title)
 void Warlock::learnSpell(ASpell* spell)
 {
 	if (spell)
+	
 		if (_SpellBook.find(spell->getName()) == _SpellBook.end())
 			_SpellBook[spell->getName()] = spell->clone();
 }
