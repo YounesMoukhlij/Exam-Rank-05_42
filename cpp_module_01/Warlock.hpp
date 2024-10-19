@@ -6,13 +6,14 @@
 /*   By: youmoukh <youmoukh@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/17 14:20:11 by youmoukh          #+#    #+#             */
-/*   Updated: 2024/10/19 14:08:21 by youmoukh         ###   ########.fr       */
+/*   Updated: 2024/10/19 14:08:32 by youmoukh         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #pragma once
 
 #include <iostream>
+#include ""
 
 class Warlock
 {
@@ -32,8 +33,8 @@ class Warlock
 		void					introduce() const;
 		void					setTitle(const std::string& _title);
 		
-				void learnSpell(ASpell* spell);
-		void forgetSpell(std::string SpellName);
-		void launchSpell(std::string SpellName, ATarget const & target);
+		void 					learnSpell(ASpell* spell);
+		void 					forgetSpell(std::string SpellName);
+		void 					launchSpell(std::string SpellName, ATarget const & target);
 
 };
