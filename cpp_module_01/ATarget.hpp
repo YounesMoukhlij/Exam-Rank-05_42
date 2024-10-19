@@ -6,14 +6,14 @@
 /*   By: youmoukh <youmoukh@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/19 13:03:38 by youmoukh          #+#    #+#             */
-/*   Updated: 2024/10/19 13:23:31 by youmoukh         ###   ########.fr       */
+/*   Updated: 2024/10/19 13:23:36 by youmoukh         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #pragma once
 
 # include <iostream>
-# include <>
+# include "ASpell.hpp"
 
 class ASpell;
 
