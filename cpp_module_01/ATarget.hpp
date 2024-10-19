@@ -6,7 +6,7 @@
 /*   By: youmoukh <youmoukh@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/19 13:03:38 by youmoukh          #+#    #+#             */
-/*   Updated: 2024/10/19 13:16:31 by youmoukh         ###   ########.fr       */
+/*   Updated: 2024/10/19 13:16:57 by youmoukh         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,8 +17,7 @@
 class ATarget
 {
 	protected:
-		std::string name;
-		std::string effect;
+		std::string type;
 	public:
 		ATarget(const ATarget& origine);
 		ATarget();
