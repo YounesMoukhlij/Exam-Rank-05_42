@@ -6,7 +6,7 @@
 /*   By: youmoukh <youmoukh@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/17 15:48:26 by youmoukh          #+#    #+#             */
-/*   Updated: 2024/10/19 13:09:38 by youmoukh         ###   ########.fr       */
+/*   Updated: 2024/10/19 13:10:39 by youmoukh         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,7 +23,7 @@ class ASpell
 		ASpell();
 	public:
 		ASpell& operator=(const ASpell& origine);
-		~ASpell();
+		virtual ~ASpell();
 		
 };
 
