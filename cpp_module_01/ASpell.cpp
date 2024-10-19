@@ -6,7 +6,7 @@
 /*   By: youmoukh <youmoukh@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/17 15:48:29 by youmoukh          #+#    #+#             */
-/*   Updated: 2024/10/19 14:13:00 by youmoukh         ###   ########.fr       */
+/*   Updated: 2024/10/19 14:13:31 by youmoukh         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,7 +33,7 @@ std::string ASpell::getName() const
 	return (name);
 }
 
-std::string getEffects() const
+std::string ASpell::getEffects() const
 {
 	return (effects);
 }
