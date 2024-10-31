@@ -6,7 +6,7 @@
 /*   By: youmoukh <youmoukh@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/17 14:20:11 by youmoukh          #+#    #+#             */
-/*   Updated: 2024/10/17 14:48:37 by youmoukh         ###   ########.fr       */
+/*   Updated: 2024/10/31 15:18:15 by youmoukh         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,3 +33,6 @@ class Warlock
 		void					setTitle(const std::string& _title);
 
 };
+
+
+char s[] = "asda"
