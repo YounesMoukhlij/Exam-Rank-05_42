@@ -21,3 +21,4 @@ class ATarget
 
 };
 
+getHitBySpell(const ASpell asp)
