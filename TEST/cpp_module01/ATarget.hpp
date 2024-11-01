@@ -7,7 +7,6 @@ class ASpell
 {
 	protected:
 		std::string _type;
-		std::string _effects;
 
 	public:
 		ASpell& operator=(const ASpell& origine);
