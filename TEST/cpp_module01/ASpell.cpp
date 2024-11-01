@@ -22,7 +22,7 @@ void ASpell::introduce() const
 		{
 			if (this != &origine)
 			{
-				_title = origine._title;
+				_effects = origine._effects;
 				_name = origine._name;
 			}
 			return (*this);
@@ -36,5 +36,5 @@ const std::string& ASpell::getName() const
 }
 const std::string& ASpell::getEffects() const
 {
-	return _title;
+	return _effects;
 }
