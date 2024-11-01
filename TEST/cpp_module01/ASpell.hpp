@@ -26,4 +26,7 @@ class ASpell
 };
 
 
-void ASpell::launch(cn)
+void ASpell::launch(const ATarget& target) const
+{
+	
+}
