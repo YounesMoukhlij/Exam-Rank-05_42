@@ -5,12 +5,12 @@
 #include <iostream>
 #include <ASpell.hpp>
 
-class Dummy
+class Dummy 
 {
 
 	public:
-		Fwoosh();
-		~Fwoosh();
+		Dummy();
+		~Dummy();
 		ASpell* clone() const;
 
 
