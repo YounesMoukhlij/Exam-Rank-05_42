@@ -23,7 +23,7 @@ class ATarget
 
 getHitBySpell(const ASpell aspell)
 {
-	std::cout << _
+	std::cout << _type << " has been "
 }
 
 <TYPE> has been <EFFECTS>!
