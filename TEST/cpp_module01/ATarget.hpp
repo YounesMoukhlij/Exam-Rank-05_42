@@ -13,7 +13,6 @@ class ATarget
 		ATarget(const std::string& type);
 		virtual ~ATarget();
 
-		const std::string& getName() const;
 		const std::string& getType() const;
 
 		virtual ATarget* clone() = 0;
