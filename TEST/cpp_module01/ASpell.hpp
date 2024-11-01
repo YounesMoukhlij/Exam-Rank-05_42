@@ -26,4 +26,4 @@ class ASpell
 };
 
 
-v
+void ASpell::launch(cn)
