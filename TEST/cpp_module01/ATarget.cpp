@@ -1,4 +1,4 @@
-
+#include "ATarget.hpp"
 
 void ATarget::getHitBySpell(const ASpell aspell)
 {
