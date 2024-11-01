@@ -26,4 +26,4 @@ class Fwoosh
 };
 
 
-Fwoosh(const std::string& name, const std::string& effects) : ASpe
+Fwoosh() : ASpell()
