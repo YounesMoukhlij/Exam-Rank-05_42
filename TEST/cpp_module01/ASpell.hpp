@@ -19,7 +19,7 @@ class ASpell
 		const std::string& getName() const;
 		const std::string& getEffects() const;
 
-		virtual A
+		virtual ASpell* clone 
 
 
 };
