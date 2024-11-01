@@ -6,6 +6,11 @@ Fwoosh::Fwoosh() : ASpell("Fwoosh", "Fwooshed")
 
 }
 
+Fwoosh::~Fwoosh()
+{
+
+}
+
 
 ASpell* Fwoosh::clone() const
 {
