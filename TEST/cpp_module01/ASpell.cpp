@@ -28,16 +28,13 @@ void ASpell::introduce() const
 			return (*this);
 		}
 
-void	ASpell::setTitle(const std::string& title)
-{
-	_title = title;
-}
+
 
 const std::string& ASpell::getName() const
 {
 	return _name;
 }
-const std::string& ASpell::getTitle() const
+const std::string& ASpell::getEffects() const
 {
 	return _title;
 }
