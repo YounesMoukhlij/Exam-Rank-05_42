@@ -40,8 +40,7 @@ ATarget::~ATarget()
 		{
 			if (this != &origine)
 			{
-				_effects = origine._effects;
-				_name = origine._name;
+				_type = origine._type;
 			}
 			return (*this);
 		}
