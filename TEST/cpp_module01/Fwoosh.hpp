@@ -11,6 +11,8 @@ class Fwoosh
 	public:
 		Fwoosh();
 		~Fwoosh();
+		virtual ATarget* clone() = 0;
+
 
 
 };
