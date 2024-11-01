@@ -10,7 +10,7 @@ class Warlock
 		std::string _name;
 		std::string _title;
 	public:
-		Warlock(/* args */);
+		Warlock(const std::string& name, co;
 		~Warlock();
 };
 
