@@ -3,15 +3,15 @@
 #pragma once
 
 #include <iostream>
-#include "ASpell.hpp"
+#include "ATarget.hpp"
 
-class Dummy : public A
+class Dummy : public ATarget
 {
 
 	public:
 		Dummy();
 		~Dummy();
-		ASpell* clone() const;
+		ATarget* clone() const;
 
 
 
