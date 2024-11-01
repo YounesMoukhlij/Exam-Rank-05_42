@@ -26,17 +26,17 @@ void ATarget::getHitBySpell(const ASpell aspell)
 }
 
 
-ASpell::ASpell(const std::string& name, const std::string& effects) : _name(name), _effects(effects)
+ATarget::ATarget(const std::string& name, const std::string& effects) : _name(name), _effects(effects)
 {
 
 }
 
-ASpell::~ASpell()
+ATarget::~ATarget()
 {
 }
 
 
-		ASpell&  ASpell::operator=(const ASpell& origine)
+		ATarget&  ATarget::operator=(const ATarget& origine)
 		{
 			if (this != &origine)
 			{
@@ -48,11 +48,11 @@ ASpell::~ASpell()
 
 
 
-const std::string& ASpell::getName() const
+const std::string& ATarget::getName() const
 {
 	return _name;
 }
-const std::string& ASpell::getEffects() const
+const std::string& ATarget::getEffects() const
 {
 	return _effects;
 }
