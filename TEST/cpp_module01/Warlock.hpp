@@ -38,7 +38,7 @@ void	Warlock::learnSpell(ASpell *spell)
 {
 	if (spell)
 	{
-		if (Opr.find(spell))
+		if (Opr.find(spell->getName()) == opr)
 	}
 }
 
