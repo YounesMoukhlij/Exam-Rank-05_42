@@ -13,7 +13,7 @@ class Fwoosh
 
 	public:
 		Fwoosh& operator=(const Fwoosh& origine);
-		Fwoosh(const std::string& name, const std::string& effects);
+		Fwoosh();
 		virtual ~Fwoosh();
 
 		const std::string& getName() const;
