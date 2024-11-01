@@ -14,7 +14,7 @@ class ASpell
 		virtual ~ASpell();
 
 		const std::string& getName() const;
-		const std::string& getEffects() const;
+		const std::string& getType() const;
 
 		virtual ASpell* clone() = 0;
 
