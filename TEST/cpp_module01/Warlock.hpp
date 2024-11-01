@@ -14,7 +14,7 @@ class ATarget;
 class Warlock
 {
 	private:
-	
+		std::map < std::string, ASpell * > Opr;
 		std::string _name;
 		std::string _title;
 	public:
@@ -38,7 +38,7 @@ void	Warlock::learnSpell(ASpell *spell)
 {
 	if (spell)
 	{
-		if (spell.find(spell))
+		if (Opr.find(spell))
 	}
 }
 
