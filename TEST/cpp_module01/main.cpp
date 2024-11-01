@@ -1,4 +1,6 @@
 #include "Dummy.hpp"
+#include "ASpell.hpp"
+#include "ATarget.hpp"
 
 
 int main()
