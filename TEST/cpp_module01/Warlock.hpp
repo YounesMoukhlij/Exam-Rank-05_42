@@ -5,8 +5,8 @@
 #include <iostream>
 #include <map>
 
-#include "ASpell.cpp"
-#include "ATarget.cpp"
+#include "ASpell.hpp"
+#include "ATarget.hpp"
 
 class ASpell;
 class ATarget;
