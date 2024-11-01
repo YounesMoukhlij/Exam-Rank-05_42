@@ -7,7 +7,8 @@
 #include "ASpell.cpp"
 #include "ATarget.cpp"
 
-Class
+class ASpell;
+class ATarget;
 
 
 class Warlock
