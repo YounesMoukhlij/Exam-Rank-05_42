@@ -59,7 +59,7 @@ void	Warlock::launchSpell(std::string spell, ATarget& const target)
 {
 	if (Opr.find(spell) != Opr.end())
 	{
-		Opr[sp]
+		Opr[spell]->launch()
 	}
 }
 
