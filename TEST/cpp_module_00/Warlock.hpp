@@ -33,5 +33,5 @@ Warlock::~Warlock()
 
 void Warlock::introduce() const
 {
-	std::cout << <NAME>: I am _name << ", "  _titl<TITLE>!
+	std::cout << <NAME>: I am _name << ", "  _title << std::endl;
 }
