@@ -19,9 +19,9 @@ class Warlock
 
 };
 
-Warlock::Warlock(/* args */)
+Warlock::Warlock(const std::string& name, const std::string& title)
 {
-	std::cout << << ": This looks like another boring day." << std::endl;
+	std::cout << _name << ": This looks like another boring day." << std::endl;
 }
 
 Warlock::~Warlock()
