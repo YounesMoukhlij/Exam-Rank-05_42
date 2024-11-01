@@ -11,7 +11,7 @@ class Fwoosh
 	public:
 		Fwoosh();
 		~Fwoosh();
-		virtual ASpell* clone() = 0;
+		ASpell* clone() const;
 
 
 
