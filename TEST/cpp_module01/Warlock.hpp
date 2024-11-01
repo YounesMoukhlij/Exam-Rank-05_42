@@ -33,9 +33,9 @@ class Warlock
 };
 
 
-void	Warlock::learnSpell()
+void	Warlock::learnSpell(ASpell *spell)
 {
-	
+
 }
 
 
