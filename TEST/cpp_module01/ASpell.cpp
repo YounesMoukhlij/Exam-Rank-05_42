@@ -2,14 +2,14 @@
 
 #include "ASpell.hpp"
 
-ASpell::ASpell(const std::string& name, const std::string& title) : _name(name), getters(title)
+ASpell::ASpell(const std::string& name, const std::string& effects) : _name(name), _effects(effects)
 {
 	std::cout << _name << ": This looks like another boring day." << std::endl;
 }
 
 ASpell::~ASpell()
 {
-	std::cout << _name  << ": My job here is done!" << std::endl;
+
 }
 
 
