@@ -24,3 +24,6 @@ class Fwoosh
 		void	launch(const ATarget& target);
 
 };
+
+
+Fwoosh(const std::string& name, const std::string& effects);
