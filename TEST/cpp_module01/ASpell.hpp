@@ -21,6 +21,6 @@ class ASpell
 
 		virtual ASpell* clone() const = 0;
 
-		void	launch(const ATarget& target);
+		void	launch(const ATarget& target) const;
 
 };
