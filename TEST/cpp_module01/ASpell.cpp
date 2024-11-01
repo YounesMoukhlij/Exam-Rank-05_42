@@ -2,7 +2,7 @@
 
 #include "ASpell.hpp"
 
-ASpell::ASpell(const std::string& name, const std::string& title) : _name(name), _title(title)
+ASpell::ASpell(const std::string& name, const std::string& title) : _name(name), getters(title)
 {
 	std::cout << _name << ": This looks like another boring day." << std::endl;
 }
