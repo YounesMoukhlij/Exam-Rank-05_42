@@ -3,6 +3,8 @@
 #include <iostream>
 #include "ASpell.hpp"
 
+
+
 class ATarget
 {
 	protected:
