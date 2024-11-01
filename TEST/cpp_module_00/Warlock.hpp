@@ -5,11 +5,11 @@
 
 class Warlock
 {
-private:
-	/* data */
-public:
-	Warlock(/* args */);
-	~Warlock();
+	private:
+		/* data */
+	public:
+		Warlock(/* args */);
+		~Warlock();
 };
 
 Warlock::Warlock(/* args */)
