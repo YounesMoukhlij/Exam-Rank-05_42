@@ -13,7 +13,7 @@ class Warlock
 		Warlock(const std::string& name, const std::string& title);
 		~Warlock();
 
-		Warlock& operator=(const Warlock& )
+		Warlock& operator=(const Warlock& origine);
 };
 
 Warlock::Warlock(/* args */)
