@@ -31,3 +31,4 @@ void	Warlock::setTitle(const std::string& title)
 {
 	_title = title;
 }
+
