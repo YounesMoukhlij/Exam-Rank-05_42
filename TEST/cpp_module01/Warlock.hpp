@@ -4,6 +4,9 @@
 
 #include <iostream>
 
+#include "ASp"
+
+
 class Warlock
 {
 	private:
