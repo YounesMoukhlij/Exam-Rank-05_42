@@ -12,6 +12,8 @@ int main()
   Dummy bob;
   Fwoosh* fwoosh = new Fwoosh();
 
+  (void) fwoosh;
+
 //   richard.learnSpell(fwoosh);
 
   richard.introduce();
