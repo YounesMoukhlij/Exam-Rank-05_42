@@ -11,7 +11,7 @@ class Fwoosh
 	public:
 		Fwoosh();
 		~Fwoosh();
-		virtual ATarget* clone() = 0;
+		virtual ASpell* clone() = 0;
 
 
 
@@ -23,3 +23,4 @@ Fwoosh::Fwoosh() : ASpell("Fwoosh", "Fwooshed")
 
 }
 
+Fwoo
