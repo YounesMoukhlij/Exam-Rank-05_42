@@ -5,7 +5,7 @@
 #include <iostream>
 #include <ASpell.hpp>
 
-class Dummy :
+class Dummy : public ASpell
 {
 
 	public:
