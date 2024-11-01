@@ -40,7 +40,7 @@ void	Warlock::learnSpell(ASpell *spell)
 	{
 		if (Opr.find(spell->getName()) == Opr.end())
 		{
-			Opr[spell->getName()]
+			Opr[spell->getName()] = spell->clone()
 		}
 	}
 }
