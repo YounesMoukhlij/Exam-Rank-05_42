@@ -20,3 +20,4 @@ class ATarget
 		void getHitBySpell(const ASpell& aspell);
 
 };
+
