@@ -40,7 +40,8 @@ void Warlock::introduce() const
 		{
 			if (this != &origine)
 			{
-				titl
+				_title = origine._title;
+				_name = origi
 			}
 
 		}
