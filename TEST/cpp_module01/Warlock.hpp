@@ -51,7 +51,7 @@ void	forgetSpell(std::string spell)
 	if (Opr.find(spell) != Opr.end())
 	{
 		delete Opr[spell];
-		Opr.erase
+		Opr.erase(Opr.find(spell))
 
 	}
 }
