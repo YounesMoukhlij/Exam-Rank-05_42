@@ -34,7 +34,7 @@ const std::string& ASpell::getEffects() const
 }
 
 
-void ASpell::launch(const ATarget& target) const
+void ASpell::launch( ATarget&  target) const
 {
 	target.getHitBySpell(*this);
 }
