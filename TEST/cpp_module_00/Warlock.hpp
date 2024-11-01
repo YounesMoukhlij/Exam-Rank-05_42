@@ -31,4 +31,7 @@ Warlock::~Warlock()
 }
 
 
-void Warlock::introduce()
+void Warlock::introduce() const
+{
+	std::cout << 
+}
