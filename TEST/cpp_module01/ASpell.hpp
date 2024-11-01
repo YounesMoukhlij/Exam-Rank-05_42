@@ -6,5 +6,6 @@ class ASpell
 {
 	protected:
 
-	
-}
+	public:
+
+};
