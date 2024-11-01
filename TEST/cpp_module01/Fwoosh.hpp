@@ -5,21 +5,21 @@
 #include <iostream>
 #include <ASpell.hpp>
 
-class ASpell
+class Fwoosh
 {
 	protected:
 		std::string _name;
 		std::string _effects;
 
 	public:
-		ASpell& operator=(const ASpell& origine);
-		ASpell(const std::string& name, const std::string& effects);
-		virtual ~ASpell();
+		Fwoosh& operator=(const Fwoosh& origine);
+		Fwoosh(const std::string& name, const std::string& effects);
+		virtual ~Fwoosh();
 
 		const std::string& getName() const;
 		const std::string& getEffects() const;
 
-		virtual ASpell* clone() = 0;
+		virtual Fwoosh* clone() = 0;
 
 		void	launch(const ATarget& target);
 
