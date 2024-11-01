@@ -23,4 +23,4 @@ Fwoosh::Fwoosh() : ASpell("Fwoosh", "Fwooshed")
 
 }
 
-Fwoo
+Fwoosh::clone
