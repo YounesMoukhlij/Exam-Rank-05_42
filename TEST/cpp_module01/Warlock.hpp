@@ -3,7 +3,7 @@
 #pragma once
 
 #include <iostream>
-#include <iostreamap>
+#include <map>
 
 #include "ASpell.cpp"
 #include "ATarget.cpp"
