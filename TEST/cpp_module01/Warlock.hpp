@@ -50,7 +50,8 @@ void	forgetSpell(std::string spell)
 {
 	if (Opr.find(spell) != Opr.end())
 	{
-		delete Opr[sp]
+		delete Opr[spell];
+		
 
 	}
 }
