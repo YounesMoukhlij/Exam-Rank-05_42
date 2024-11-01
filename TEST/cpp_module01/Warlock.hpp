@@ -48,7 +48,10 @@ void	Warlock::learnSpell(ASpell *spell)
 
 void	forgetSpell(std::string spell)
 {
-	
+	if (spell)
+	{
+		
+	}
 }
 
 
