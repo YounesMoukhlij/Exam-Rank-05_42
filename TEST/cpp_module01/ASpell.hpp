@@ -24,3 +24,6 @@ class ASpell
 		void	launch(const ATarget& target) const;
 
 };
+
+
+v
