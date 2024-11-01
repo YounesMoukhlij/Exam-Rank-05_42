@@ -12,11 +12,11 @@ int main()
   Dummy bob;
   Fwoosh* fwoosh = new Fwoosh();
 
-//   richard.learnSpell(fwoosh);
+  richard.learnSpell(fwoosh);
 
-//   richard.introduce();
-//   richard.launchSpell("Fwoosh", bob);
+  richard.introduce();
+  richard.launchSpell("Fwoosh", bob);
 
-//   richard.forgetSpell("Fwoosh");
-//   richard.launchSpell("Fwoosh", bob);
+  richard.forgetSpell("Fwoosh");
+  richard.launchSpell("Fwoosh", bob);
 }
