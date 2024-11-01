@@ -62,7 +62,7 @@ void	Warlock::forgetSpell(std::string spell)
 	}
 }
 
-void	Warlock::launchSpell(std::string spell, ATarget& const target)
+void	Warlock::launchSpell(std::string spell, ATarget const & target)
 {
 	if (Opr.find(spell) != Opr.end())
 	{
