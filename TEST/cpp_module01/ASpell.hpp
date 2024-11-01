@@ -3,7 +3,7 @@
 #pragma once
 
 #include <iostream>
-
+#include <ASP
 
 class ASpell
 {
@@ -21,6 +21,6 @@ class ASpell
 
 		virtual ASpell* clone() = 0;
 
-		void	launch(const );
+		void	launch(const ATarget& target);
 
 };
