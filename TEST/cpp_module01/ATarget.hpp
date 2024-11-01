@@ -47,11 +47,7 @@ ATarget::~ATarget()
 
 
 
-const std::string& ATarget::getName() const
+const std::string& ATarget::getType() const
 {
-	return _name;
-}
-const std::string& ATarget::getEffects() const
-{
-	return _effects;
+	return _type;
 }
