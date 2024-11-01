@@ -37,6 +37,7 @@ class Warlock
 
 
 
+
 * learnSpell, takes a pointer to ASpell, that makes the Warlock learn a spell
 * forgetSpell, takes a string corresponding a to a spell's name, and makes the
   Warlock forget it. If it's not a known spell, does nothing.
