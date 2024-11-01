@@ -33,7 +33,7 @@ class Warlock
 };
 
 
-voi
+void	Warlock::learnSpell()
 
 
 
