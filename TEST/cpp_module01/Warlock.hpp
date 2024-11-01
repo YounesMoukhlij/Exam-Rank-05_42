@@ -48,7 +48,7 @@ void	Warlock::learnSpell(ASpell *spell)
 
 void	forgetSpell(std::string spell)
 {
-	if (Opr.f)
+	if (Opr.find(spell))
 }
 
 
