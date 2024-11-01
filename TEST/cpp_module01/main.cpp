@@ -13,9 +13,9 @@ int main()
 
   richard.learnSpell(fwoosh);
 
-  richard.introduce();
-  richard.launchSpell("Fwoosh", bob);
+//   richard.introduce();
+//   richard.launchSpell("Fwoosh", bob);
 
-  richard.forgetSpell("Fwoosh");
-  richard.launchSpell("Fwoosh", bob);
+//   richard.forgetSpell("Fwoosh");
+//   richard.launchSpell("Fwoosh", bob);
 }
