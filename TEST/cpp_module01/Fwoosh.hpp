@@ -23,7 +23,7 @@ Fwoosh::Fwoosh() : ASpell("Fwoosh", "Fwooshed")
 
 }
 
-Fwoosh::clone() const
+Fwoosh Fwoosh::clone() const
 {
-	
+	return new
 }
