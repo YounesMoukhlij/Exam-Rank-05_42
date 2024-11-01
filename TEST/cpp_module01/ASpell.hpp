@@ -6,7 +6,7 @@
 
 #include "ATarget.hpp"
 
-class ATarget.h
+class ATarget;
 
 class ASpell
 {
@@ -29,7 +29,3 @@ class ASpell
 };
 
 
-void ASpell::launch(const ATarget& target) const
-{
-	target.getHitBySpell(*this);
-}
