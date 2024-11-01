@@ -21,6 +21,7 @@ class Warlock
 
 Warlock::Warlock(/* args */)
 {
+	<NAME>: This looks like another boring day."
 }
 
 Warlock::~Warlock()
