@@ -31,4 +31,4 @@ Warlock::~Warlock()
 }
 
 
-void Wa
+void Warlock::introduce()
