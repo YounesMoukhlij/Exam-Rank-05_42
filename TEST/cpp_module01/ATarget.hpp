@@ -10,7 +10,7 @@ class ATarget
 
 	public:
 		ATarget& operator=(const ATarget& origine);
-		ATarget(const std::string& name, const std::string& effects);
+		ATarget(const std::string& type);
 		virtual ~ATarget();
 
 		const std::string& getName() const;
