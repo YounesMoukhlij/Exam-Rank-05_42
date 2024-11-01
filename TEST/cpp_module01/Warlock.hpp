@@ -46,15 +46,15 @@ void	Warlock::learnSpell(ASpell *spell)
 	}
 }
 
-void	forgetSpell(std::string spell)
+void	Warlock::forgetSpell(std::string spell)
 {
 	if (Opr.find(spell) != Opr.end())
 	{
 		delete Opr[spell];
-		Opr.erase(Opr.find(spell))
-
+		Opr.erase(Opr.find(spell));
 	}
 }
+
 
 
 * learnSpell, takes a pointer to ASpell, that makes the Warlock learn a spell
