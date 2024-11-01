@@ -26,5 +26,5 @@ Warlock::Warlock(const std::string& name, const std::string& title) : _name(name
 
 Warlock::~Warlock()
 {
-	st: My job here is done!
+	std::cout << _name  << ": My job here is done!" << std:
 }
