@@ -46,4 +46,4 @@ void Warlock::introduce() const
 			return (*this);
 		}
 
-void	Warlock::setTite
+void	Warlock::setTitle()
