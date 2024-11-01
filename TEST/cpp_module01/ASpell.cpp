@@ -13,11 +13,6 @@ ASpell::~ASpell()
 }
 
 
-void ASpell::introduce() const
-{
-	std::cout << _name << ": I am " << _name << ", "  << _title << "!" << std::endl;
-}
-
 		ASpell&  ASpell::operator=(const ASpell& origine)
 		{
 			if (this != &origine)
