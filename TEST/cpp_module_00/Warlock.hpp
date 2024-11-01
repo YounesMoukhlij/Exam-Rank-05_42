@@ -21,7 +21,7 @@ class Warlock
 
 Warlock::Warlock(/* args */)
 {
-	<NAME> << ": This looks like another boring day."
+	std::cout << << ": This looks like another boring day." << std::endl;
 }
 
 Warlock::~Warlock()
