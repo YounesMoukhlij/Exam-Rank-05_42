@@ -21,4 +21,9 @@ class ATarget
 
 };
 
-getHitBySpell(const ASpell asp)
+getHitBySpell(const ASpell aspell)
+{
+	std::cout << _
+}
+
+<TYPE> has been <EFFECTS>!
