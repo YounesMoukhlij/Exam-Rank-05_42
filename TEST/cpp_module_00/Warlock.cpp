@@ -31,4 +31,5 @@ void	Warlock::setTitle(const std::string& title)
 {
 	_title = title;
 }
-
+		const std::string& getName() const;
+		const std::string& getTitle() const;
