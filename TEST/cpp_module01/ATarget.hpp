@@ -36,14 +36,14 @@ ATarget::~ATarget()
 }
 
 
-		ATarget&  ATarget::operator=(const ATarget& origine)
-		{
-			if (this != &origine)
-			{
-				_type = origine._type;
-			}
-			return (*this);
-		}
+ATarget&  ATarget::operator=(const ATarget& origine)
+{
+	if (this != &origine)
+	{
+		_type = origine._type;
+	}
+	return (*this);
+}
 
 
 
