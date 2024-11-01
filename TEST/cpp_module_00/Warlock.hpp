@@ -16,6 +16,7 @@ class Warlock
 
 		const std::string& getName() const;
 		const std::string& getTitle() const;
+		void introduce() const;
 
 };
 
@@ -28,3 +29,6 @@ Warlock::~Warlock()
 {
 	std::cout << _name  << ": My job here is done!" << std::endl;
 }
+
+
+void Wa
