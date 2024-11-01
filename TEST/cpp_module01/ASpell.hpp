@@ -5,6 +5,7 @@
 class ASpell
 {
 	protected:
+		std::string _name;
 
 	public:
 
