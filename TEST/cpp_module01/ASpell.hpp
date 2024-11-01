@@ -28,5 +28,5 @@ class ASpell
 
 void ASpell::launch(const ATarget& target) const
 {
-	target->ge
+	target->getHitBySpell()
 }
