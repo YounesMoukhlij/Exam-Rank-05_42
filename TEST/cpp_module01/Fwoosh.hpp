@@ -14,10 +14,8 @@ class Fwoosh
 	public:
 		Fwoosh& operator=(const Fwoosh& origine);
 		Fwoosh();
-		virtual ~Fwoosh();
+		~Fwoosh();
 
-		const std::string& getName() const;
-		const std::string& getEffects() const;
 
 		virtual Fwoosh* clone() = 0;
 
