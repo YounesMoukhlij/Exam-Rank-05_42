@@ -46,12 +46,7 @@ void	Warlock::learnSpell(ASpell *spell)
 	}
 }
 
-
-	if (spell)
-	{
-		if (Opr.find(spell->getName()) == Opr.end())
-			Opr[spell->getName()] = spell->clone();
-	}
+void	
 
 
 * learnSpell, takes a pointer to ASpell, that makes the Warlock learn a spell
