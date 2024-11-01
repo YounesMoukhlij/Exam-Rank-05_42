@@ -3,7 +3,7 @@
 #pragma once
 
 #include <iostream>
-#include <ASpell.hpp>
+#include "ASpell.hpp"
 
 class Dummy : public ASpell
 {
