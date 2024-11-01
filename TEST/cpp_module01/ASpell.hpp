@@ -17,7 +17,9 @@ class ASpell
 		virtual ~ASpell();
 
 		const std::string& getName() const;
-		const std::string& getEffe() const;
+		const std::string& getEffects() const;
+
+		virtual A
 
 
 };
