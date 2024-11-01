@@ -46,7 +46,10 @@ void	Warlock::learnSpell(ASpell *spell)
 	}
 }
 
-void	forgetSpell(std::string )
+void	forgetSpell(std::string spell)
+{
+	
+}
 
 
 * learnSpell, takes a pointer to ASpell, that makes the Warlock learn a spell
