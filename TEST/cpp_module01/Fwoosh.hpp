@@ -23,4 +23,7 @@ Fwoosh::Fwoosh() : ASpell("Fwoosh", "Fwooshed")
 
 }
 
-Fwoosh::clone
+Fwoosh::clone() const
+{
+	
+}
