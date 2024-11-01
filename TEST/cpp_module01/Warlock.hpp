@@ -3,6 +3,7 @@
 #pragma once
 
 #include <iostream>
+#include <iostreamap>
 
 #include "ASpell.cpp"
 #include "ATarget.cpp"
@@ -40,7 +41,7 @@ void	Warlock::learnSpell(ASpell *spell)
 	{
 		if (Opr.find(spell->getName()) == Opr.end())
 		{
-			Opr[spell->getName()] = spell->clone()
+			Opr[spell->getName()] = spell->clone();
 		}
 	}
 }
