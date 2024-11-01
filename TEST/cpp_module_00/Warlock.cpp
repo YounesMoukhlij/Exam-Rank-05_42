@@ -22,7 +22,7 @@ void Warlock::introduce() const
 			if (this != &origine)
 			{
 				_title = origine._title;
-				_name = origine._name
+				_name = origine._name;
 			}
 			return (*this);
 		}
