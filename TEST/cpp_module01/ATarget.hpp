@@ -26,7 +26,7 @@ void ATarget::getHitBySpell(const ASpell aspell)
 }
 
 
-ATarget::ATarget(const std::string& _type, const std::string& effects) : _name(name), _effects(effects)
+ATarget::ATarget(const std::string& type) : _name(name), _effects(effects)
 {
 
 }
