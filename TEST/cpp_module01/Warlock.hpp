@@ -4,7 +4,10 @@
 
 #include <iostream>
 
-#include "ASp"
+#include "ASpell.cpp"
+#include "ATarget.cpp"
+
+Class
 
 
 class Warlock
