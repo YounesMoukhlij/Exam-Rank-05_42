@@ -3,7 +3,7 @@
 #include <iostream>
 
 
-class ASpell
+class ATarget
 {
 	protected:
 		std::string _type;
