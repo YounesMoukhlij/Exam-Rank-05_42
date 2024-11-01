@@ -4,7 +4,9 @@
 
 #include <iostream>
 
-#include "A"
+#include "ATarget.hpp"
+
+class ATarget.h
 
 class ASpell
 {
