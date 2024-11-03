@@ -7,14 +7,14 @@
 class BrickWall : public ATarget
 {
 	public:
-		BrickWall(/* args */);
+		BrickWall();
 		~BrickWall();
 		ATarget* clone() const ;
 
 
 };
 
-BrickWall::BrickWall(/* args */) : ATarget("Inconspicuous Red-brick Wall");
+BrickWall::BrickWall() : ATarget("Inconspicuous Red-brick Wall");
 {
 }
 
