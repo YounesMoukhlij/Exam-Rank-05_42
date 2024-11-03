@@ -15,7 +15,8 @@ public:
 
 	std::string& getName() const;
 	std::string& getTitle() const;
-	
+
+	void	setTitle(const std::string )
 };
 
 Warlock::Warlock(/* args */)
