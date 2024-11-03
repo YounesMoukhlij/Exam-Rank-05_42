@@ -48,5 +48,5 @@ ASpell& ASpell::operator=(const ASpell& origine)
 
 void ASpell::launch(const ATarget& target) const
 {
-	
+	target.g
 }
