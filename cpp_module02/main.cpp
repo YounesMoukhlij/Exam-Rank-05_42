@@ -3,6 +3,7 @@
 #include "Warlock.hpp"
 #include "ASpell.hpp"
 #include "SpellBook.hpp"
+#include "TargetGenerator.hpp"
 #include "SpellBook.hpp"
 
 
