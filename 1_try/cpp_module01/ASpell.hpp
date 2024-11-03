@@ -32,6 +32,7 @@ ASpell& ASpell::operator=(const ASpell& origine)
 {
 	if (this != &origine)
 	{
-		_name =
+		_name = origine._name;
+		_effects = origine._effects;
 	}
 }
