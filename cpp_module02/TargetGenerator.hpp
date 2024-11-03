@@ -6,7 +6,7 @@
 /*   By: youmoukh <youmoukh@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/03 18:54:51 by youmoukh          #+#    #+#             */
-/*   Updated: 2024/11/03 18:58:38 by youmoukh         ###   ########.fr       */
+/*   Updated: 2024/11/03 18:58:46 by youmoukh         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,30 +36,30 @@ class TargetGenerator
 
 
 
-void SpellBook::learnSpell(ASpell* spell)
+void TargetGenerator::learnSpell(ASpell* spell)
 {
 	if (spell)
 	{
 		MAP[spell->getName()] = spell->clone();
 	}
 }
-SpellBook::~SpellBook()
+TargetGenerator::~TargetGenerator()
 {
 
 }
-SpellBook::SpellBook(const SpellBook& origine)
+TargetGenerator::TargetGenerator(const TargetGenerator& origine)
 {
 	this = &origine;
 }
 
-SpellBook::SpellBook()
+TargetGenerator::TargetGenerator()
 {
 
 }
 
 
 
-void SpellBook::forgetSpell(std::string const & str )
+void TargetGenerator::forgetSpell(std::string const & str )
 {
 	std::map<std::string, ASpell * >::iterator it = MAP.find(str);
 	if (it != MAP.end())
@@ -69,7 +69,7 @@ void SpellBook::forgetSpell(std::string const & str )
 	}
 }
 
-		ASpell* SpellBook::createSpell(std::string const & str)
+		ASpell* TargetGenerator::createSpell(std::string const & str)
 		{
 			ASpell * t = 0;
 
@@ -79,7 +79,7 @@ void SpellBook::forgetSpell(std::string const & str )
 		}
 
 
-SpellBook& SpellBook::operator=(const SpellBook& origine)
+TargetGenerator& TargetGenerator::operator=(const TargetGenerator& origine)
 {
 	MAP = origine._MAP;
 	return *this;
