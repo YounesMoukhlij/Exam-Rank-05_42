@@ -17,7 +17,7 @@ const std::string&   Warlock::getName() const
 	return _name;
 }
 
- const std::string& const Warlock::getTitle() const
+ const std::string&  Warlock::getTitle() const
 {
 	return _title;
 }
