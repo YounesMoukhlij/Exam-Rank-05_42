@@ -33,12 +33,13 @@ void SpellBook::learnSpell(ASpell* spell)
 		MAP[spell->getName()] = spell->clone();
 	}
 }
-SpellBook::~SpellBook(ASpell* spell)
+SpellBook::~SpellBook()
 {
-	if (spell)
-	{
-		MAP[spell->getName()] = spell->clone();
-	}
+
+}
+SpellBook::SpellBook()
+{
+
 }
 
 
