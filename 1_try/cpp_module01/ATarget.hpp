@@ -25,4 +25,9 @@ class ATarget
 
 		void getHitBySpell(const ASpell& spell) const;
 };
-void getHitBySpell(const ASpell& spell) const;
+
+
+void ATarget::getHitBySpell(const ASpell& spell) const
+{
+	
+}
