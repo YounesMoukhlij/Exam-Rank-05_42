@@ -2,7 +2,9 @@
 #pragma once
 
 #include <iostream>
-#in
+#include "ASpell.hpp"
+
+class ASpell;
 
 class ATarget
 {
