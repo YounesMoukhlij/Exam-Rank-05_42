@@ -39,7 +39,10 @@ ASpell::~ASpell()
 
 }
 
-		ASpell:ASpell(const ASpell& origine);
+		ASpell::ASpell(const ASpell& origine)
+		{
+			*this = origine;
+		}
 
 
 ASpell& ASpell::operator=(const ASpell& origine)
