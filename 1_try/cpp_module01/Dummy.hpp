@@ -6,8 +6,8 @@
 
 class Dummy : public ATarget
 {
-		Dummy();
+	Dummy();
 	~Dummy();
 
-	ATarget* clone ();
+	ATarget* clone () const;
 };
