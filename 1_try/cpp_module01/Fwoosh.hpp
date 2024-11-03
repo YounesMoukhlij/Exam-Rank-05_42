@@ -11,4 +11,3 @@ class Fwoosh : public ASpell
 
 	ASpell* clone ();
 };
-
