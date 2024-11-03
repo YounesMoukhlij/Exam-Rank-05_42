@@ -10,7 +10,7 @@ private:
 	std::string _title;
 	Warlock& operator=(const Warlock& origine);
 	Warlock();
-	Warlock();
+	Warlock(const warl);
 
 public:
 
