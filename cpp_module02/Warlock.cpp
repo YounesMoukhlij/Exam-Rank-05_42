@@ -6,7 +6,7 @@
 /*   By: youmoukh <youmoukh@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/03 17:40:12 by youmoukh          #+#    #+#             */
-/*   Updated: 2024/11/03 19:09:46 by youmoukh         ###   ########.fr       */
+/*   Updated: 2024/11/03 19:10:01 by youmoukh         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -55,14 +55,14 @@ Warlock& Warlock::operator=(const Warlock& origine)
 
 void	Warlock::learnSpell(ASpell* spell)
 {
-	MAP.learnspell(spell);
+	MAP.learnSpell(spell);
 }
 
 
 void	Warlock::forgetSpell(std::string spell)
 
 {
-	MAP.forgetspell(spell);
+	MAP.forgetSpell(spell);
 
 }
 
