@@ -1,7 +1,10 @@
 
 #pragma once
 
-#incldue <iostrea>
+#include <iostream>
+
+
+
 
 
 class Fireball
