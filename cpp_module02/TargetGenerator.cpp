@@ -8,7 +8,7 @@ void TargetGenerator::learnSpell(ATarget* tar)
 {
 	if (spell)
 	{
-		MAP[spell->getName()] = spell->clone();
+		Tar[tar->getName()] = tar->clone();
 	}
 }
 TargetGenerator::~TargetGenerator()
