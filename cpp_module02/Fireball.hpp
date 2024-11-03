@@ -9,12 +9,12 @@
 class Fireball : public ASpell
 {
 public:
-	Fireball(/* args */);
+	Fireball();
 
 	~Fireball();
 };
 
-Fireball::Fireball(/* args */)
+Fireball::Fireball(/* args */) : ASpell()
 {
 }
 
