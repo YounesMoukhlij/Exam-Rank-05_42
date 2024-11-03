@@ -10,7 +10,7 @@
 class SpellBook
 {
 	private :
-		Sp
+		SpellBook(const SpellBook& eo)
 		std::map<std::string, ASpell* > MAP;
 	public:
 		void learnSpell(ASpell*);
