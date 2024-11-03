@@ -31,3 +31,10 @@ void ATarget::getHitBySpell(const ASpell& spell) const
 {
 	std::cout << _type << " has been " << spell.getEffects() << "!" << std::endl;
 }
+
+ASpell& ASpell::operator=(const ASpell& origine)
+{
+		_name = origine._name;
+		_effects = origine._effects;
+	return *this;
+}
