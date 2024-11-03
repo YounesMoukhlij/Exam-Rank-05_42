@@ -12,4 +12,7 @@ class Fwoosh : public ASpell
 	ASpell* clone ();
 };
 
-Fwoosh::Fwoosh(), _name("Fwoosh"), _effects()
+Fwoosh::Fwoosh(), _name("Fwoosh"), _effects("fwooshed")
+{
+
+}
