@@ -6,6 +6,7 @@
 class Warlock
 {
 	private:
+	std
 		std::string _name;
 		std::string _title;
 		Warlock& operator=(const Warlock& origine);
