@@ -8,6 +8,7 @@ class ASpell
 		std::string _name;
 		std::string _effects;
 	public :
-		Name() const;
+	
+		const std::string&	getName() const;
 		const std::string&	getTitle() const;
 };
