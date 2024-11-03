@@ -47,7 +47,7 @@ void	Warlock::learnSpell(ASpell* spell)
 	if (spell)
 	{
 		if (MAP.find(spell->getName()) == MAP.end())
-			MAP[spell->getName()] = spellclone();
+			MAP[spell->getName()] = spell->clone();
 	}
 }
 
