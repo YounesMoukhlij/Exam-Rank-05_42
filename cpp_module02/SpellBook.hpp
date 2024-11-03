@@ -28,6 +28,6 @@ void SpellBook::learnSpell(ASpell* spell)
 {
 	if (spell)
 	{
-		spell
+		MAP[spell->get]
 	}
 }
