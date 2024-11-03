@@ -22,7 +22,7 @@ class ASpell
 		const std::string&	getTitle() const;
 
 		virtual ~ASpell();
-		ASpell* virtual clone() const = 0 ;
+		virtual ASpell*  clone() const = 0 ;
 
 		void launch(const ATarget& target) const;
 };
