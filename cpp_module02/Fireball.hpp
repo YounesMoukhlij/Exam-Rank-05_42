@@ -1,5 +1,8 @@
 
-#pragma
+#pragma once
+
+#incldue <iostrea>
+
 
 class Fireball
 {
