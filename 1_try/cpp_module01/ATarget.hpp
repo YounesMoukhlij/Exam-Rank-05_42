@@ -13,7 +13,7 @@ class ATarget
 		ATarget(const ATarget& origine);
 
 		ATarget& operator=(const ATarget& origine);
-		const std::string&	getName() const;
+		const std::string&	g() const;
 		const std::string&	getTitle() const;
 
 		virtual ~ATarget();
