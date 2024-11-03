@@ -4,7 +4,7 @@
 
 
 
-void TargetGenerator::learnSpell(ATarget* spell)
+void TargetGenerator::learnSpell(ATarget* tar)
 {
 	if (spell)
 	{
