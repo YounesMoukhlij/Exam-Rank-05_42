@@ -24,3 +24,4 @@ class SpellBook
 };
 
 
+void SlearnSpell(ASpell*);
