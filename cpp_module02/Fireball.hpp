@@ -12,7 +12,7 @@ public:
 	Fireball();
 
 	~Fireball();
-	ASpell* Fireball::clone() const
+	ASpell* clone() const;
 
 };
 
