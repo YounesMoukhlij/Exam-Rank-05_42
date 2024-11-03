@@ -31,3 +31,7 @@ void SpellBook::learnSpell(ASpell* spell)
 		MAP[spell->getName()] = spell->clone;
 	}
 }
+
+
+
+void forgetSpell(string const &);
