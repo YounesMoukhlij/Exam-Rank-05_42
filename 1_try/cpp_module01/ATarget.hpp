@@ -1,4 +1,6 @@
 
 #pragma once
 
-#include <ios
+#include <iostream>
+
+class
