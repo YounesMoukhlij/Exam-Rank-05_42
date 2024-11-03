@@ -2,4 +2,6 @@
 
 #include <iostream>
 
-#include ""
+#include "ATarget.hpp"
+
+class Dummy : punli
