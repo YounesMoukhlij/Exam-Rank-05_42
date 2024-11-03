@@ -17,7 +17,7 @@ SpellBook::~SpellBook()
 }
 SpellBook::SpellBook(const SpellBook& origine)
 {
-	this = &origine;
+	*this = origine;
 }
 
 SpellBook::SpellBook()
