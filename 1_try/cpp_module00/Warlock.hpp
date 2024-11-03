@@ -37,5 +37,10 @@ Warlock::~Warlock()
 
 std::string& getName() const
 {
-	return 
+	return _name;
+}
+
+std::string& getName() const
+{
+	return _name;
 }
