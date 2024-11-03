@@ -37,6 +37,8 @@ Warlock& Warlock::operator=(const Warlock& origine)
 {
 	if (this != &origine)
 	{
-		_name = origin
+		_name = origine._name;
+		_title = origine._title;
 	}
+	return
 }
