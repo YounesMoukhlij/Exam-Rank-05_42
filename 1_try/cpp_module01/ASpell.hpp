@@ -22,7 +22,7 @@ class ASpell
 
 
 
-ASpell::ASpell(const std::string& name, const std::string& effects)
+ASpell::ASpell(const std::string& name, const std::string& effects) : _name(name), 
 {
-	
+
 }
