@@ -38,7 +38,8 @@ void	Warlock::learnSpell(ASpell* spell)
 {
 	if (spell)
 	{
-		if (MAP.find(spell) == M)
+		if (MAP.find(spell->getName()) == MAP.end())
+			spe
 	}
 }
 
