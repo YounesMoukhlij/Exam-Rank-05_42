@@ -6,7 +6,7 @@
 /*   By: youmoukh <youmoukh@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/03 18:54:51 by youmoukh          #+#    #+#             */
-/*   Updated: 2024/11/03 18:59:04 by youmoukh         ###   ########.fr       */
+/*   Updated: 2024/11/03 18:59:16 by youmoukh         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,7 +36,7 @@ class TargetGenerator
 
 
 
-void TargetGenerator::learnSpell(ASpell* spell)
+void TargetGenerator::learnSpell(ATarget* spell)
 {
 	if (spell)
 	{
