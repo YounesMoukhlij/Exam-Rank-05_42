@@ -6,7 +6,7 @@
 /*   By: youmoukh <youmoukh@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/03 17:40:15 by youmoukh          #+#    #+#             */
-/*   Updated: 2024/11/03 18:53:58 by youmoukh         ###   ########.fr       */
+/*   Updated: 2024/11/03 19:08:14 by youmoukh         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,7 +28,7 @@ class Warlock
 {
 	private:
 		SpellBook MAP;
-		std::map <std::string, ASpell *> MAP; 
+
 		std::string _name;
 		std::string _title;
 		Warlock& operator=(const Warlock& origine);
