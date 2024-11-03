@@ -4,7 +4,7 @@
 #include "ATarget.hpp"
 
 
-class BrickWall
+class BrickWall : public ATr
 {
 private:
 	/* data */
@@ -13,7 +13,7 @@ public:
 	~BrickWall();
 };
 
-BrickWall::BrickWall(/* args */) : A
+BrickWall::BrickWall(/* args */) : ATarget("Inconspicuous Red-brick Wall");
 {
 }
 
