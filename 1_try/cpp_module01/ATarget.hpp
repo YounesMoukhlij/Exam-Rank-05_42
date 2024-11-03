@@ -10,10 +10,10 @@ class ATarget
 {
 	protected :
 		std::string _type;
+		ATarget(const ATarget& origine);
 	public :
 		ATarget(const std::string& name, const std::string& effects);
 
-		ATarget(const ATarget& origine);
 
 		ATarget& operator=(const ATarget& origine);
 
