@@ -6,7 +6,7 @@
 /*   By: youmoukh <youmoukh@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/03 18:54:51 by youmoukh          #+#    #+#             */
-/*   Updated: 2024/11/03 19:00:59 by youmoukh         ###   ########.fr       */
+/*   Updated: 2024/11/03 19:01:14 by youmoukh         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,9 @@
 
 #include <iostream>
 
-#incl
+#include "ATarget.hpp"
+
+class ATarget;
 
 
 
@@ -27,7 +29,7 @@ class TargetGenerator
 		TargetGenerator& operator=(const TargetGenerator& origine);
 		std::map<std::string, ATarget* > Tar;
 	public:
-		void learnTargetType(ATarget*);
+		void learnTargetType(ATarget* tar);
 		void forgetTargetType(std::string const &);
 		ATarget* createTarget(std::string const &);
 
