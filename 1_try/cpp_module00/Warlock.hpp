@@ -10,7 +10,7 @@ private:
 	std::string _title;
 
 public:
-	Warlock(c;
+	Warlock(const std::string& name, ;
 	~Warlock();
 
 	std::string& getName() const;
