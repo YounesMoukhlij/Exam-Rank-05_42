@@ -1,12 +1,12 @@
 
 #pragma once
 
-#include "Fwoosh.hpp"
+#include "ASpell.hpp"
 
 
 
 
-class Fireball : 
+class Fireball : public ASpell
 {
 public:
 	Fireball(/* args */);
