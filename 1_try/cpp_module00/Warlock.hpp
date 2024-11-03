@@ -14,7 +14,8 @@ public:
 	~Warlock();
 
 	std::string& getName() const;
-	std::string& get() const;
+	std::string& getTitle() const;
+	
 };
 
 Warlock::Warlock(/* args */)
