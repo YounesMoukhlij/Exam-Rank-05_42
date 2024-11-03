@@ -34,6 +34,6 @@ void ATarget::getHitBySpell(const ASpell& spell) const
 
 ATarget& ATarget::operator=(const ATarget& origine)
 {
-		_type = origine._name;
+		_type = origine._type;
 	return *this;
 }
