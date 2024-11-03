@@ -7,12 +7,12 @@ int main()
   richard.introduce();
   std::cout << richard.getName() << " - " << richard.getTitle() << std::endl;
 
-  Warlock* jack = new Warlock("Jack", "the Long");
-  jack->introduce();
-  jack->setTitle("the Mighty");
-  jack->introduce();
+//   Warlock* jack = new Warlock("Jack", "the Long");
+//   jack->introduce();
+//   jack->setTitle("the Mighty");
+//   jack->introduce();
 
-  delete jack;
+//   delete jack;
 
   return (0);
 }
