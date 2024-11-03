@@ -56,4 +56,4 @@ void SpellBook::forgetSpell(std::string const & str )
 		}
 
 
-SpellBook
+SpellBook& SpellBook::operator=(const SpellBook& )
