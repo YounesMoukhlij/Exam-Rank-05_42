@@ -61,9 +61,9 @@ const std::string& ASpell::getEffects() const
 	return _effects;
 }
 
-Warlock& Warlock::operator=(const Warlock& origine)
+ASpell& ASpell::operator=(const ASpell& origine)
 {
 		_name = origine._name;
-		_title = origine._title;
+		_effects = origine._effects;
 	return *this;
 }
