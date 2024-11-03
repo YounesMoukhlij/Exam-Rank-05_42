@@ -44,3 +44,4 @@ void	Warlock::learnSpell(ASpell* spell)
 }
 
 
+void	Warlock::forgetSpell()
