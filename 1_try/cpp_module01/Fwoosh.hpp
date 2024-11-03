@@ -6,5 +6,5 @@
 
 class Fwoosh : public ASpell
 {
-	
+	Fwoosh()
 };
