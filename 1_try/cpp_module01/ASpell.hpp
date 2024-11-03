@@ -46,4 +46,7 @@ ASpell& ASpell::operator=(const ASpell& origine)
 }
 
 
-void ASpell::launch(const AT)
+void ASpell::launch(const ATarget& target) const
+{
+	
+}
