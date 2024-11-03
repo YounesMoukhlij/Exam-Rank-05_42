@@ -7,6 +7,7 @@
 #include "ATarget.hpp"
 #include "BrickWall.hpp"
 #include "Polymorph.hpp"
+#include "Fireball.hpp"
 
 
 int main()
