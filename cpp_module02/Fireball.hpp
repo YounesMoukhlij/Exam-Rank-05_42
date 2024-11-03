@@ -14,10 +14,11 @@ public:
 	~Fireball();
 };
 
-Fireball::Fireball(/* args */) : ASpell()
+Fireball::Fireball(/* args */) : ASpell("Fireball", "burnt to a crisp")
 {
 }
 
 Fireball::~Fireball()
 {
 }
+
