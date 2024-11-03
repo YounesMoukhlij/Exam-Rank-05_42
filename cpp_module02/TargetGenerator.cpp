@@ -29,10 +29,8 @@ TargetGenerator::TargetGenerator()
 
 void TargetGenerator::forgetSpell(std::string const & str )
 {
-
 	if (Tar.find (str) != Tar.end())
 	{
-		delete it->second;
 		Tar.erase(it);
 	}
 }
