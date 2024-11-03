@@ -18,6 +18,7 @@ class ASpell
 
 		virtual ~ASpell();
 		ASpell* virtual clone() const = 0 ;
+		
 };
 
 
