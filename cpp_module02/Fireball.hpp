@@ -5,12 +5,12 @@
 
 
 
-class Fireball
+
+class Fireball : 
 {
-private:
-	/* data */
 public:
 	Fireball(/* args */);
+
 	~Fireball();
 };
 
