@@ -20,3 +20,7 @@ BrickWall::~BrickWall()
 {
 }
 
+ATarget* BrickWall::clone() const
+{
+	return new BrickWall();
+}
