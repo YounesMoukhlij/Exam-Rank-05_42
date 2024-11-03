@@ -62,6 +62,6 @@ void	Warlock::launchSpell(std::string spell, const ATarget& target)
 {
 	if (MAP.find(spell) != MAP.end())
 	{
-		MAP[p]
+		MAP[spell] = target.
 	}
 }
