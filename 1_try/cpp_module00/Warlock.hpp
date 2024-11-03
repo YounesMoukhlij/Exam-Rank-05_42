@@ -10,10 +10,10 @@ class Warlock
 		std::string _title;
 		Warlock& operator=(const Warlock& origine);
 
+		Warlock();
+		Warlock(const Warlock& origine);
 	public:
 
-		// Warlock();
-		// Warlock(const Warlock& origine);
 		Warlock(const std::string& name, const std::string& title);
 		~Warlock();
 
