@@ -4,4 +4,19 @@
 #include "ATarget.hpp"
 
 
-class
+class BrickWall
+{
+private:
+	/* data */
+public:
+	BrickWall(/* args */);
+	~BrickWall();
+};
+
+BrickWall::BrickWall(/* args */)
+{
+}
+
+BrickWall::~BrickWall()
+{
+}
