@@ -52,4 +52,7 @@ void ASpell::launch(const ATarget& target) const
 }
 
 
-const std::string& ASpell::
+const std::string& ASpell::getName() const
+{
+	return _name;
+}
