@@ -56,5 +56,5 @@ void	Warlock::forgetSpell(std::string spell)
 
 void	WarlocK::launchSpell(std::string spell, const ATarget& target)
 {
-	
+	if (M)
 }
