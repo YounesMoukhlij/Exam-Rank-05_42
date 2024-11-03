@@ -41,6 +41,10 @@ SpellBook::SpellBook()
 {
 
 }
+SpellBook::SpellBook()
+{
+
+}
 
 
 
