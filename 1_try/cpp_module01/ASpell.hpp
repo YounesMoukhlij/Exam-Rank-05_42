@@ -35,6 +35,7 @@ ASpell::ASpell(const std::string& name, const std::string& effects) : _name(name
 }
 
 
+
 ASpell& ASpell::operator=(const ASpell& origine)
 {
 	if (this != &origine)
