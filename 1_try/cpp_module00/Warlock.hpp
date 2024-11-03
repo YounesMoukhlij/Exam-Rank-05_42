@@ -18,7 +18,7 @@ public:
 	~Warlock();
 
 	 std::string const & getName() const;
-	 std::string& const & getTitle() const;
+	 std::string const & getTitle() const;
 
 	void	setTitle(const std::string& title);
 
