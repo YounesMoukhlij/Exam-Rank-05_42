@@ -17,7 +17,7 @@ TargetGenerator::~TargetGenerator()
 }
 TargetGenerator::TargetGenerator(const TargetGenerator& origine)
 {
-	this = &origine;
+	*this = origine;
 }
 
 TargetGenerator::TargetGenerator()
@@ -29,7 +29,7 @@ TargetGenerator::TargetGenerator()
 
 void TargetGenerator::forgetSpell(std::string const & str )
 {
-	std::map<std::string, ATarget * >::iterator it = MAP.find(str);
+	std::map<std::string, ATarget * >::iterator it = T.find(str);
 	if (it != Tar.end())
 	{
 		delete it->second;
