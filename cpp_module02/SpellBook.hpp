@@ -10,5 +10,7 @@
 class SpellBook
 {
 	private :
-		std::map<std::string, ASpell*
+		std::map<std::string, ASpell* > MAP;
+	public:
+	
 }
