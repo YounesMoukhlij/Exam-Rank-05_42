@@ -9,7 +9,6 @@ class ASpell
 		std::string _effects;
 	public :
 		~ASpell();
-		ASpell();
 		ASpell(const std::string& name, const std::string& effects);
 
 		const std::string&	getName() const;
