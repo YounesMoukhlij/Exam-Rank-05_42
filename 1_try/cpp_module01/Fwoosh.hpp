@@ -6,5 +6,8 @@
 
 class Fwoosh : public ASpell
 {
-	Fwoosh()
+	Fwoosh();
+	~Fwoosh();
+
+	ASpell
 };
