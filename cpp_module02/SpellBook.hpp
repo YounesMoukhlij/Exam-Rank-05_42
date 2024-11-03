@@ -15,8 +15,8 @@ class SpellBook
 		std::map<std::string, ASpell* > MAP;
 	public:
 		void learnSpell(ASpell*);
-		void forgetSpell(string const &);
-		ASpell* createSpell(string const &);
+		void forgetSpell(std::string const &);
+		ASpell* createSpell(std::string const &);
 
 
 		~SpellBook();
@@ -34,7 +34,7 @@ void SpellBook::learnSpell(ASpell* spell)
 
 
 
-void SpellBook::forgetSpell(string const &)
+void SpellBook::forgetSpell(std::string const &)
 {
 	
 }
