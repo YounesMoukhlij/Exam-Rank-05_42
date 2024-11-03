@@ -17,7 +17,7 @@ Warlock::~Warlock()
 	return _name;
 }
 
-const std::string& Warlock::getTitle() const
+ std::string& const Warlock::getTitle() const
 {
 	return _title;
 }
