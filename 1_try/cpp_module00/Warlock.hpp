@@ -23,10 +23,7 @@ public:
 	void	setTitle(const std::string& title);
 };
 
-Warlock::Warlock()
-{
 
-}
 
 Warlock::Warlock(const std::string& name, const std::string& title) : _name(name), _title(title)
 {
@@ -37,3 +34,5 @@ Warlock::~Warlock()
 {
 
 }
+
+sd
