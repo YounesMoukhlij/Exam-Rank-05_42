@@ -13,7 +13,8 @@ public:
 	Warlock(/* args */);
 	~Warlock();
 
-	std::stringgetName()
+	std::string& getName() const;
+	std::string& get() const;
 };
 
 Warlock::Warlock(/* args */)
