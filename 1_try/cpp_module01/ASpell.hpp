@@ -5,7 +5,7 @@
 #include "ATarget.hpp"
 #include <iostream>
 
-class
+class ATarget;
 
 class ASpell
 {
