@@ -17,15 +17,6 @@ ASpell::~ASpell()
 		}
 
 
-ASpell& ASpell::operator=(const ASpell& origine)
-{
-	if (this != &origine)
-	{
-		_name = origine._name;
-		_effects = origine._effects;
-	}
-	return (*this);
-}
 
 
 void ASpell::launch(const ATarget& target) const
