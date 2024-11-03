@@ -7,7 +7,7 @@
 class Warlock
 {
 	private:
-		std::map<std::string, ASpell *> MAP; 
+		std::map <std::string, ASpell *> MAP; 
 		std::string _name;
 		std::string _title;
 		Warlock& operator=(const Warlock& origine);
