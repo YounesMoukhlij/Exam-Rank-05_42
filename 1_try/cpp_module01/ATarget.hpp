@@ -2,6 +2,7 @@
 #pragma once
 
 #include <iostream>
+#in
 
 class ATarget
 {
@@ -20,5 +21,5 @@ class ATarget
 		ATarget* virtual clone() const = 0 ;
 
 
-		getHitBySpell() const 
+		getHitBySpell(const ) const 
 };
