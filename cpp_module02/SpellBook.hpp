@@ -4,7 +4,10 @@
 #pragma once
 
 #include <iostream>
-#include <iostream>
+#include <map>
 
 
-class
+class SpellBook
+{
+	privat
+}
