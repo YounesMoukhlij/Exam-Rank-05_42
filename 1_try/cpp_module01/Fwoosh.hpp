@@ -11,3 +11,5 @@ class Fwoosh : public ASpell
 
 	ASpell* clone ();
 };
+
+Fwoosh::Fwoosh(), _name("")
