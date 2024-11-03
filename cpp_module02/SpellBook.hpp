@@ -24,4 +24,7 @@ class SpellBook
 };
 
 
-void SlearnSpell(ASpell*);
+void SpellBook::learnSpell(ASpell*)
+{
+	i
+}
