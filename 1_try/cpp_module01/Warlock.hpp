@@ -47,7 +47,7 @@ void	Warlock::learnSpell(ASpell* spell)
 void	Warlock::forgetSpell(std::string spell)
 
 {
-	if (MAP.find(spell->getName()) == MAP.end())
+	if (MAP.find(spell->getName()) != MAP.end())
 	{
 		delete 
 	}
