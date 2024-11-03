@@ -30,6 +30,8 @@ class Warlock
 		void				introduce() const;
 
 		void	learnSpell(ASpell* spell);
+void	forgetSpell(std::string spell)
+
 
 	
 };
@@ -58,6 +60,6 @@ void	WarlocK::launchSpell(std::string spell, const ATarget& target)
 {
 	if (MAP.find(spell) != MAP.end())
 	{
-		
+
 	}
 }
