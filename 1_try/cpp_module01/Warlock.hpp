@@ -4,6 +4,7 @@
 #include <iostream>
 #include <map>
 
+#include
 class Warlock
 {
 	private:
@@ -32,7 +33,7 @@ class Warlock
 
 void	Warlock::learnSpell(ASpell* spell)
 {
-	
+
 }
 
 
