@@ -1,5 +1,7 @@
 
 
+
+
 int main()
 {
   Warlock richard("Richard", "foo");
