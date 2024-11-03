@@ -39,7 +39,7 @@ void	Warlock::learnSpell(ASpell* spell)
 	if (spell)
 	{
 		if (MAP.find(spell->getName()) == MAP.end())
-			MAP[]
+			MAP[spell->getNam]
 	}
 }
 
