@@ -27,5 +27,5 @@ Fwoosh::~Fwoosh()
 
 ASpell* Fwoosh::clone()
 {
-	return new()
+	return new(Fwoosh);
 }
