@@ -44,3 +44,6 @@ ASpell& ASpell::operator=(const ASpell& origine)
 	}
 	return (*this);
 }
+
+
+void ASpell::
