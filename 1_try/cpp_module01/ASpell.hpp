@@ -14,4 +14,6 @@ class ASpell
 
 		const std::string&	getName() const;
 		const std::string&	getTitle() const;
+
+		A
 };
