@@ -57,5 +57,5 @@ void	Warlock::setTitle(const std::string& title)
 
 void introduce() const
 {
-	std
+	std::cout << _name << ""
 }
