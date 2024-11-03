@@ -34,7 +34,9 @@ void SpellBook::learnSpell(ASpell* spell)
 
 
 
-void SpellBook::forgetSpell(std::string const &)
+void SpellBook::forgetSpell(std::string const & str )
 {
-	std::map<std::string, ASpell * >::iterator it = MAP.find()
+	std::map<std::string, ASpell * >::iterator it = MAP.find(str);
+	if (it != MAP.end())
+	{}
 }
