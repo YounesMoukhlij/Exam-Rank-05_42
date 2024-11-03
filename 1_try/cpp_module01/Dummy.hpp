@@ -4,4 +4,7 @@
 
 #include "ATarget.hpp"
 
-class Dummy : punli
+class Dummy : public ATarget
+{
+	
+}
