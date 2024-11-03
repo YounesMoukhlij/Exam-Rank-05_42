@@ -25,4 +25,7 @@ Fwoosh::~Fwoosh()
 }
 
 
-ASpell* 
+ASpell* Fwoosh::clone()
+{
+	return new()
+}
