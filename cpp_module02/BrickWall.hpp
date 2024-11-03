@@ -9,6 +9,8 @@ class BrickWall : public ATarget
 public:
 	BrickWall(/* args */);
 	~BrickWall();
+	ATarget* BrickWall::clone() const 
+
 
 };
 
