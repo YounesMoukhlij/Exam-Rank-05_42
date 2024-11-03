@@ -21,6 +21,10 @@ public:
 	std::string& getTitle() const;
 
 	void	setTitle(const std::string& title);
+
+
+
+	void introduce() const;
 };
 
 
@@ -48,4 +52,10 @@ std::string& Warlock::getTitle() const
 void	Warlock::setTitle(const std::string& title)
 {
 	_title = title;
+}
+
+
+void introduce() const
+{
+	std
 }
