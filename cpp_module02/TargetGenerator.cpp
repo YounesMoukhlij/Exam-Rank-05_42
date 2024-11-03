@@ -31,7 +31,7 @@ void TargetGenerator::forgetSpell(std::string const & str )
 {
 	if (Tar.find (str) != Tar.end())
 	{
-		Tar.erase(it);
+		Tar.erase(f);
 	}
 }
 
