@@ -32,3 +32,8 @@ void Warlock::introduce() const
 {
 	std::cout << _name << ": I am " << _name << ", " << _title << "!" << std::endl;
 }
+
+Warlock& Warlock::operator=(const Warlock& origine)
+{
+	if (th)
+}
