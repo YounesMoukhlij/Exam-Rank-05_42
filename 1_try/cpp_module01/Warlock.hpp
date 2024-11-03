@@ -36,6 +36,10 @@ class Warlock
 
 void	Warlock::learnSpell(ASpell* spell)
 {
+	if (spell)
+	{
+		if (MAP.find())
+	}
 }
 
 
