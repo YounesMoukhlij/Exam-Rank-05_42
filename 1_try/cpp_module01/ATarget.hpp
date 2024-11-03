@@ -43,4 +43,4 @@ ATarget::ATarget(const std::string& type): _type(type)
 
 }
 
-const std::string& ATarget:
+const std::string& ATarget::getType() const
