@@ -1,4 +1,6 @@
 
+#pra
+
 class Warlock
 {
 private:
@@ -12,7 +14,7 @@ public:
 
 Warlock::Warlock(/* args */)
 {
-	
+
 }
 
 Warlock::~Warlock()
