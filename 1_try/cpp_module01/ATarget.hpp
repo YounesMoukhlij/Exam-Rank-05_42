@@ -37,10 +37,10 @@ ATarget& ATarget::operator=(const ATarget& origine)
 		_type = origine._type;
 	return *this;
 }
-ATarget& ATarget::operator=(const ATarget& origine)
+
+ATarget::ATarget(const ATarget& origine)
 {
 		_type = origine._type;
-	return *this;
 }
 
 ATarget::ATarget(const std::string& type): _type(type)
