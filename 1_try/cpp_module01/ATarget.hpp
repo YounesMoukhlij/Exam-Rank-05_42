@@ -5,9 +5,8 @@
 
 class ATarget
 {
-		protected :
-		std::string _t;
-		std::string _effects;
+	protected :
+		std::string _type;
 	public :
 		ATarget(const std::string& name, const std::string& effects);
 
