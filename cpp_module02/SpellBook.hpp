@@ -48,6 +48,6 @@ void SpellBook::forgetSpell(std::string const & str )
 
 		ASpell* SpellBook::createSpell(std::string const & str)
 		{
-			
+			A
 		}
 
