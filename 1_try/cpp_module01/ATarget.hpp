@@ -12,7 +12,7 @@ class ATarget
 		std::string _type;
 	public :
 		ATarget(const ATarget& origine);
-		ATarget(const std::string& name, const std::string& effects);
+		ATarget(const std::string& type);
 
 
 		ATarget& operator=(const ATarget& origine);
