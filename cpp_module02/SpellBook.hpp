@@ -11,7 +11,7 @@ class SpellBook
 {
 	private :
 		SpellBook(const SpellBook& origine);
-		SpellBook(const SpellBook& origine);
+		~SpellBook(const SpellBook& origine);
 		std::map<std::string, ASpell* > MAP;
 	public:
 		void learnSpell(ASpell*);
