@@ -2,7 +2,7 @@
 
 #include "Dummy.hpp"
 
-Dummy::Dummy(): ASpell("Dummy" ,"Dummyed")
+Dummy::Dummy(): ATarget("Target Practice Dummy")
 {
 
 }
