@@ -22,3 +22,7 @@ Fireball::~Fireball()
 {
 }
 
+ASpell* Fireball::clone() const
+{
+	return new Fwoosh();
+}
