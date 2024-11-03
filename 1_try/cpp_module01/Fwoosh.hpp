@@ -17,4 +17,12 @@ Fwoosh::Fwoosh(), _name("Fwoosh"), _effects("fwooshed")
 
 }
 
-Fwoosh::~Fwoosh
+Fwoosh::~Fwoosh()
+{
+
+
+
+}
+
+
+ASpell* 
