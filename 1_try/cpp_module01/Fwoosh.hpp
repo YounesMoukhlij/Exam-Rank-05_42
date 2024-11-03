@@ -4,4 +4,7 @@
 
 #include "ASpell.hpp"
 
-class F
+class Fwoosh : public ASpell
+{
+
+};
