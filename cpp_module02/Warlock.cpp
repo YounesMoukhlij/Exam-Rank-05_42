@@ -6,7 +6,7 @@
 /*   By: youmoukh <youmoukh@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/03 17:40:12 by youmoukh          #+#    #+#             */
-/*   Updated: 2024/11/03 19:10:11 by youmoukh         ###   ########.fr       */
+/*   Updated: 2024/11/03 19:10:30 by youmoukh         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -69,5 +69,5 @@ void	Warlock::forgetSpell(std::string spell)
 void	Warlock::launchSpell(std::string spell, const ATarget& target)
 {
 
-	MAP.createSpell(target);
+	MAP.createSpell(spell, target);
 }
