@@ -2,25 +2,25 @@
 
 #include "ASpell.hpp"
 
-class Fireball : public ASpell
+class Polymorph : public ASpell
 {
 public:
-	Fireball();
+	Polymorph();
 
-	~Fireball();
+	~Polymorph();
 	ASpell* clone() const;
 
 };
 
-Fireball::Fireball(/* args */) : ASpell("Fireball", "burnt to a crisp")
+Polymorph::Polymorph(/* args */) : ASpell("Polymorph", "burnt to a crisp")
 {
 }
 
-Fireball::~Fireball()
+Polymorph::~Polymorph()
 {
 }
 
-ASpell* Fireball::clone() const
+ASpell* Polymorph::clone() const
 {
-	return new Fireball();
+	return new Polymorph();
 }
