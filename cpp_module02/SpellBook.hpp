@@ -56,4 +56,7 @@ void SpellBook::forgetSpell(std::string const & str )
 		}
 
 
-SpellBook& SpellBook::operator=(const SpellBook& )
+SpellBook& SpellBook::operator=(const SpellBook& origine)
+{
+	MAP = origine._
+}
