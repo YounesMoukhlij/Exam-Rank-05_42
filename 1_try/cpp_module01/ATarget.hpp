@@ -5,5 +5,7 @@
 
 class ATarget
 {
-	
+	protected :
+
+	public:
 };
