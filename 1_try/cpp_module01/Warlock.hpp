@@ -54,4 +54,4 @@ void	Warlock::forgetSpell(std::string spell)
 	}
 }
 
-void	WarlocK::
+void	WarlocK::launchSpell(std::s)
