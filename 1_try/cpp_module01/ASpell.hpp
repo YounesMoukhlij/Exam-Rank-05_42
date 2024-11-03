@@ -17,5 +17,5 @@ class ASpell
 		const std::string&	getTitle() const;
 
 		virtual ~ASpell();
-		ASpell* virtual clone() = 0 const ;
+		ASpell* virtual clone() const = 0 ;
 };
