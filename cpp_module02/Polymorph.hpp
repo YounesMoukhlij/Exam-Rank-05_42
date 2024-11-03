@@ -12,7 +12,7 @@ public:
 
 };
 
-Polymorph::Polymorph(/* args */) : ASpell("Polymorph", "burnt to a crisp")
+Polymorph::Polymorph(/* args */) : ASpell("Polymorph", "turned into a critter")
 {
 }
 
