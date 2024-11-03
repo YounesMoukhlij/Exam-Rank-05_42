@@ -1,13 +1,13 @@
 
 
-#include "Fwoosh.hpp"
+#include "Dummy.hpp"
 
-Fwoosh::Fwoosh(): ASpell("Fwoosh" ,"fwooshed")
+Dummy::Dummy(): ASpell("Dummy" ,"Dummyed")
 {
 
 }
 
-Fwoosh::~Fwoosh()
+Dummy::~Dummy()
 {
 
 
@@ -15,7 +15,7 @@ Fwoosh::~Fwoosh()
 }
 
 
-ASpell* Fwoosh::clone()
+ASpell* Dummy::clone()
 {
-	return new(Fwoosh);
+	return new(Dummy);
 }
