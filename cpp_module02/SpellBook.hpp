@@ -5,7 +5,7 @@
 
 #include <iostream>
 #include <map>
-#inclu
+#include "ASpell.hpp"
 
 
 class SpellBook
@@ -44,3 +44,9 @@ void SpellBook::forgetSpell(std::string const & str )
 		MAP.erase(it);
 	}
 }
+
+		ASpell* createSpell(std::string const & str)
+		{
+			
+		}
+
