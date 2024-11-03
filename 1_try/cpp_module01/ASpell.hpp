@@ -60,3 +60,10 @@ const std::string& ASpell::getEffects() const
 {
 	return _effects;
 }
+
+Warlock& Warlock::operator=(const Warlock& origine)
+{
+		_name = origine._name;
+		_title = origine._title;
+	return *this;
+}
