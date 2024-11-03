@@ -38,4 +38,9 @@ ATarget& ATarget::operator=(const ATarget& origine)
 	return *this;
 }
 
-ATarget::ATarget(const std::string& type): _t
+ATarget::ATarget(const std::string& type): _type(type)
+{
+
+}
+
+const std::str
