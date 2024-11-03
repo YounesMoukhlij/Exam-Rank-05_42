@@ -19,3 +19,10 @@ class ASpell
 		virtual ~ASpell();
 		ASpell* virtual clone() const = 0 ;
 };
+
+
+
+ASpell::ASpell(const std::string& name, const std::string& effects)
+{
+	
+}
