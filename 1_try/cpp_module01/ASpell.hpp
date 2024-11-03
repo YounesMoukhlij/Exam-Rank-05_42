@@ -5,5 +5,8 @@
 class ASpell
 {
 	protected :
-		std::
+		std::string _name;
+		std::string _effects;
+	public :
+		
 };
