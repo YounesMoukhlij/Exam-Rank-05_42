@@ -6,7 +6,7 @@
 /*   By: youmoukh <youmoukh@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/03 17:40:15 by youmoukh          #+#    #+#             */
-/*   Updated: 2024/11/03 17:40:16 by youmoukh         ###   ########.fr       */
+/*   Updated: 2024/11/03 18:53:13 by youmoukh         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,8 +19,10 @@
 #include <map>
 
 #include "ASpell.hpp"
+#include "SpellBook.hpp"
 
 class ASpell;
+class ASpellBo;
 
 class Warlock
 {
