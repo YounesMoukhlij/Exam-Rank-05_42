@@ -12,5 +12,6 @@ class SpellBook
 	private :
 		std::map<std::string, ASpell* > MAP;
 	public:
-	
+		void learnSpell(ASpell*);
+		
 }
