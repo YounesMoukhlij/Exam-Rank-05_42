@@ -39,6 +39,8 @@ ASpell::~ASpell()
 
 }
 
+		ASpell:ASpell(const ASpell& origine);
+
 
 ASpell& ASpell::operator=(const ASpell& origine)
 {
