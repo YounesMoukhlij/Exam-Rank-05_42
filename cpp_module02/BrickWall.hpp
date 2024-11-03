@@ -6,7 +6,7 @@
 
 class BrickWall : public ATarget
 {
-public:
+	public:
 	BrickWall(/* args */);
 	~BrickWall();
 	ATarget* clone() const ;

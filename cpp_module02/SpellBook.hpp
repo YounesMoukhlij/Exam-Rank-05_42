@@ -48,7 +48,7 @@ void SpellBook::forgetSpell(std::string const & str )
 
 		ASpell* SpellBook::createSpell(std::string const & str)
 		{
-			ASpell * t;
+			ASpell * t = 0;
 
 			if (MAP.find(str) != MAP.end())
 				t = MAP[str];
