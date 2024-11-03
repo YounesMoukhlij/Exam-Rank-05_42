@@ -29,7 +29,7 @@ TargetGenerator::TargetGenerator()
 
 void TargetGenerator::forgetSpell(std::string const & str )
 {
-	std::map<std::string, ATarget * >::iterator it = T.find(str);
+	std::map<std::string, ATarget * >::iterator it = Tar.find(str);
 	if (it != Tar.end())
 	{
 		delete it->second;
