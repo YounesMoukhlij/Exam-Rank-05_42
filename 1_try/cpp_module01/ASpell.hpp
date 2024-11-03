@@ -1,6 +1,8 @@
 
 
-#pr
+#pragma once
+
+#include "ATarget,hpp"
 #include <iostream>
 
 class ASpell
