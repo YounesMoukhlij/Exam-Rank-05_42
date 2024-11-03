@@ -1,5 +1,7 @@
 
-#pra
+#pragma once 
+
+#include ""
 
 class Warlock
 {
