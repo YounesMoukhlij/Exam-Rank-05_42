@@ -24,7 +24,10 @@ class SpellBook
 };
 
 
-void SpellBook::learnSpell(ASpell*)
+void SpellBook::learnSpell(ASpell* spell)
 {
-	i
+	if (spell)
+	{
+		
+	}
 }
