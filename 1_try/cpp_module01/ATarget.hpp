@@ -6,17 +6,17 @@
 class ATarget
 {
 		protected :
-		std::string _name;
+		std::string _t;
 		std::string _effects;
 	public :
-		ASpell(const std::string& name, const std::string& effects);
+		ATarget(const std::string& name, const std::string& effects);
 
-		ASpell(const ASpell& origine);
+		ATarget(const ATarget& origine);
 
-		ASpell& operator=(const ASpell& origine);
+		ATarget& operator=(const ATarget& origine);
 		const std::string&	getName() const;
 		const std::string&	getTitle() const;
 
-		virtual ~ASpell();
-		ASpell* virtual clone() const = 0 ;
+		virtual ~ATarget();
+		ATarget* virtual clone() const = 0 ;
 };
