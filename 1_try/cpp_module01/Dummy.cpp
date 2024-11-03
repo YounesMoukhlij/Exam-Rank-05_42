@@ -15,7 +15,7 @@ Dummy::~Dummy()
 }
 
 
-ASpell* Dummy::clone()
+ATarget* Dummy::clone()
 {
 	return new(Dummy);
 }
