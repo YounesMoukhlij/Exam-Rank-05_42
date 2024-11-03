@@ -32,7 +32,7 @@ Warlock::Warlock(const std::string& name, const std::string& title) : _name(name
 
 Warlock::~Warlock()
 {
-	std::cout << _na": My job here is done!" << std::endl;
+	std::cout << _name << ": My job here is done!" << std::endl;
 }
 
 std::string& getName() const
