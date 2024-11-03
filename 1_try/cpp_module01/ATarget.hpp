@@ -52,3 +52,8 @@ const std::string& ATarget::getType() const
 {
 	return _type;
 }
+
+ATarget::~ATarget()
+{
+
+}
