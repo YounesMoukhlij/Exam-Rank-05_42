@@ -6,7 +6,7 @@
 
 void TargetGenerator::learnSpell(ATarget* tar)
 {
-	if (spell)
+	if (tar)
 	{
 		Tar[tar->getName()] = tar->clone();
 	}
