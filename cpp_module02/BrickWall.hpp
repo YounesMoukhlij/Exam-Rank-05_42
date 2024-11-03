@@ -13,7 +13,7 @@ public:
 	~BrickWall();
 };
 
-BrickWall::BrickWall(/* args */)
+BrickWall::BrickWall(/* args */) : A
 {
 }
 
