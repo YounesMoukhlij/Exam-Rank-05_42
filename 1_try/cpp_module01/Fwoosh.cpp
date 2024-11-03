@@ -14,7 +14,7 @@ Fwoosh::~Fwoosh()
 }
 
 
-ASpell* Fwoosh::clone()
+ASpell* Fwoosh::clone() const
 {
 	return new(Fwoosh);
 }
