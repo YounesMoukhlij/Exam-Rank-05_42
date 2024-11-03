@@ -2,4 +2,6 @@
 
 #include <iostream>
 
-#include 
+#include "ASpell.hpp"
+
+class F
