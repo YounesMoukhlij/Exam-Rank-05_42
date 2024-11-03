@@ -6,7 +6,7 @@
 /*   By: youmoukh <youmoukh@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/03 17:40:12 by youmoukh          #+#    #+#             */
-/*   Updated: 2024/11/03 17:40:14 by youmoukh         ###   ########.fr       */
+/*   Updated: 2024/11/03 19:09:03 by youmoukh         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -55,6 +55,7 @@ Warlock& Warlock::operator=(const Warlock& origine)
 
 void	Warlock::learnSpell(ASpell* spell)
 {
+	M
 	if (spell)
 	{
 		if (MAP.find(spell->getName()) == MAP.end())
