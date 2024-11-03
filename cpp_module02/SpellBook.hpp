@@ -34,4 +34,7 @@ void SpellBook::learnSpell(ASpell* spell)
 
 
 
-void forgetSpell(string const &);
+void SpellBook::forgetSpell(string const &)
+{
+	
+}
