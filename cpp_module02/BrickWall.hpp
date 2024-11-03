@@ -7,9 +7,9 @@
 class BrickWall : public ATarget
 {
 	public:
-	BrickWall(/* args */);
-	~BrickWall();
-	ATarget* clone() const ;
+		BrickWall(/* args */);
+		~BrickWall();
+		ATarget* clone() const ;
 
 
 };
