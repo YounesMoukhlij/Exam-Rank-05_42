@@ -40,7 +40,7 @@ std::string& getName() const
 	return _name;
 }
 
-std::string& getName() const
+std::string& getTitle() const
 {
-	return _name;
+	return _title;
 }
