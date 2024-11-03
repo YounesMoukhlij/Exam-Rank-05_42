@@ -43,7 +43,7 @@ ATarget::ATarget(const std::string& type): _type(type)
 
 }
 
-const std::string& ATarget::getType() const;
+const std::string& ATarget::getType() const
 {
 	return _type;
 }
