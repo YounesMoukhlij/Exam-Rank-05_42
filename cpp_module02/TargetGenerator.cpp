@@ -49,6 +49,6 @@ void TargetGenerator::forgetSpell(std::string const & str )
 
 TargetGenerator& TargetGenerator::operator=(const TargetGenerator& origine)
 {
-	Tar = origine._Tar;
+	Tar = origine.Tar;
 	return *this;
 }
