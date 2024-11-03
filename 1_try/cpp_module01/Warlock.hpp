@@ -44,4 +44,4 @@ void	Warlock::learnSpell(ASpell* spell)
 }
 
 
-void	Warlock::forgetSpell()
+void	Warlock::forgetSpell(std::string )
