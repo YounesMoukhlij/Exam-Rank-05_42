@@ -56,5 +56,8 @@ void	Warlock::forgetSpell(std::string spell)
 
 void	WarlocK::launchSpell(std::string spell, const ATarget& target)
 {
-	if (MAP.find(spell) != )
+	if (MAP.find(spell) != MAP.end())
+	{
+		
+	}
 }
