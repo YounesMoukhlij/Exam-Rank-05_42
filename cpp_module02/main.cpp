@@ -4,7 +4,8 @@
 #include "ASpell.hpp"
 #include "SpellBook.hpp"
 #include "TargetGenerator.hpp"
-#include "SpellBook.hpp"
+#include "ATarget.hpp"
+#include "BrickWall.hpp"
 
 
 int main()
