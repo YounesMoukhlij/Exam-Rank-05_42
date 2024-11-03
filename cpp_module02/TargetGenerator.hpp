@@ -6,7 +6,7 @@
 /*   By: youmoukh <youmoukh@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/03 18:54:51 by youmoukh          #+#    #+#             */
-/*   Updated: 2024/11/03 18:58:46 by youmoukh         ###   ########.fr       */
+/*   Updated: 2024/11/03 18:59:04 by youmoukh         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -62,10 +62,10 @@ TargetGenerator::TargetGenerator()
 void TargetGenerator::forgetSpell(std::string const & str )
 {
 	std::map<std::string, ASpell * >::iterator it = MAP.find(str);
-	if (it != MAP.end())
+	if (it != Tar.end())
 	{
 		delete it->second;
-		MAP.erase(it);
+		Tar.erase(it);
 	}
 }
 
@@ -73,14 +73,14 @@ void TargetGenerator::forgetSpell(std::string const & str )
 		{
 			ASpell * t = 0;
 
-			if (MAP.find(str) != MAP.end())
-				t = MAP[str];
+			if (Tar.find(str) != Tar.end())
+				t = Tar[str];
 			return (t);
 		}
 
 
 TargetGenerator& TargetGenerator::operator=(const TargetGenerator& origine)
 {
-	MAP = origine._MAP;
+	Tar = origine._Tar;
 	return *this;
 }
