@@ -1,7 +1,8 @@
 
 #pragma once 
 
-#include <ios
+#include <iostream>
+
 class Warlock
 {
 private:
@@ -11,6 +12,7 @@ private:
 public:
 	Warlock(/* args */);
 	~Warlock();
+	
 };
 
 Warlock::Warlock(/* args */)
