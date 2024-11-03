@@ -49,7 +49,7 @@ void	Warlock::forgetSpell(std::string spell)
 {
 	if (MAP.find(spell->getName()) != MAP.end())
 	{
-		delete spell.getName();
-		MAP.erase(MAP.find(spell))
+		delete M.getName();
+		MAP.erase(MAP.find(spell));
 	}
 }
