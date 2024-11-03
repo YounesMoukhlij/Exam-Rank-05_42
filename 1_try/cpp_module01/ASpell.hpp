@@ -34,7 +34,7 @@ ASpell::ASpell(const std::string& name, const std::string& effects) : _name(name
 
 }
 
-ASpell::!ASpell(const std::string& name, const std::string& effects) : _name(name), _effects(effects)
+ASpell::~ASpell()
 {
 
 }
