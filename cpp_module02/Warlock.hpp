@@ -6,7 +6,7 @@
 /*   By: youmoukh <youmoukh@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/03 17:40:15 by youmoukh          #+#    #+#             */
-/*   Updated: 2024/11/03 18:53:27 by youmoukh         ###   ########.fr       */
+/*   Updated: 2024/11/03 18:53:30 by youmoukh         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,7 +27,7 @@ class SpellBook;
 class Warlock
 {
 	private:
-		SpellBook spell
+		SpellBook spellbook;
 		std::map <std::string, ASpell *> MAP; 
 		std::string _name;
 		std::string _title;
