@@ -11,11 +11,11 @@ class ASpell
 		ASpell(const std::string& name, const std::string& effects);
 
 		ASpell& operator=(const ASpell& origine);
-		AS
+		ASpell(const ASpell& origine);
 
 		const std::string&	getName() const;
 		const std::string&	getTitle() const;
 
 		virtual ~ASpell();
-		ASpell* virtual clone() const = 0;
+		ASpell* virtual clone() = 0 const ;
 };
