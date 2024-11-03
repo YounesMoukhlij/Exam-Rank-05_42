@@ -30,7 +30,7 @@ void SpellBook::learnSpell(ASpell* spell)
 {
 	if (spell)
 	{
-		MAP[spell->getName()] = spell->clone;
+		MAP[spell->getName()] = spell->clone();
 	}
 }
 
