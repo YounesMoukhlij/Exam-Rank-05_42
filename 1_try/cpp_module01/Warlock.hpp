@@ -6,7 +6,7 @@
 class Warlock
 {
 	private:
-	std
+		std::map<std::s
 		std::string _name;
 		std::string _title;
 		Warlock& operator=(const Warlock& origine);
