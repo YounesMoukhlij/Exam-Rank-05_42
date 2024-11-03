@@ -39,8 +39,9 @@ SpellBook::~SpellBook()
 }
 SpellBook::SpellBook(const SpellBook& origine)
 {
-	this
+	this = &origine;
 }
+
 SpellBook::SpellBook()
 {
 
