@@ -55,3 +55,5 @@ void SpellBook::forgetSpell(std::string const & str )
 			return (t);
 		}
 
+
+SpellBook
