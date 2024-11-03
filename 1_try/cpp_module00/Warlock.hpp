@@ -9,11 +9,12 @@ private:
 	std::string _name;
 	std::string _title;
 	Warlock& operator=(const Warlock& origine);
-	Warlock(const std::string& name, const std::string& title);
-	Warlock()
+	Warlock();
+	Warlock();
 
 public:
 
+	Warlock(const std::string& name, const std::string& title);
 	~Warlock();
 
 	std::string& getName() const;
