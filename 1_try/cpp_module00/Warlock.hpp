@@ -32,7 +32,7 @@ Warlock::Warlock(const std::string& name, const std::string& title) : _name(name
 
 Warlock::~Warlock()
 {
-	std::s
+	std::cout << <NAME>: My job here is done! << std::
 }
 
 std::string& getName() const
