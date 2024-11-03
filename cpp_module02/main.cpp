@@ -6,6 +6,7 @@
 #include "TargetGenerator.hpp"
 #include "ATarget.hpp"
 #include "BrickWall.hpp"
+#include "Polymorph.hpp"
 
 
 int main()
