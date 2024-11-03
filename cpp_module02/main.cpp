@@ -2,7 +2,9 @@
 
 #include "Warlock.hpp"
 #include "ASpell.hpp"
-#include "SpellB"
+#include "SpellBook.hpp"
+#include "SpellBook.hpp"
+
 
 int main()
 {
