@@ -12,7 +12,8 @@ private:
 public:
 	Warlock(/* args */);
 	~Warlock();
-	
+
+	std::stringgetName()
 };
 
 Warlock::Warlock(/* args */)
