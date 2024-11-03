@@ -53,3 +53,5 @@ void	Warlock::forgetSpell(std::string spell)
 		MAP.erase(MAP.find(spell));
 	}
 }
+
+void	WarlocK::
