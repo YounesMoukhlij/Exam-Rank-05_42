@@ -28,6 +28,6 @@ void SpellBook::learnSpell(ASpell* spell)
 {
 	if (spell)
 	{
-		MAP[spell->get]
+		MAP[spell->getName()] = spell->clone;
 	}
 }
