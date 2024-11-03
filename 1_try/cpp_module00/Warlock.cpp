@@ -35,10 +35,7 @@ void Warlock::introduce() const
 
 Warlock& Warlock::operator=(const Warlock& origine)
 {
-	if (this != &origine)
-	{
 		_name = origine._name;
 		_title = origine._title;
-	}
 	return *this;
 }
