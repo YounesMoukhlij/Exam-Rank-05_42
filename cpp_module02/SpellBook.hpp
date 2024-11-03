@@ -39,6 +39,7 @@ void SpellBook::forgetSpell(std::string const & str )
 	std::map<std::string, ASpell * >::iterator it = MAP.find(str);
 	if (it != MAP.end())
 	{
-		MAP.erase(st);
+		delete it->second;
+		MAP.erase(it);
 	}
 }
