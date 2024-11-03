@@ -6,5 +6,8 @@
 
 class Dummy : public ATarget
 {
-	
-}
+		Fwoosh();
+	~Fwoosh();
+
+	ASpell* clone ();
+};
