@@ -11,7 +11,7 @@ private:
 
 public:
 
-	Warlock& operator=(const Warlock& w)
+	Warlock& operator=(const Warlock& origine);
 	Warlock(const std::string& name, const std::string& title);
 	~Warlock();
 
