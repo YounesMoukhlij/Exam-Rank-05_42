@@ -1,5 +1,6 @@
 
 
+#pr
 #include <iostream>
 
 class ASpell
@@ -19,7 +20,7 @@ class ASpell
 		virtual ~ASpell();
 		ASpell* virtual clone() const = 0 ;
 
-		launch(const ATarget& ta)
+		void launch(const ATarget& target) const;
 };
 
 
