@@ -3,4 +3,7 @@
 
 #include <iostream>
 
-class
+class ATarget
+{
+	
+};
