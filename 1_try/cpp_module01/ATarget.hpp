@@ -13,9 +13,12 @@ class ATarget
 		ATarget(const ATarget& origine);
 
 		ATarget& operator=(const ATarget& origine);
-		const std::string&	g() const;
-		const std::string&	getTitle() const;
+
+		const std::string&	getType() const;
 
 		virtual ~ATarget();
 		ATarget* virtual clone() const = 0 ;
+
+
+		getHitBySpell() const 
 };
