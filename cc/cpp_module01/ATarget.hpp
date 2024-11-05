@@ -2,4 +2,9 @@
 
 #pragma once
 
-#incl
+#include <iostream>
+
+class ATarget
+{
+
+};
