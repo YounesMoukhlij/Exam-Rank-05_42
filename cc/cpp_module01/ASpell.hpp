@@ -13,7 +13,9 @@ class ASpell
 	public:
 		~ASpell();
 		ASpell(const std::string& name, const std::string& effects);
-		ASpell(const std::string& name, const std::string& effects);
+		ASpell(const ASpell& origine);
 
 		ASpell& operator=(const ASpell& origine);
+
+		const std::string& 
 };
