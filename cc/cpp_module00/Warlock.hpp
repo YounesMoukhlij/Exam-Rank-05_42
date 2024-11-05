@@ -38,5 +38,9 @@ Warlock::Warlock(const Warlock& origine)
 		Warlock& Warlock::operator=(const Warlock& origine)
 		{
 			_name = origine._name;
-			_name = origine._name;
+			_title = origine._title;
+			return *this;
 		}
+
+
+		~Warlock();
