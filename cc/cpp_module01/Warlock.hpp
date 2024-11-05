@@ -40,7 +40,10 @@ class Warlock
 		}
 		void Warlock::forgetSpell(std::string spell)
 		{
-			
+
 		}
-		void Warlock::launchSpell(std::string spell, const ATarget& target);
+		void Warlock::launchSpell(std::string spell, const ATarget& target)
+		{
+			MAP
+		}
 
