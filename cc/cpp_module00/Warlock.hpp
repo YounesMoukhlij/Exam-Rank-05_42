@@ -45,5 +45,5 @@ Warlock::Warlock(const Warlock& origine)
 
 		Warlock::~Warlock()
 		{
-			std::cout << _name <,
+			std::cout << _name << ": My job here is done!" << std::endl
 		}
