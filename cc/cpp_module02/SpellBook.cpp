@@ -25,7 +25,7 @@
 
 			if (MAP.find(spell) != MAP.end())
 			{
-				u = 
+				u = MAP[se]
 			}
 		}
 
