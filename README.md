@@ -1,7 +1,7 @@
 # Exam Details
 3 Exercies in C++
 
-:one: ***Warlock Class*** :: [Subject Text](ttps://github.com/YounesMoukhlij/Exam-Rank-05_42/tree/main/cpp_module00/subject.txt)
+:one: ***Warlock Class*** :: [Subject Text](https://github.com/YounesMoukhlij/Exam-Rank-05_42/tree/main/cpp_module00/subject.txt)
 
 <br>
 
@@ -23,7 +23,7 @@ By the end, you'll have a better grasp of managing object lifecycles, enforcing 
 
 <br>
 
-:two: ***Aspell, Atarget, Dummy and Fwoosh*** - [Subject Text](ttps://github.com/YounesMoukhlij/Exam-Rank-05_42/tree/main/cpp_module01/subject.txt)
+:two: ***Aspell, Atarget, Dummy and Fwoosh*** - [Subject Text](https://github.com/YounesMoukhlij/Exam-Rank-05_42/tree/main/cpp_module01/subject.txt)
 
 <br>
 
