@@ -52,3 +52,10 @@ void Warlock::introduce() const
 {
 	std::cout << _name << ": I am "<< _name ", "<< _title << "!" << std::endl;
 }
+
+		const std::string& getName() const
+		{
+
+		}
+		const std::string& getTitle() const
+		}
