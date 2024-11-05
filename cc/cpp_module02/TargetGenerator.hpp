@@ -22,8 +22,7 @@ class TargetGenerator
 
 
 
-
-		void forgetSpell(std::string& spell);
+		void learnTargetType(ATarget*);
 		ASpell* createSpell(std::string& spell);
 
 
