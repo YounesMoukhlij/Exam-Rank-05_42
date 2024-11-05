@@ -2,7 +2,7 @@
 
 Warlock::Warlock(const Warlock& origine)
 {
-	this = &origine;
+	*this = &origine;
 }
 
 
