@@ -13,7 +13,7 @@ class Fwoosh
 
 ASpell* Fwoosh::clone () const
 {
-	return n
+	return new Fwoosh();
 }
 
 Fwoosh::Fwoosh() : ASpell("Fwoosh", "Fwooshed")
