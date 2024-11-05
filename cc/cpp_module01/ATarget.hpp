@@ -6,5 +6,6 @@
 
 class ATarget
 {
-	p
+	protected:
+		std::string _type;
 };
