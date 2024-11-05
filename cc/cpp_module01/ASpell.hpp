@@ -17,5 +17,6 @@ class ASpell
 
 		ASpell& operator=(const ASpell& origine);
 
-		const std::string& 
+		const std::string& getName() const;
+		c
 };
