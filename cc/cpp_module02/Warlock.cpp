@@ -56,5 +56,5 @@ void Warlock::introduce() const
 		}
 		void Warlock::launchSpell(std::string spell, const ATarget& target)
 		{
-			MAP.createSpell()
+			MAP.createSpell(spell, target);
 		}

@@ -55,7 +55,7 @@ class SpellBook
 				MAP.erase(MAP.find(spell));
 			}
 		}
-		void Warlock::launchSpell(std::string spell, const ATarget& target)
+		void Warlock::createSpell(std::string spell, const ATarget& target)
 		{
 			if (MAP.find(spell) != MAP.end())
 				MAP[spell]->launch(target);
