@@ -33,10 +33,6 @@ class TargetGenerator
 		{
 			if (target)
 			{
-				if (MAP.find(target->getName()) == MAP.end())
-				{
-					MAP[target->getName()] = target->clone();
-				}
 			}
 		}
 
