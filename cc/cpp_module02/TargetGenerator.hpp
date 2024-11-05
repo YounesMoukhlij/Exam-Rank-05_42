@@ -48,7 +48,7 @@ class TargetGenerator
 				MAP.erase(MAP.find(spell));
 			}
 		}
-		ASpell* TargetGenerator::createSpell(std::string& spell)
+		ASpell* TargetGenerator::createTarget(std::string& spell)
 		{
 			ASpell *u;
 
