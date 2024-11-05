@@ -25,8 +25,9 @@
 
 			if (MAP.find(spell) != MAP.end())
 			{
-				u = MAP[se]
+				u = MAP[spell];
 			}
+			return u;
 		}
 
 		SpellBook::SpellBook(const SpellBook& origine)
