@@ -48,4 +48,7 @@ Warlock::Warlock(const Warlock& origine)
 			std::cout << _name << ": My job here is done!" << std::endl;
 		}
 
-void 
+void Warlock::introduce() const
+{
+	std::cout <<
+}
