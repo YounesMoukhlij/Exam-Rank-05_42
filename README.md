@@ -1,7 +1,7 @@
 # Exam Details
 
 
-_*==> 3 Exercices in C++<*_
+_*==> 3 Exercices in C++<==*_
 
 :one: ***Warlock Class*** :: [Subject Text](https://github.com/YounesMoukhlij/Exam-Rank-05_42/tree/main/cpp_module00/subject.txt)
 
