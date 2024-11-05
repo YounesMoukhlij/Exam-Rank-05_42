@@ -60,7 +60,7 @@ By completing this exercise, you will improve your skills in designing systems t
 
 <br>
 
-
+This exercise focuses on building a spell-casting system using C++ classes, emphasizing polymorphism, encapsulation, and resource management. You’ll create a `Warlock` who uses spells (`Fireball`, `Polymorph`, and `Fwoosh`) and casts them on targets like `BrickWall`. You'll also implement a `SpellBook` to manage learned spells and a `TargetGenerator` to manage target types, both with functions for adding, removing, and creating spells and targets. The exercise forbids using `switch` statements, encouraging a design that leverages object-oriented principles for flexibility and extendibility.
 
 <br>
 
