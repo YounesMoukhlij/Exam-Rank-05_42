@@ -2,6 +2,8 @@
 
 #include "ASpell.hpp"
 
+
+class ASpe
 class Fwoosh : public ASpell
 {
 	public:
