@@ -4,7 +4,7 @@
 #pragma once 
 
 #include <iostream>
-#include ""
+#include "ATarget"
 
 class ASpell
 {
