@@ -10,8 +10,6 @@
 class SpellBook
 {
 	private : 
-		std::string _name;
-		std::string _title;
 		SpellBook(const SpellBook& origine);
 		SpellBook& operator=(const SpellBook& origine);
 		SpellBook();
@@ -23,8 +21,6 @@ class SpellBook
 		const std::string& getName() const;
 		const std::string& getTitle() const;
 
-		void	setTitle(const std::string& title);
-		void	introduce() const;
 
 
 
