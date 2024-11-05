@@ -3,7 +3,8 @@
 #include "ASpell.hpp"
 
 
-class ASpe
+class ASpell;
+
 class Fwoosh : public ASpell
 {
 	public:
