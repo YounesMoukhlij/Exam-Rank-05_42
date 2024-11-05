@@ -52,10 +52,9 @@ void Warlock::introduce() const
 		}
 		void Warlock::forgetSpell(std::string spell)
 		{
-			MAP.
+			MAP.forgetSpell(spell);
 		}
 		void Warlock::launchSpell(std::string spell, const ATarget& target)
 		{
-			if (MAP.find(spell) != MAP.end())
-				MAP[spell]->launch(target);
+			
 		}
