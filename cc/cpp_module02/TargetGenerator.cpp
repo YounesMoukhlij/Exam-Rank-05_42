@@ -13,7 +13,7 @@
 		{
 			if (MAP.find(target) != MAP.end())
 			{
-				MAP.erase(find(target));
+				MAP.erase(MAP.find(target));
 			}
 		}
 		ATarget* TargetGenerator::createTarget(std::string& target)
