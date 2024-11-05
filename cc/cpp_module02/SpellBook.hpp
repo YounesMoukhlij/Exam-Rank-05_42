@@ -23,7 +23,7 @@ class SpellBook
 
 
 
-		void learnSpell(ASpell*);
+		void learnSpell(ASpell* spell);
 		void forgetSpell(std::string& spell);
 		ASpell* createSpell(std::string& spell);
 
