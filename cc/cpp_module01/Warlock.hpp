@@ -26,9 +26,9 @@ class Warlock
 
 
 
-		learnSpell(ASpell*);
-		forgetSpell(std::string sp)
-		launchSpell
+		void learnSpell(ASpell*);
+		void forgetSpell(std::string spell);
+		void launchSpell();
 
 
 
