@@ -48,7 +48,7 @@ class TargetGenerator
 				MAP.erase(MAP.find(target));
 			}
 		}
-		Atarget* TargetGenerator::createTarget(std::string& target)
+		A* TargetGenerator::createTarget(std::string& target)
 		{
 			Atarget *u;
 
