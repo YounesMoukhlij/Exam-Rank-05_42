@@ -24,7 +24,14 @@ class Warlock
 		void	setTitle(const std::string& title);
 		void	introduce() const;
 
+
+
+		learnSpell
+		forgetSpell
 		
+
+
+
 };
 
 
