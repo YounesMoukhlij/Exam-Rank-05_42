@@ -7,15 +7,15 @@
 
 class ASpell;
 
-class SpellBook
+class TargetGenerator
 {
 	private : 
-		SpellBook(const SpellBook& origine);
-		SpellBook& operator=(const SpellBook& origine);
-		SpellBook();
+		TargetGenerator(const TargetGenerator& origine);
+		TargetGenerator& operator=(const TargetGenerator& origine);
+		TargetGenerator();
 		std::map<std::string, ASpell *> MAP;
 	public:
-		~SpellBook();
+		~TargetGenerator();
 
 
 
