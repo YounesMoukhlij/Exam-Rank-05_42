@@ -30,4 +30,7 @@ Warlock::Warlock(const Warlock& origine)
 }
 
 
-		Warlock(const std::string& name, const std::string& title);
+		Warlock::Warlock(const std::string& name, const std::string& title)
+		{
+			
+		}
