@@ -37,5 +37,6 @@ Warlock::Warlock(const Warlock& origine)
 
 		Warlock& Warlock::operator=(const Warlock& origine)
 		{
-			_name
+			_name = origine._name;
+			_name = origine._name;
 		}
