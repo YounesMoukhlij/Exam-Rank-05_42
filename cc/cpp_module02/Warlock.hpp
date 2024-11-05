@@ -30,7 +30,7 @@ class Warlock
 
 		void learnSpell(ASpell*);
 		void forgetSpell(const std::string& spell);
-		void Warlock::launchSpell(std::string spell, const ATarget& target)
+		void launchSpell(std::string spell, const ATarget& target);
 
 
 

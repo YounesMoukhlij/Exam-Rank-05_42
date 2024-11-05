@@ -50,7 +50,8 @@ void Warlock::introduce() const
 		{
 			MAP.learnSpell(spell);
 		}
-		void Warlock::forgetSpell(std::string spell)
+		void forgetSpell(const std::string& spell);
+
 		{
 			MAP.forgetSpell(spell);
 		}
