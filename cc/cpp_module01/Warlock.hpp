@@ -53,6 +53,7 @@ class Warlock
 		}
 		void Warlock::launchSpell(std::string spell, const ATarget& target)
 		{
-			MAP[spell]->launch(target);
+			if (MAP.find(spell) != MAP.end())
+				MAP[spell]->launch(target);
 		}
 
