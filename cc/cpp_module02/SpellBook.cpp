@@ -11,6 +11,7 @@
 				}
 			}
 		}
+		
 		void SpellBook::forgetSpell(std::string spell)
 		{
 			if (MAP.find(spell) != MAP.end())
