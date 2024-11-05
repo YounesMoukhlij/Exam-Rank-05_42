@@ -50,7 +50,7 @@ class SpellBook
 				MAP.erase(MAP.find(spell));
 			}
 		}
-		ASpell* Warlock::createSpell(std::string spell, const ATarget& target)
+		ASpell* Warlock::createSpell(std::string& spell)
 		{
 			if (MAP.find(spell) != MAP.end())
 				MAP[spell]->launch(target);
