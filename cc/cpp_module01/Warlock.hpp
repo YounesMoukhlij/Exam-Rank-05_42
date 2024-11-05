@@ -3,7 +3,7 @@
 #pragma once
 
 #include <iostream>
-#include <iostream>
+#include <map>
 
 class Warlock
 {
@@ -13,6 +13,7 @@ class Warlock
 		Warlock(const Warlock& origine);
 		Warlock& operator=(const Warlock& origine);
 		Warlock();
+		std::map<std::string, 
 	public:
 		~Warlock();
 		Warlock(const std::string& name, const std::string& title);
