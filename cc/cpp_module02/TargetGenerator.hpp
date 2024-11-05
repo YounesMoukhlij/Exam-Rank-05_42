@@ -33,7 +33,7 @@ class TargetGenerator
 		{
 			if (target)
 			{
-				MAP[target->getType()] = 
+				MAP[target->getType()] = t
 			}
 		}
 
