@@ -7,5 +7,7 @@
 
 class ASpell
 {
-
-}:
+	private:
+		std::string _
+	public:
+};
