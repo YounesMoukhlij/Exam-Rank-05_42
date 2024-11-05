@@ -46,7 +46,10 @@ class Warlock
 		}
 		void Warlock::forgetSpell(std::string spell)
 		{
-			if (MAP.find())
+			if (MAP.find(spell) != MAP.end())
+			{
+				
+			}
 		}
 		void Warlock::launchSpell(std::string spell, const ATarget& target)
 		{
