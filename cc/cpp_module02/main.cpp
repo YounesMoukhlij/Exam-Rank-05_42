@@ -1,7 +1,7 @@
 #include "SpellBook.hpp"
 #include "Warlock.hpp"
-#include "SpellBook.hpp"
-#include "SpellBook.hpp"
+#include "Polymorph.hpp"
+#include "TargetGenerator.hpp"
 #include "SpellBook.hpp"
 #include "SpellBook.hpp"
 
