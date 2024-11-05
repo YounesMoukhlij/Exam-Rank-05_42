@@ -10,4 +10,4 @@ class Fwoosh
 		ASpell* clone () const;
 };
 
-Fwoosh::Fwoosh() : Aspell()
+Fwoosh::Fwoosh() : Aspell("Fwoosh", "Fwooshed")
