@@ -3,7 +3,7 @@
 
 #include "BrickWall.hpp"
 
-ATar* BrickWall::clone () const
+ATarget* BrickWall::clone () const
 {
 	return new BrickWall();
 }
