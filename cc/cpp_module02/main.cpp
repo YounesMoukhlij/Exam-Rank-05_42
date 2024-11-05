@@ -2,7 +2,7 @@
 #include "Warlock.hpp"
 #include "Polymorph.hpp"
 #include "TargetGenerator.hpp"
-#include "SpellBook.hpp"
+#include "Fireball.hpp"
 #include "SpellBook.hpp"
 
 
