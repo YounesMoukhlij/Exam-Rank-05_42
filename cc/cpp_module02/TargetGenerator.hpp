@@ -41,7 +41,7 @@ class TargetGenerator
 		{
 			if (MAP.find(target) != MAP.end())
 			{
-				
+				MAP.erase(find(target));
 			}
 		}
 		ATarget* TargetGenerator::createTarget(std::string& target)
