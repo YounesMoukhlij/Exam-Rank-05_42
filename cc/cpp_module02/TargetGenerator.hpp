@@ -33,6 +33,7 @@ class TargetGenerator
 		{
 			if (target)
 			{
+				MAP.
 			}
 		}
 
