@@ -1,8 +1,8 @@
 #pragma once 
 
-#include "AT.hpp"
+#include "ATarget.hpp"
 
-class Fwoosh
+class Fwoosh : public ATa
 {
 	public:
 		Fwoosh();
