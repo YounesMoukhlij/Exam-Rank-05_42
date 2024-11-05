@@ -59,5 +59,5 @@ void Warlock::introduce() const
 		}
 		const std::string& Warlock::getTitle() const
 		{
-			return _name;
+			return _title;
 		}
