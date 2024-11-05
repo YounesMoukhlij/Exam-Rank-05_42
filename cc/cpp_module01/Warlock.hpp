@@ -48,7 +48,7 @@ class Warlock
 		{
 			if (MAP.find(spell) != MAP.end())
 			{
-				delete 
+
 				MAP.erase(MAP.find(spell));
 			}
 		}
