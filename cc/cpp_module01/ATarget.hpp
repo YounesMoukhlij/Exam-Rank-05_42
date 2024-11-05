@@ -12,14 +12,14 @@ class ATarget
 		std::string _type;
 	public:
 		void getHitBySpell(const ASpell* spell);
-		ASpell(const std::string& type);
-		ASpell(const ASpell& origine);
+		ATarget(const std::string& type);
+		ATarget(const ATarget& origine);
 
-		ASpell& operator=(const ASpell& origine);
+		ATarget& operator=(const ATarget& origine);
 
 		const std::string& getName() const;
 		const std::string& getEffects() const;
 
-		virtual ~ASpell();
-		virtual	ASpell* clone () const = 0;
+		virtual ~ATarget();
+		virtual	ATarget* clone () const = 0;
 };
