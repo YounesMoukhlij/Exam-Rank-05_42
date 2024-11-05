@@ -1,10 +1,9 @@
 #pragma once 
 
-#include "ASpell.h"
+#include "ASpell.hpp"
 
 class ASpell
 {
-	protected:
 		std::string _name;
 		std::string _effects;
 	public:
