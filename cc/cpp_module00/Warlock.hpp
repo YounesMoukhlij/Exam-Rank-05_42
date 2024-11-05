@@ -15,5 +15,6 @@ class Warlock
 		Warlock(const Warlock& origine);
 		operator=(const Warlock& origine);
 
-		const std::sr
+		const std::string& getName() const;
+		const std::string& getNamTitle() const;
 };
