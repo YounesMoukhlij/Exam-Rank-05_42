@@ -10,7 +10,7 @@ class Warlock
 		std::string _name;
 		std::string _title;
 		Warlock(const Warlock& origine);
-		operator=(const Warlock& origine);
+		Warlock& operator=(const Warlock& origine);
 		Warlock();
 	public:
 		~Warlock();
@@ -30,7 +30,7 @@ Warlock::Warlock(const Warlock& origine)
 }
 
 
-		Warlock::Warlock(const std::string& name, const std::string& title)
+		Warlock::Warlock(const std::string& name, const std::string& title) : _name(name)
 		{
 			std::cout << _name << ": This looks like another boring day." << std::endl;
 		}
