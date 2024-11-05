@@ -43,4 +43,7 @@ Warlock::Warlock(const Warlock& origine)
 		}
 
 
-		~Warlock();
+		Warlock::~Warlock()
+		{
+			std::cout << _name <,
+		}
