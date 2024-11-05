@@ -16,7 +16,7 @@ ASpell* Dummy::clone () const
 	return new Dummy();
 }
 
-Dummy::Dummy() : ASpell("Dummy", "Dummyed")
+Dummy::Dummy() : ATarget("Target Practice Dummy")
 {
 
 }
