@@ -50,5 +50,5 @@ Warlock::Warlock(const Warlock& origine)
 
 void Warlock::introduce() const
 {
-	std::cout << _name << ": I am "<< _name ", "<TITLE>"!"
+	std::cout << _name << ": I am "<< _name ", "<< _title << "!" << std::end
 }
