@@ -53,7 +53,7 @@ void Warlock::introduce() const
 
 
 
-		void Warlock::forgetSpell(const std::string spell) 
+		void Warlock::forgetSpell( std::string spell) 
 		{
 			MAP.forgetSpell(spell);
 		}
