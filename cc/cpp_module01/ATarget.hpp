@@ -2,7 +2,7 @@
 
 #pragma once
 
-#include "ASpell.hpp"
+#include "ATarget.hpp"
 
 
 
@@ -11,7 +11,7 @@ class ATarget
 	protected:
 		std::string _type;
 	public:
-		void getHitBySpell(const ASpell* spell);
+		void getHitBySpell(const ATarget* spell);
 
 		ATarget(const std::string& type);
 		ATarget(const ATarget& origine);
@@ -25,20 +25,20 @@ class ATarget
 };
 
 
-#include "ASpell.hpp"
+#include "ATarget.hpp"
 
-ASpell::ASpell(const ASpell& origine)
+ATarget::ATarget(const ATarget& origine)
 {
 	*this = origine;
 }
 
 
-		ASpell::ASpell(const std::string& name, const std::string& effects) : _name(name), _effects(effects)
+		ATarget::ATarget(const std::string& name, const std::string& effects) : _name(name), _effects(effects)
 		{
 
 		}
 
-		ASpell& ASpell::operator=(const ASpell& origine)
+		ATarget& ATarget::operator=(const ATarget& origine)
 		{
 			_name = origine._name;
 			_effects = origine._effects;
@@ -46,18 +46,14 @@ ASpell::ASpell(const ASpell& origine)
 		}
 
 
-		ASpell::~ASpell()
+		ATarget::~ATarget()
 		{
 
 		}
 
 
 
-		const std::string& ASpell::getName() const
+		const std::string& ATarget::getType() const
 		{
-			return _name;
-		}
-		const std::string& ASpell::getEffects() const
-		{
-			return _effects;
+			return _type;
 		}
