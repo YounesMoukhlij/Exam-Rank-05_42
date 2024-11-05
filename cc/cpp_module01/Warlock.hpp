@@ -26,9 +26,9 @@ class Warlock
 
 
 
-		learnSpell
+		learnSpell(ASpell* )
 		forgetSpell
-		
+		launchSpell
 
 
 
