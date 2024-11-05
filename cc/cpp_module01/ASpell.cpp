@@ -36,3 +36,4 @@ ASpell::ASpell(const ASpell& origine)
 			return _effects;
 		}
 
+	
