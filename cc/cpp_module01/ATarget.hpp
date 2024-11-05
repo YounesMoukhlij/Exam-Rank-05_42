@@ -59,5 +59,5 @@ ATarget::ATarget(const ATarget& origine)
 
 		void ATarget::getHitBySpell(const ASpell* spell)
 		{
-			
+			std::cout << <TYPE> has been <EFFECTS>"!" << std::endl;
 		}
