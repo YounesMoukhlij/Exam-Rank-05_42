@@ -23,14 +23,14 @@ class TargetGenerator
 
 
 		void learnTargetType(ATarget*);
-		void forgetTargetType(sstring const &);
-		ATarget* createTarget(string const &)
+		void forgetTargetType(std::string const &);
+		ATarget* createTarget(std::string const &)
 
 
 };
 
 
-		void TargetGenerator::learnSpell(ASpell* spell)
+		void TargetGenerator::learnTargetType(ASpell* spell)
 		{
 			if (spell)
 			{
