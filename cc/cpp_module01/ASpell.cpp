@@ -36,4 +36,7 @@ ASpell::ASpell(const ASpell& origine)
 			return _effects;
 		}
 
-	void  ASpell::launch(const ATarget& tae)
+	void  ASpell::launch(const ATarget& target)
+	{
+		
+	}
