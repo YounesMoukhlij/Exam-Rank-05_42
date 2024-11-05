@@ -12,5 +12,5 @@ class ASpell
 		std::string _effects;
 	public:
 		~ASpell();
-		ASpell(const std::string& );
+		ASpell(const std::string& name, const std::string& );
 };
