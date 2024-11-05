@@ -12,9 +12,9 @@ class TargetGenerator
 	private : 
 		TargetGenerator(const TargetGenerator& origine);
 		TargetGenerator& operator=(const TargetGenerator& origine);
-		TargetGenerator();
 		std::map<std::string, ATarget *> MAP;
 	public:
+		TargetGenerator();
 		~TargetGenerator();
 
 
