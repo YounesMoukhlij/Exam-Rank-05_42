@@ -6,5 +6,5 @@
 
 class ATarget
 {
-
+	p
 };
