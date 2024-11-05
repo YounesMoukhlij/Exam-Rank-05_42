@@ -65,13 +65,12 @@ class SpellBook
 
 		SpellBook& SpellBook::operator=(const SpellBook& origine)
 		{
-			_ = origine._name;
-			_title = origine._title;
+			MAP = origine.MAP;
 			return *this;
 		}
 
 
 		SpellBook::~SpellBook()
 		{
-			std::cout << _name << ": My job here is done!" << std::endl;
+
 		}
