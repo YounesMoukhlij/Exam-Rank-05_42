@@ -37,4 +37,7 @@ void Warlock::introduce() const
 		{
 			return _title;
 		}
-		
+
+
+
+		void	Warlock::setTitle() const
