@@ -7,6 +7,7 @@
 #include "ASpell.hpp"
 #include "ATarget.hpp"
 
+class ASpell;
 
 class SpellBook
 {
