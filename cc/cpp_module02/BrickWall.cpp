@@ -1,19 +1,19 @@
 
 
 
-#include "Fwoosh.hpp"
+#include "BrickWall.hpp"
 
-ASpell* Fwoosh::clone () const
+ASpell* BrickWall::clone () const
 {
-	return new Fwoosh();
+	return new BrickWall();
 }
 
-Fwoosh::Fwoosh() : ASpell("Fwoosh", "fwooshed")
+BrickWall::BrickWall() : ATarget("BrickWall", "BrickWalled")
 {
 
 }
 
-Fwoosh::~Fwoosh()
+BrickWall::~BrickWall()
 {
 
 }
