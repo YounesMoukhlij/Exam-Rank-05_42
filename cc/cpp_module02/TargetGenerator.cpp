@@ -18,7 +18,7 @@
 		}
 		ATarget* TargetGenerator::createTarget(std::string& target)
 		{
-			ATarget *u;
+			ATarget *u = 0;
 
 			if (MAP.find(target) != MAP.end())
 			{
