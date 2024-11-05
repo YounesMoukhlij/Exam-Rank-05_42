@@ -1,20 +1,20 @@
 #pragma once 
 
-#include "ASpell.hpp"
+#include "Fwoosh.hpp"
 
-class ASpell
+class Fwoosh
 {
 		std::string _name;
 		std::string _effects;
 	public:
-		ASpell(const std::string& name, const std::string& effects);
-		ASpell(const ASpell& origine);
+		Fwoosh(const std::string& name, const std::string& effects);
+		Fwoosh(const Fwoosh& origine);
 
-		ASpell& operator=(const ASpell& origine);
+		Fwoosh& operator=(const Fwoosh& origine);
 
 		const std::string& getName() const;
 		const std::string& getEffects() const;
 
-		virtual ~ASpell();
-		virtual	ASpell* clone () const = 0;
+		 ~Fwoosh();
+			Fwoosh* clone () const = 0;
 };
