@@ -20,5 +20,5 @@ class ASpell
 		const std::string& getEffects() const;
 
 		virtual ~ASpell();
-		
+		virtu
 };
