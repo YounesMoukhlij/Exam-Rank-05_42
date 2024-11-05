@@ -33,7 +33,7 @@ class SpellBook
 
 
 
-		void Warlock::learnSpell(ASpell* spell)
+		void SpellBook::learnSpell(ASpell* spell)
 		{
 			if (spell)
 			{
@@ -43,31 +43,31 @@ class SpellBook
 				}
 			}
 		}
-		void Warlock::forgetSpell(std::string spell)
+		void SpellBook::forgetSpell(std::string spell)
 		{
 			if (MAP.find(spell) != MAP.end())
 			{
 				MAP.erase(MAP.find(spell));
 			}
 		}
-		ASpell* Warlock::createSpell(std::string& spell)
+		ASpell* SpellBook::createSpell(std::string& spell)
 		{
 			if (MAP.find(spell) != MAP.end())
 				MAP[spell]->launch(target);
 		}
 
-		Warlock::Warlock(const Warlock& origine)
+		SpellBook::SpellBook(const SpellBook& origine)
 {
 	*this = origine;
 }
 
 
-		Warlock::Warlock(const std::string& name, const std::string& title) : _name(name), _title(title)
+		SpellBook::SpellBook(const std::string& name, const std::string& title) : _name(name), _title(title)
 		{
 			std::cout << _name << ": This looks like another boring day." << std::endl;
 		}
 
-		Warlock& Warlock::operator=(const Warlock& origine)
+		SpellBook& SpellBook::operator=(const SpellBook& origine)
 		{
 			_name = origine._name;
 			_title = origine._title;
@@ -75,7 +75,7 @@ class SpellBook
 		}
 
 
-		Warlock::~Warlock()
+		SpellBook::~SpellBook()
 		{
 			std::cout << _name << ": My job here is done!" << std::endl;
 		}
