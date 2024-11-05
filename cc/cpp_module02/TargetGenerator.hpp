@@ -23,8 +23,8 @@ class TargetGenerator
 
 
 		void learnTargetType(ATarget*);
-		ASpell* createSpell(std::string& spell);
-
+		void forgetTargetType(string const &);
+		ATarget* createTarget(string const &)
 
 
 };
