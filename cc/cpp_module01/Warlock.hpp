@@ -54,6 +54,6 @@ class Warlock
 		}
 		void Warlock::launchSpell(std::string spell, const ATarget& target)
 		{
-			MAP[spell] = target;
+			MAP[spell] = target.launch;
 		}
 
