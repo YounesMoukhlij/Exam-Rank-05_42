@@ -2,15 +2,15 @@
 
 #pragma once 
 
-#include "ATarget.hpp"
+#include "ASpell.hpp"
 
 
-class ATarget;
+class ASpell;
 
-class BrickWall : public ATarget
+class Fireball : public ASpell
 {
 	public:
-		BrickWall();
-		~BrickWall();
-		ATarget* clone () const;
+		Fireball();
+		~Fireball();
+		ASpell* clone () const;
 };
