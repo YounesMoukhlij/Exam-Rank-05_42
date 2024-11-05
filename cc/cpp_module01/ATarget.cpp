@@ -30,7 +30,7 @@ ATarget::ATarget(const ATarget& origine)
 			return _type;
 		}
 
-		void ATarget::getHitBySpell(const ASpell* spell)
+		void ATarget::getHitBySpell(const ASpell* spell) const
 		{
 			std::cout << _type << " has been "<< spell.getEffects() << "!" << std::endl;
 		}
