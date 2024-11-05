@@ -56,5 +56,6 @@ void Warlock::introduce() const
 		}
 		void Warlock::launchSpell(std::string spell, const ATarget& target)
 		{
-			iMAP.createSpell(spell);
+			if (MAP.createSpell(spell))
+				MAP.createSpell(spell)->launch(target);
 		}
