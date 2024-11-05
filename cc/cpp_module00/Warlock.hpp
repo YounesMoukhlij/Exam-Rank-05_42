@@ -24,4 +24,10 @@ class Warlock
 };
 
 
-		Warlock:Warlock(const Warlock& origine);
+Warlock::Warlock(const Warlock& origine)
+{
+	this = &origine;
+}
+
+
+		Warlock(const std::string& name, const std::string& title);
