@@ -7,11 +7,11 @@ class Dummy : public ATarget
 	public:
 		Dummy();
 		~Dummy();
-		ASpell* clone () const;
+		ATarget* clone () const;
 };
 
 
-ASpell* Dummy::clone () const
+ATarget* Dummy::clone () const
 {
 	return new Dummy();
 }
