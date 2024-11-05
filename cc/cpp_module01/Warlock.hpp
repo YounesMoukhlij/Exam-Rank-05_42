@@ -4,7 +4,8 @@
 
 #include <iostream>
 #include <map>
-#include ""
+#include "ASpell.hpp"
+#include "ATarget.hpp"
 
 class Warlock
 {
