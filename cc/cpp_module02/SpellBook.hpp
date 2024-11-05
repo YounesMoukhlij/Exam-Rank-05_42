@@ -7,6 +7,7 @@
 #include "ASpell.hpp"
 #include "ATarget.hpp"
 
+
 class SpellBook
 {
 	private : 
@@ -16,7 +17,6 @@ class SpellBook
 		std::map<std::string, ASpell *> MAP;
 	public:
 		~SpellBook();
-		SpellBook(const std::string& name, const std::string& title);
 
 
 
