@@ -34,9 +34,12 @@ class Warlock
 
 };
 
-		void Warlock::learnSpell(ASpell*)
+		void Warlock::learnSpell(ASpell* spell)
 		{
-			if ()
+			if (spell)
+			{
+				
+			}
 		}
 		void Warlock::forgetSpell(std::string spell)
 		{
