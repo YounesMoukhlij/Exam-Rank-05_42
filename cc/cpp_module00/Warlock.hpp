@@ -34,3 +34,8 @@ Warlock::Warlock(const Warlock& origine)
 		{
 			std::cout << _name << ": This looks like another boring day." << std::endl;
 		}
+
+		Warlock& Warlock::operator=(const Warlock& origine)
+		{
+			_name
+		}
