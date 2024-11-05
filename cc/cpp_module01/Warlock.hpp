@@ -40,13 +40,13 @@ class Warlock
 			{
 				if (MAP.find(spell->getName()) == MAP.end())
 				{
-					MAP[spell->getName()] = spell->cl
+					MAP[spell->getName()] = spell->clone();
 				}
 			}
 		}
 		void Warlock::forgetSpell(std::string spell)
 		{
-
+			if (M)
 		}
 		void Warlock::launchSpell(std::string spell, const ATarget& target)
 		{
