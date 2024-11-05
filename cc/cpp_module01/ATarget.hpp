@@ -2,7 +2,7 @@
 
 #pragma once
 
-#include "ATarget.hpp"
+#include "ASpell.hpp"
 
 
 
@@ -11,7 +11,7 @@ class ATarget
 	protected:
 		std::string _type;
 	public:
-		void getHitBySpell(const ATarget* spell);
+		void getHitBySpell(const ASpell* spell);
 
 		ATarget(const std::string& type);
 		ATarget(const ATarget& origine);
