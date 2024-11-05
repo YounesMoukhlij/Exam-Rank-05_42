@@ -9,14 +9,14 @@
 			}
 		}
 
-		void TargetGenerator::forgetTargetType(std::string& target)
+		void TargetGenerator::forgetTargetType(const std::string& target)
 		{
 			if (MAP.find(target) != MAP.end())
 			{
 				MAP.erase(MAP.find(target));
 			}
 		}
-		ATarget* TargetGenerator::createTarget(std::string& target)
+		ATarget* TargetGenerator::createTarget(const std::string& target)
 		{
 			ATarget *u = 0;
 
