@@ -9,5 +9,5 @@ class ATarget
 	protected:
 		std::string _type;
 	public:
-		getHitBySpell
+		getHitBySpell(const ASpell* )
 };
