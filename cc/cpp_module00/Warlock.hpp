@@ -32,5 +32,5 @@ Warlock::Warlock(const Warlock& origine)
 
 		Warlock::Warlock(const std::string& name, const std::string& title)
 		{
-			std::cout << _<NAME>: This looks like another boring day.
+			std::cout << _name << ": This looks like another boring day." << std::endl;
 		}
