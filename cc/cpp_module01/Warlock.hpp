@@ -40,7 +40,7 @@ class Warlock
 			{
 				if (MAP.find(spell->getName()) == MAP.end())
 				{
-					MAP[spell_.]
+					MAP[spell->getName()] = spell->cl
 				}
 			}
 		}
