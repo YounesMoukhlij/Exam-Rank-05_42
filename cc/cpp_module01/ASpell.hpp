@@ -22,7 +22,7 @@ class ASpell
 		virtual ~ASpell();
 		virtual	ASpell* clone () const = 0;
 
-	void  ASpell::launch(const ATarget& target)
+	void  launch(const ATarget& target);
 
 };
 
