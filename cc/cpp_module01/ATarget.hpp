@@ -56,3 +56,5 @@ ATarget::ATarget(const ATarget& origine)
 		{
 			return _type;
 		}
+
+		void getHitBySpell(const ASpell* spell);
