@@ -38,5 +38,5 @@ ASpell::ASpell(const ASpell& origine)
 
 	void  ASpell::launch(const ATarget& target)
 	{
-		
+		target.git
 	}
