@@ -2,7 +2,7 @@
 
 #include "Fwoosh.hpp"
 
-class Fwoosh
+class Fwoosh : public AS
 {
 	public:
 		Fwoosh();
