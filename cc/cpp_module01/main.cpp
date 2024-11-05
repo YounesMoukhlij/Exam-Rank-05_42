@@ -2,9 +2,9 @@
 
 #include "ATarget.hpp"
 #include "Warlock.hpp"
-#include "ATarget.hpp"
-#include "ATarget.hpp"
-#include "ATarget.hpp"
+#include "Fwoosh.hpp"
+#include "Dummy.hpp"
+
 
 
 int main()
