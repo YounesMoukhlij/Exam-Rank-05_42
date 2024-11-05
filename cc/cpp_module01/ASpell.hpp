@@ -35,15 +35,15 @@ ASpell::ASpell(const ASpell& origine)
 }
 
 
-		ASpell::ASpell(const std::string& name, const std::string& effects) : _name(name), _title(title)
+		ASpell::ASpell(const std::string& name, const std::string& effects) : _name(name), _effects(effects)
 		{
-			std::cout << _name << ": This looks like another boring day." << std::endl;
+
 		}
 
 		ASpell& ASpell::operator=(const ASpell& origine)
 		{
 			_name = origine._name;
-			_title = origine._title;
+			effects = origine._title;
 			return *this;
 		}
 
