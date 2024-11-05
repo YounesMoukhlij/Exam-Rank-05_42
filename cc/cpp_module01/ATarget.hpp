@@ -2,12 +2,12 @@
 
 #pragma once
 
-#include <iostream>
+#include 
 
 class ATarget
 {
 	protected:
 		std::string _type;
 	public:
-		getHitBySpell(const ASpell* )
+		void getHitBySpell(const ASpell* spell);
 };
