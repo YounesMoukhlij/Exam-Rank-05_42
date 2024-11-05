@@ -22,3 +22,8 @@ class ASpell
 		virtual ~ASpell();
 		virtual	ASpell* clone () const = 0;
 };
+
+
+
+
+
