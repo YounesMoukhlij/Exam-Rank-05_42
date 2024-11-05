@@ -1,8 +1,8 @@
 #pragma once 
 
-#include "Fwoosh.hpp"
+#include "ASpell.hpp"
 
-class Fwoosh : public AS
+class Fwoosh : public ASpell
 {
 	public:
 		Fwoosh();
