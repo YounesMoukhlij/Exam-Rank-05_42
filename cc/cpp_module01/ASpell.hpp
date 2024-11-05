@@ -43,14 +43,14 @@ ASpell::ASpell(const ASpell& origine)
 		ASpell& ASpell::operator=(const ASpell& origine)
 		{
 			_name = origine._name;
-			effects = origine._title;
+			_effects = origine._effects;
 			return *this;
 		}
 
 
 		ASpell::~ASpell()
 		{
-			std::cout << _name << ": My job here is done!" << std::endl;
+
 		}
 
 void ASpell::introduce() const
