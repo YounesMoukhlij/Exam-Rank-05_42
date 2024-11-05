@@ -11,7 +11,7 @@ class ATarget
 	protected:
 		std::string _type;
 	public:
-		void getHitBySpell(const ASpell* spell) const;
+		void getHitBySpell(const ASpell* spell) ;
 
 		ATarget(const std::string& type);
 		ATarget(const ATarget& origine);
