@@ -33,7 +33,7 @@ class TargetGenerator
 		{
 			if (target)
 			{
-				MAP[target->getType()] = t
+				MAP[target->getType()] = target;
 			}
 		}
 
@@ -41,7 +41,7 @@ class TargetGenerator
 		{
 			if (MAP.find(target) != MAP.end())
 			{
-				MAP.erase(MAP.find(target));
+				
 			}
 		}
 		ATarget* TargetGenerator::createTarget(std::string& target)
