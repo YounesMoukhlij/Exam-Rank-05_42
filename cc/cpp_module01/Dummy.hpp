@@ -2,26 +2,26 @@
 
 #include "ATarget.hpp"
 
-class Fwoosh : public ATa
+class Dummy : public ATarget
 {
 	public:
-		Fwoosh();
-		~Fwoosh();
+		Dummy();
+		~Dummy();
 		ASpell* clone () const;
 };
 
 
-ASpell* Fwoosh::clone () const
+ASpell* Dummy::clone () const
 {
-	return new Fwoosh();
+	return new Dummy();
 }
 
-Fwoosh::Fwoosh() : ASpell("Fwoosh", "Fwooshed")
+Dummy::Dummy() : ASpell("Dummy", "Dummyed")
 {
 
 }
 
-Fwoosh::~Fwoosh()
+Dummy::~Dummy()
 {
 
 }
