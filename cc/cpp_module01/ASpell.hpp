@@ -18,5 +18,5 @@ class ASpell
 		ASpell& operator=(const ASpell& origine);
 
 		const std::string& getName() const;
-		c
+		const std::string& getEffects() const;
 };
