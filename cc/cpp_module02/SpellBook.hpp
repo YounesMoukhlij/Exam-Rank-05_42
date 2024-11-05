@@ -18,8 +18,6 @@ class SpellBook
 		~SpellBook();
 		SpellBook(const std::string& name, const std::string& title);
 
-		const std::string& getName() const;
-		const std::string& getTitle() const;
 
 
 
