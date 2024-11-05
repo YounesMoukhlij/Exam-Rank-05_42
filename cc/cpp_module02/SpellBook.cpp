@@ -22,9 +22,11 @@
 		ASpell* SpellBook::createSpell(std::string& spell)
 		{
 			ASpell *u;
-			
+
 			if (MAP.find(spell) != MAP.end())
-				MAP[spell]->launch(target);
+			{
+				u = 
+			}
 		}
 
 		SpellBook::SpellBook(const SpellBook& origine)
