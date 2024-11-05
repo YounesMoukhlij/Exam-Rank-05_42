@@ -48,13 +48,7 @@ void Warlock::introduce() const
 
 		void Warlock::learnSpell(ASpell* spell)
 		{
-			if (spell)
-			{
-				if (MAP.find(spell->getName()) == MAP.end())
-				{
-					MAP[spell->getName()] = spell->clone();
-				}
-			}
+			MAP.learnSp
 		}
 		void Warlock::forgetSpell(std::string spell)
 		{
