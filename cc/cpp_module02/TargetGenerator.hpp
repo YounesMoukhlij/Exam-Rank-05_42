@@ -23,14 +23,14 @@ class TargetGenerator
 
 
 		void learnTargetType(ATarget*);
-		void forgetTargetType(string const &);
+		void forgetTargetType(sstring const &);
 		ATarget* createTarget(string const &)
 
 
 };
 
 
-		void SpellBook::learnSpell(ASpell* spell)
+		void TargetGenerator::learnSpell(ASpell* spell)
 		{
 			if (spell)
 			{
@@ -41,14 +41,14 @@ class TargetGenerator
 			}
 		}
 
-		void SpellBook::forgetSpell(std::string& spell)
+		void TargetGenerator::forgetSpell(std::string& spell)
 		{
 			if (MAP.find(spell) != MAP.end())
 			{
 				MAP.erase(MAP.find(spell));
 			}
 		}
-		ASpell* SpellBook::createSpell(std::string& spell)
+		ASpell* TargetGenerator::createSpell(std::string& spell)
 		{
 			ASpell *u;
 
@@ -59,21 +59,21 @@ class TargetGenerator
 			return u;
 		}
 
-		SpellBook::SpellBook(const SpellBook& origine)
+		TargetGenerator::TargetGenerator(const TargetGenerator& origine)
 {
 	*this = origine;
 }
 
 
 
-		SpellBook& SpellBook::operator=(const SpellBook& origine)
+		TargetGenerator& TargetGenerator::operator=(const TargetGenerator& origine)
 		{
 			MAP = origine.MAP;
 			return *this;
 		}
 
 
-		SpellBook::~SpellBook()
+		TargetGenerator::~TargetGenerator()
 		{
 
 		}
