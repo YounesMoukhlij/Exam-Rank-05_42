@@ -30,31 +30,31 @@ class TargetGenerator
 };
 
 
-		void TargetGenerator::learnTargetType(ASpell* spell)
+		void TargetGenerator::learnTargetType(ASpell* target)
 		{
-			if (spell)
+			if (target)
 			{
-				if (MAP.find(spell->getName()) == MAP.end())
+				if (MAP.find(target->getName()) == MAP.end())
 				{
-					MAP[spell->getName()] = spell->clone();
+					MAP[target->getName()] = target->clone();
 				}
 			}
 		}
 
-		void TargetGenerator::forgetTargetType(std::string& spell)
+		void TargetGenerator::forgetTargetType(std::string& target)
 		{
-			if (MAP.find(spell) != MAP.end())
+			if (MAP.find(target) != MAP.end())
 			{
-				MAP.erase(MAP.find(spell));
+				MAP.erase(MAP.find(target));
 			}
 		}
-		ASpell* TargetGenerator::createTarget(std::string& spell)
+		Atarget* TargetGenerator::createTarget(std::string& target)
 		{
-			ASpell *u;
+			Atarget *u;
 
-			if (MAP.find(spell) != MAP.end())
+			if (MAP.find(target) != MAP.end())
 			{
-				u = MAP[spell];
+				u = MAP[target];
 			}
 			return u;
 		}
