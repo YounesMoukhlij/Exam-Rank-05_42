@@ -29,7 +29,7 @@ class TargetGenerator
 };
 
 
-		void TargetGenerator::learnTargetType(ASpell* target)
+		void TargetGenerator::learnTargetType(ATarget* target)
 		{
 			if (target)
 			{
