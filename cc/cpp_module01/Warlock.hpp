@@ -48,7 +48,8 @@ class Warlock
 		{
 			if (MAP.find(spell) != MAP.end())
 			{
-				MAP.erase(Mfind(spell))
+				delete 
+				MAP.erase(MAP.find(spell));
 			}
 		}
 		void Warlock::launchSpell(std::string spell, const ATarget& target)
