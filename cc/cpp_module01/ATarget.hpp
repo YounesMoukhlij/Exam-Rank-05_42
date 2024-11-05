@@ -8,4 +8,6 @@ class ATarget
 {
 	protected:
 		std::string _type;
+	public:
+		getHitBySpell
 };
