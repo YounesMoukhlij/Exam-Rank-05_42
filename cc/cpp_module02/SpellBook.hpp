@@ -30,7 +30,7 @@ class SpellBook
 
 		void learnSpell(ASpell*);
 		void forgetSpell(std::string& spell);
-		ASpell* createSpell(std::string spell, const ATarget& target);
+		ASpell* createSpell(std::string spell&, const ATarget& target);
 
 
 
