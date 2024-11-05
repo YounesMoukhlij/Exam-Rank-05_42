@@ -1,19 +1,19 @@
 
 
 
-#include "Fwoosh.hpp"
+#include "Fireball.hpp"
 
-ASpell* Fwoosh::clone () const
+ASpell* Fireball::clone () const
 {
-	return new Fwoosh();
+	return new Fireball();
 }
 
-Fwoosh::Fwoosh() : ASpell("Fwoosh", "fwooshed")
+Fireball::Fireball() : ASpell("Fireball", "Fireballed")
 {
 
 }
 
-Fwoosh::~Fwoosh()
+Fireball::~Fireball()
 {
 
 }
