@@ -29,7 +29,7 @@ class SpellBook
 
 
 		void learnSpell(ASpell*);
-		void forgetSpell(std::string spell);
+		void forgetSpell(std::string& spell);
 		ASpell* createSpell(std::string spell, const ATarget& target);
 
 
