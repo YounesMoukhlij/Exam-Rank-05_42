@@ -40,4 +40,7 @@ void Warlock::introduce() const
 
 
 
-		void	Warlock::setTitle() const
+		void	Warlock::setTitle(const std::string& title)
+		{
+			
+		}
