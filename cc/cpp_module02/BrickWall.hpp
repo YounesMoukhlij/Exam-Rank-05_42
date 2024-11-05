@@ -5,14 +5,14 @@
 #include "ATarget.hpp"
 
 
-class ASpell;
+class ATarget;
 
-class Fwoosh : public ASpell
+class BrickWall : public ATarget
 {
 	public:
-		Fwoosh();
-		~Fwoosh();
-		ASpell* clone () const;
+		BrickWall();
+		~BrickWall();
+		ATarget* clone () const;
 };
 
 
