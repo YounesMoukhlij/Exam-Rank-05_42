@@ -3,12 +3,12 @@
 
 #include "BrickWall.hpp"
 
-ASpell* BrickWall::clone () const
+ATar* BrickWall::clone () const
 {
 	return new BrickWall();
 }
 
-BrickWall::BrickWall() : ATarget("BrickWall", "BrickWalled")
+BrickWall::BrickWall() : ATarget("Inconspicuous Red-brick Wall")
 {
 
 }
