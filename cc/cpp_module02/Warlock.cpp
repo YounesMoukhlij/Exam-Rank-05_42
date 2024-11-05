@@ -48,14 +48,11 @@ void Warlock::introduce() const
 
 		void Warlock::learnSpell(ASpell* spell)
 		{
-			MAP.learnSp
+			MAP.learnSpell(spell);
 		}
 		void Warlock::forgetSpell(std::string spell)
 		{
-			if (MAP.find(spell) != MAP.end())
-			{
-				MAP.erase(MAP.find(spell));
-			}
+			MAP.
 		}
 		void Warlock::launchSpell(std::string spell, const ATarget& target)
 		{
