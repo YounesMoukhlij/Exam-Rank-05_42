@@ -1,52 +1,52 @@
 
-
 #include "TargetGenerator.hpp"
 
+		void TargetGenerator::learnTargetType(ATarget* target)
+		{
+			if (target)
+			{
+				MAP[target->getType()] = target;
+			}
+		}
 
+		void TargetGenerator::forgetTargetType(const std::string& target)
+		{
+			if (MAP.find(target) != MAP.end())
+			{
+				MAP.erase(MAP.find(target));
+			}
+		}
+		ATarget* TargetGenerator::createTarget(const std::string& target)
+		{
+			ATarget *u = 0;
 
-void TargetGenerator::learnSpell(ATarget* tar)
-{
-	if (tar)
-	{
-		Tar[tar->getType()] = tar;
-	}
-}
-TargetGenerator::~TargetGenerator()
-{
+			if (MAP.find(target) != MAP.end())
+			{
+				u = MAP[target];
+			}
+			return u;
+		}
 
-}
-TargetGenerator::TargetGenerator(const TargetGenerator& origine)
+		TargetGenerator::TargetGenerator(const TargetGenerator& origine)
 {
 	*this = origine;
 }
 
-TargetGenerator::TargetGenerator()
-{
-
-}
 
 
-
-void TargetGenerator::forgetSpell(std::string const & str )
-{
-	if (Tar.find (str) != Tar.end())
-	{
-		Tar.erase(Tar.find(str));
-	}
-}
-
-		ASpell* TargetGenerator::createSpell(std::string const & str)
+		TargetGenerator& TargetGenerator::operator=(const TargetGenerator& origine)
 		{
-			ASpell * t = 0;
-
-			if (Tar.find(str) != Tar.end())
-				t = Tar[str];
-			return (t);
+			MAP = origine.MAP;
+			return *this;
 		}
 
 
-TargetGenerator& TargetGenerator::operator=(const TargetGenerator& origine)
-{
-	Tar = origine.Tar;
-	return *this;
-}
+		TargetGenerator::~TargetGenerator()
+		{
+
+		}
+
+		TargetGenerator::TargetGenerator()
+		{
+
+		}

@@ -1,43 +1,30 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   TargetGenerator.hpp                                :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: youmoukh <youmoukh@student.42.fr>          +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/11/03 18:54:51 by youmoukh          #+#    #+#             */
-/*   Updated: 2024/11/03 19:07:57 by youmoukh         ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
+#pragma once
 
-
-
-#pragma once 
-
-#include <iostream>
-
-#include "ATarget.hpp"
 #include <map>
+#include "ASpell.hpp"
+#include "ATarget.hpp"
 
+class ASpell;
 class ATarget;
-
-
 
 class TargetGenerator
 {
-	private :
+	private : 
 		TargetGenerator(const TargetGenerator& origine);
 		TargetGenerator& operator=(const TargetGenerator& origine);
-		std::map<std::string, ATarget* > Tar;
+		std::map<std::string, ATarget *> MAP;
 	public:
-		void learnTargetType(ATarget* tar);
-		void forgetTargetType(std::string const & str);
-		ATarget* createTarget(std::string const & str);
-
-
-		~TargetGenerator();
 		TargetGenerator();
+		~TargetGenerator();
+
+
+
+
+
+		void learnTargetType(ATarget* target);
+		void forgetTargetType(std::string const & target);
+		ATarget* createTarget(std::string const & target);
+
+
 };
-
-
 

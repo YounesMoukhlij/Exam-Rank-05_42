@@ -1,54 +1,54 @@
 
-
 #include "SpellBook.hpp"
 
+		void SpellBook::learnSpell(ASpell* spell)
+		{
+			if (spell)
+			{
+				if (MAP.find(spell->getName()) == MAP.end())
+				{
+					MAP[spell->getName()] = spell->clone();
+				}
+			}
+		}
 
+		void SpellBook::forgetSpell(std::string& spell)
+		{
+			if (MAP.find(spell) != MAP.end())
+			{
+				MAP.erase(MAP.find(spell));
+			}
+		}
+		ASpell* SpellBook::createSpell(std::string& spell)
+		{
+			ASpell *u = 0;
 
-void SpellBook::learnSpell(ASpell* spell)
-{
-	if (spell)
-	{
-		MAP[spell->getName()] = spell->clone();
-	}
-}
-SpellBook::~SpellBook()
-{
+			if (MAP.find(spell) != MAP.end())
+			{
+				u = MAP[spell];
+			}
+			return u;
+		}
 
-}
-SpellBook::SpellBook(const SpellBook& origine)
+		SpellBook::SpellBook(const SpellBook& origine)
 {
 	*this = origine;
 }
 
-SpellBook::SpellBook()
-{
-
-}
 
 
-
-void SpellBook::forgetSpell(std::string const & str )
-{
-	std::map<std::string, ASpell * >::iterator it = MAP.find(str);
-	if (it != MAP.end())
-	{
-		delete it->second;
-		MAP.erase(it);
-	}
-}
-
-		ASpell* SpellBook::createSpell(std::string const & str)
+		SpellBook& SpellBook::operator=(const SpellBook& origine)
 		{
-			ASpell * t = 0;
-
-			if (MAP.find(str) != MAP.end())
-				t = MAP[str];
-			return (t);
+			MAP = origine.MAP;
+			return *this;
 		}
 
 
-SpellBook& SpellBook::operator=(const SpellBook& origine)
-{
-	MAP = origine.MAP;
-	return *this;
-}
+		SpellBook::~SpellBook()
+		{
+
+		}
+		SpellBook::SpellBook()
+		{
+
+		}

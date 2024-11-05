@@ -1,25 +1,20 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   Fwoosh.hpp                                         :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: youmoukh <youmoukh@student.42.fr>          +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/11/03 17:39:58 by youmoukh          #+#    #+#             */
-/*   Updated: 2024/11/03 17:39:58 by youmoukh         ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
-
-
-
-#include <iostream>
+#pragma once 
 
 #include "ASpell.hpp"
 
+
+class ASpell;
+
 class Fwoosh : public ASpell
 {
-	public :
+	public:
 		Fwoosh();
 		~Fwoosh();
 		ASpell* clone () const;
 };
+
+
+
+
+
+

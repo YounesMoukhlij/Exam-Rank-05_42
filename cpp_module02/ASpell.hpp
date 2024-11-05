@@ -1,43 +1,36 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   ASpell.hpp                                         :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: youmoukh <youmoukh@student.42.fr>          +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/11/03 17:39:48 by youmoukh          #+#    #+#             */
-/*   Updated: 2024/11/03 17:39:50 by youmoukh         ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
 
 
 
-#pragma once
+#pragma once 
 
-#include "ATarget.hpp"
 #include <iostream>
+#include "ATarget.hpp"
 
 class ATarget;
 
 class ASpell
 {
-	protected :
+	protected:
 		std::string _name;
 		std::string _effects;
-	public :
+	public:
 		ASpell(const std::string& name, const std::string& effects);
-
-		ASpell& operator=(const ASpell& origine);
 		ASpell(const ASpell& origine);
 
-		const std::string&	getName() const;
-		const std::string&	getEffects() const;
+		ASpell& operator=(const ASpell& origine);
+
+		const std::string& getName() const;
+		const std::string& getEffects() const;
 
 		virtual ~ASpell();
-		virtual ASpell*  clone() const = 0 ;
+		virtual	ASpell* clone () const = 0;
 
-		void launch(const ATarget& target) const;
+		void  launch(const ATarget& target) const;
+
 };
+
+
+
 
 
 
