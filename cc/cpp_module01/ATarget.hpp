@@ -33,7 +33,7 @@ ATarget::ATarget(const ATarget& origine)
 }
 
 
-		ATarget::ATarget(const std::string& name, const std::string& effects) : _name(name), _effects(effects)
+		ATarget::ATarget(const std::string& type) : _type(type), _effects(effects)
 		{
 
 		}
