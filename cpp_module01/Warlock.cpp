@@ -6,7 +6,7 @@
 /*   By: youmoukh <youmoukh@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/03 17:40:12 by youmoukh          #+#    #+#             */
-/*   Updated: 2024/11/06 16:21:43 by youmoukh         ###   ########.fr       */
+/*   Updated: 2024/11/06 16:21:47 by youmoukh         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,7 +20,7 @@ Warlock::Warlock(const std::string& name, const std::string& title) : _name(name
 
 Warlock::~Warlock()
 {
-	std::cout << _name << ": My job here is done!" << std::endl;
+	std::cout << _name << " : My job here is done!" << std::endl;
 }
 
 const std::string&   Warlock::getName() const
