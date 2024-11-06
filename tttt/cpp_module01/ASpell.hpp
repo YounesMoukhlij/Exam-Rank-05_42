@@ -32,7 +32,7 @@ class ASpell
 };
 		void ASpell::launch (const ATarget& target) const
 		{
-
+			t
 		}
 
 
