@@ -67,7 +67,7 @@ SpellBook& SpellBook::operator=(const SpellBook& origine)
 			ASpell* t = 0;
 			if (MAP[spell] != MAP.end())
 			{
-
+				t = MAP[spell];
 			}
 			return t;
 		}
