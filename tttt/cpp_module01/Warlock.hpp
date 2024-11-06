@@ -6,7 +6,7 @@
 /*   By: youmoukh <youmoukh@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/17 14:20:11 by youmoukh          #+#    #+#             */
-/*   Updated: 2024/11/06 15:45:14 by youmoukh         ###   ########.fr       */
+/*   Updated: 2024/11/06 15:45:25 by youmoukh         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -42,25 +42,4 @@ class Warlock
 
 };
 
-		void	Warlock::learnSpell(ASpell* spell)
-		{
-			if (MAP.find(spell->getName()) == MAP.end())
-			{
-				MAP[spell->getName()] = spell->clone();
-			}
-		}
-		void	Warlock::forgetSpell(std::string spell)
-		{
-			if (MAP.find(spell) != MAP.end())
-			{
-				delete MAP[spell];
-				MAP.erase(MAP.find(spell));
-			}
-		}
-		void	Warlock::launchSpell(std::string spell,  ATarget& tar)
-		{
-			if (MAP.find(spell) != MAP.end())
-			{
-				MAP[spell]->launch(ta);
-			}
-		}
+
