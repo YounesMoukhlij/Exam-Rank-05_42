@@ -11,5 +11,7 @@ class Warlock
 		std::string _effects;
 	public:
 		Warlock& operator=(const Warlock& o);
-		Warlock(const Wa)
+		Warlock(const Warlock& o);
+
+		const std::string& get
 }
