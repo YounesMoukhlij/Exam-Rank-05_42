@@ -25,6 +25,7 @@ class Warlock
 		void	setTitle(const std::string& title);
 };
 
+		void	introduce () const;
 
 Warlock & Warlock::operator=(const Warlock & o)
 {
