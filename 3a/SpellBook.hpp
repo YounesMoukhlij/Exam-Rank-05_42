@@ -65,7 +65,7 @@ SpellBook& SpellBook::operator=(const SpellBook& origine)
 		ASpell*	SpellBook::createSpell(std::string& spell)
 		{
 			ASpell* t = 0;
-			if ()
+			if (MAP[spell] != MAP.end())
 			{
 
 			}
