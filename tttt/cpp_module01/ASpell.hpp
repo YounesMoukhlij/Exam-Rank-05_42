@@ -5,17 +5,17 @@
 #include <iostream>
 
 
-class A
+class ASpell
 {
 	private:
-		A();
-		A(const A& origine);
-		A& operator=(const A& origine);
+		ASpell();
+		ASpell(const ASpell& origine);
+		ASpell& operator=(const ASpell& origine);
 		std::string	name;
 		std::string	title;
 	public:
-		A(const std::string& _name, const std::string&  _title);
-		~A();
+		ASpell(const std::string& _name, const std::string&  _title);
+		~ASpell();
 
 
 		const std::string&    	getName() const;
