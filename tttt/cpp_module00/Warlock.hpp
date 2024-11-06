@@ -10,5 +10,6 @@ class Warlock
 		std::string _name;
 		std::string _effects;
 	public:
-		Warlock& operator=()
+		Warlock& operator=(const Warlock& o);
+		
 }
