@@ -1,6 +1,6 @@
 
 
-Inconspicuous Red-brick Wall
+
 
 
 #pragma once
@@ -31,7 +31,7 @@ ATarget* BrickWall::clone () const
 }
 
 
-BrickWall::BrickWall() : ATarget("Target Practice BrickWall")
+BrickWall::BrickWall() : ATarget("Inconspicuous Red-brick Wall")
 {
 
 }
