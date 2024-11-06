@@ -28,6 +28,8 @@ class SpellBook
 
 };
 
+		SpellBook(const SpellBook& origine);
+
 
 SpellBook& SpellBook::operator=(const SpellBook& origine)
 {
