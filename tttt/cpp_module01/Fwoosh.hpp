@@ -6,7 +6,7 @@
 
 #include <iostream>
 #include "ATarget.hpp"
-#include "A.hpp"
+#include "ASpell.hpp"
 
 
 class ASpell
