@@ -6,13 +6,14 @@
 /*   By: youmoukh <youmoukh@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/17 14:20:11 by youmoukh          #+#    #+#             */
-/*   Updated: 2024/10/31 15:44:13 by youmoukh         ###   ########.fr       */
+/*   Updated: 2024/11/06 15:28:10 by youmoukh         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #pragma once
 
 #include <iostream>
+#include <map>
 
 class Warlock
 {
@@ -22,6 +23,7 @@ class Warlock
 		Warlock& operator=(const Warlock& origine);
 		std::string	name;
 		std::string	title;
+		std::map<std::string
 	public:
 		Warlock(const std::string& _name, const std::string&  _title);
 		~Warlock();
