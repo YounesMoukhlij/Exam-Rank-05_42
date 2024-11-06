@@ -46,7 +46,7 @@ SpellBook& SpellBook::operator=(const SpellBook& origine)
 
 		void	SpellBook::learnSpell(ASpell* spell)
 		{
-			std::map<std::string, ASpell *>::iterator it = MAP.find(spell.getName());
+
 			if (it != MAP.end())
 			{
 				
