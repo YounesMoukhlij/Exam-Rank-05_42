@@ -3,6 +3,7 @@
 
 
 #include <iostream>
+#include "ATA"
 
 
 class ASpell
@@ -31,7 +32,7 @@ class ASpell
 };
 		void ASpell::launch (const ATarget& target) const
 		{
-			
+
 		}
 
 
