@@ -42,7 +42,7 @@ SpellBook& SpellBook::operator=(const SpellBook& origine)
 			ASpell* t = 0;
 
 
-			if (MAP[spel != MAP.end())
+			if (MAP.find(spell) != MAP.end())
 			{
 				t = MAP[spell];
 			}
