@@ -11,12 +11,7 @@
 
 class Fwoosh
 {
-	protected:
-		// Fwoosh();
-		Fwoosh(const Fwoosh& origine);
-		Fwoosh& operator=(const Fwoosh& origine);
-		std::string	_name;
-		std::string	_effects;
+		Fwoosh();
 	public:
 		Fwoosh(const std::string& name, const std::string&  effects);
 		virtual ~Fwoosh();
