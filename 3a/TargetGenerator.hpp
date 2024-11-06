@@ -22,7 +22,7 @@ class SpellBook
 		~SpellBook();
 
 		void	learnTargetType(ATarget* spell);
-		void	forgetSpell(const std::string& spell);
-		ASpell*	createSpell(std::string& spell);
+		void	forgetTargetType(const std::string& spell);
+		ATarget*	createTarget(std::string& spell);
 
 };
