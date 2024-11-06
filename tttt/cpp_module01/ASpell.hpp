@@ -22,6 +22,6 @@ class ASpell
 		const std::string&	 	getEffects() const;
 
 
-		void					setTitle(const std::string& _title);
+
 
 };
