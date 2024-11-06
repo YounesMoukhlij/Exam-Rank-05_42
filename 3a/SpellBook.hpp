@@ -7,21 +7,21 @@
 #include <map>
 #include "ASpell.hpp"
 #include "ATarget.hpp"
-#include "SpellBook.hpp"
 
 
-class Warlock
+
+class SpellBook
 {
 	private:
-		Warlock();
-		Warlock(const Warlock& origine);
-		Warlock& operator=(const Warlock& origine);
+		SpellBook();
+		SpellBook(const SpellBook& origine);
+		SpellBook& operator=(const SpellBook& origine);
 		std::string	name;
 		std::string	title;
 		SpellBook MAP;
 	public:
-		Warlock(const std::string& _name, const std::string&  _title);
-		~Warlock();
+		SpellBook(const std::string& _name, const std::string&  _title);
+		~SpellBook();
 
 
 		const std::string&    	getName() const;
