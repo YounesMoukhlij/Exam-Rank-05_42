@@ -6,7 +6,7 @@
 /*   By: youmoukh <youmoukh@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/17 14:20:09 by youmoukh          #+#    #+#             */
-/*   Updated: 2024/11/06 16:43:19 by youmoukh         ###   ########.fr       */
+/*   Updated: 2024/11/06 17:03:14 by youmoukh         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -69,18 +69,11 @@ void	Warlock::setTitle(const std::string& _title)
 		{
 				MAP.forgetSpell(spell);
 			
-			if (MAP.find(spell) != MAP.end())
-			{
-				delete MAP[spell];
-				MAP.erase(MAP.find(spell));
-			}
+
 		}
 		void	Warlock::launchSpell(std::string spell, const ATarget& tar)
 		{
 			
 			MAP.createSpell(spell);
-			if (MAP.find(spell) != MAP.end())
-			{
-				MAP[spell]->launch(tar);
-			}
+	
 		}
