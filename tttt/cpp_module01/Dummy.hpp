@@ -6,29 +6,29 @@
 #include "ASpell.hpp"
 
 
-class Fwoosh
+class Dummy : public ATarget
 {
 	public:
-		Fwoosh();
-		~Fwoosh();
+		Dummy();
+		~Dummy();
 		ASpell* clone () const;
 
 
 
 };
 
-ASpell* Fwoosh::clone () const
+ASpell* Dummy::clone () const
 {
-	return new Fwoosh();
+	return new Dummy();
 }
 
 
-Fwoosh::Fwoosh() : ASpell("Fwoosh", "fwooshed")
+Dummy::Dummy() : ASpell("Dummy", "Dummyed")
 {
 
 }
 
-Fwoosh::~Fwoosh()
+Dummy::~Dummy()
 {
 
 }
