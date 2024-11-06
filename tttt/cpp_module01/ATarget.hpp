@@ -30,7 +30,7 @@ class ATarget
 };
 
 
-ATarget::ATarget(const std::string& name, const std::string& title) : _name(name), _effects(effects)
+ATarget::ATarget(const std::string& type) : _type(_type), _effects(effects)
 {
 
 }
