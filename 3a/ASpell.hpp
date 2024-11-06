@@ -10,7 +10,7 @@ class ATarget;
 class ASpell
 {
 	protected:
-		// ASpell();
+		ASpell();
 		ASpell(const ASpell& origine);
 		ASpell& operator=(const ASpell& origine);
 		std::string	_name;
