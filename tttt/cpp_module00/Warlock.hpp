@@ -26,4 +26,8 @@ class Warlock
 };
 
 
-Warlock::operator=(const W)
+Warlock::operator=(const Warlock & o)
+{
+	_name = o._name;
+	_name = o._name;
+}
