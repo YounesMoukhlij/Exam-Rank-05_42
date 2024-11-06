@@ -27,7 +27,7 @@ ASpell* Fireball::clone () const
 }
 
 
-Fireball::Fireball() : ASpell("Fireball", "Fireballed")
+Fireball::Fireball() : ASpell("Fireball", "burnt to a crisp")
 {
 
 }
