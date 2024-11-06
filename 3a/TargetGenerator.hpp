@@ -9,17 +9,17 @@
 
 
 
-class SpellBook
+class TargetGenerator
 {
 	private:
-		SpellBook();
-		SpellBook(const SpellBook& origine);
-		SpellBook& operator=(const SpellBook& origine);
+		TargetGenerator();
+		TargetGenerator(const TargetGenerator& origine);
+		TargetGenerator& operator=(const TargetGenerator& origine);
 
 		std::map<std::string , ATarget *> MAP;
 	public:
 
-		~SpellBook();
+		~TargetGenerator();
 
 		void	learnTargetType(ATarget* spell);
 		void	forgetTargetType(const std::string& spell);
@@ -29,7 +29,7 @@ class SpellBook
 
 
 
-		void	SpellBook::learnSpell(ASpell* spell)
+		void	TargetGenerator::learnSpell(ASpell* spell)
 		{
 			if (spell)
 			{
@@ -39,7 +39,7 @@ class SpellBook
 				}
 			}
 		}
-		void	SpellBook::forgetSpell(const std::string& spell)
+		void	TargetGenerator::forgetSpell(const std::string& spell)
 		{
 
 			if (MAP[spell] != MAP.end())
@@ -49,7 +49,7 @@ class SpellBook
 
 
 		}
-		ASpell*	SpellBook::createSpell(std::string& spell)
+		ASpell*	TargetGenerator::createSpell(std::string& spell)
 		{
 			ASpell* t = 0;
 
