@@ -18,7 +18,7 @@ class SpellBook
 		SpellBook& operator=(const SpellBook& origine);
 		std::string	name;
 		std::string	title;
-		std::
+		std::map<std::string , ASpell *> MAP;
 	public:
 		SpellBook(const std::string& _name, const std::string&  _title);
 		~SpellBook();
