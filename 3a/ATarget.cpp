@@ -19,7 +19,8 @@ ATarget::~ATarget()
 {
 
 }
-ATarget::~ATarget()
+
+ATarget::ATarget()
 {
 
 }
