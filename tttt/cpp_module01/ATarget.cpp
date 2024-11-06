@@ -59,11 +59,7 @@ const std::string& 	ATarget::getTitle() const
 	return (title);	
 }
 
-void	ATarget::introduce() const
-{
-	std::cout << name << ": I am " << name << ", " << title << "!" << std::endl;
-	
-}
+
 
 ATarget& ATarget::operator=(const ATarget& origine)
 {
