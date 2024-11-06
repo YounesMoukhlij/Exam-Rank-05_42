@@ -34,7 +34,8 @@ class SpellBook
 
 		void	SpellBook::learnSpell(ASpell* spell)
 		{
-			
+			std
+			MAP
 		}
 		void	SpellBook::forgetSpell(const std::string& spell)
 		{
