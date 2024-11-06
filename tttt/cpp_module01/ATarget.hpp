@@ -12,7 +12,7 @@ class ASpell;
 class ATarget
 {
 	protected:
-		ATarget();
+		// ATarget();
 		ATarget(const ATarget& origine);
 		ATarget& operator=(const ATarget& origine);
 		std::string	_type;
@@ -46,6 +46,7 @@ ATarget::~ATarget()
 {
 
 }
+
 
 const std::string&   ATarget::getType() const
 {
