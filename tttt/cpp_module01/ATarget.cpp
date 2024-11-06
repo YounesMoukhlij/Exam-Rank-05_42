@@ -33,4 +33,5 @@ const std::string&   ATarget::getType() const
 ATarget& ATarget::operator=(const ATarget& origine)
 {
 	_type = origine._type;
-	retu
+	return ;
+}
