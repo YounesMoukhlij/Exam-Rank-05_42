@@ -26,4 +26,4 @@ class Warlock
 };
 
 
-War
+Warlock::operator=(const W)
