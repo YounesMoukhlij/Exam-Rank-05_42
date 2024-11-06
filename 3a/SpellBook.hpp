@@ -31,8 +31,7 @@ class SpellBook
 
 SpellBook& SpellBook::operator=(const SpellBook& origine)
 {
-		_name = origine._name;
-		_effects = origine._effects;
+		MAP = origine.MAP;
 	return *this;
 }
 		SpellBook::~SpellBook()
