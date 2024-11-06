@@ -31,5 +31,3 @@ class ATarget
 		void getHitBySpell(const ASpell& spell);
 
 };
-rn *this;
-}
