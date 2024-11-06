@@ -8,11 +8,11 @@
 #include "ASpell.hpp"
 
 
-class Fireball : public ASpell
+class Polymorph : public ASpell
 {
 	public:
-		Fireball();
-		~Fireball();
+		Polymorph();
+		~Polymorph();
 		ASpell* clone () const;
 
 
