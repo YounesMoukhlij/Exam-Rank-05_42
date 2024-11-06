@@ -1,0 +1,28 @@
+
+
+#pragma once
+
+#include <iostream>
+#include <map>
+#include "ASpell.hpp"
+#include "ATarget.hpp"
+
+
+
+class SpellBook
+{
+	private:
+		SpellBook();
+		SpellBook(const SpellBook& origine);
+		SpellBook& operator=(const SpellBook& origine);
+
+		std::map<std::string , A *> MAP;
+	public:
+
+		~SpellBook();
+
+		void	learnSpell(ASpell* spell);
+		void	forgetSpell(const std::string& spell);
+		ASpell*	createSpell(std::string& spell);
+
+};
