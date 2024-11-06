@@ -52,7 +52,7 @@ SpellBook& SpellBook::operator=(const SpellBook& origine)
 				{
 					MAP[spell->getName()] = spell->clone();
 				}
-				
+			}
 		}
 		void	SpellBook::forgetSpell(const std::string& spell)
 		{
