@@ -29,6 +29,9 @@ class SpellBook
 };
 		SpellBook::~SpellBook();
 
-		void	SpellBook::learnSpell(ASpell* spell);
+		void	SpellBook::learnSpell(ASpell* spell)
+		{
+			
+		}
 		void	SpellBook::forgetSpell(const std::string& spell);
 		ASpell*	SpellBook::createSpell(std::string& spell);
