@@ -54,7 +54,8 @@ SpellBook& SpellBook::operator=(const SpellBook& origine)
 		}
 		void	SpellBook::forgetSpell(const std::string& spell)
 		{
-			MAP.find(spell)
+			std::map<std::string, ASpell *>::iterator it = MAP.find(spell);
+
 
 		}
 		ASpell*	SpellBook::createSpell(std::string& spell)
