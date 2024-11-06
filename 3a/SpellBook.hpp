@@ -27,6 +27,14 @@ class SpellBook
 		ASpell*	createSpell(std::string& spell);
 
 };
+
+
+SpellBook& SpellBook::operator=(const SpellBook& origine)
+{
+		_name = origine._name;
+		_effects = origine._effects;
+	return *this;
+}
 		SpellBook::~SpellBook()
 		{}
 		SpellBook::SpellBook()
@@ -54,7 +62,7 @@ class SpellBook
 			ASpell* t = 0;
 			if ()
 			{
-				
+
 			}
 			return t;
 		}
