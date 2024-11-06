@@ -30,9 +30,9 @@ class ATarget
 		void getHitBySpell(const ASpell& spell);
 
 };
-		void getHitBySpell(const ASpell& spell)
+		void ATarget::getHitBySpell(const ASpell& spell)
 		{
-			
+			std::cout << )
 		}
 
 
