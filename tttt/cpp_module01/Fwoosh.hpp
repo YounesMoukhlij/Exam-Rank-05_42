@@ -26,10 +26,8 @@ class Fwoosh
 		const std::string&	 	getEffects() const;
 
 
+		ASpell* clone () const;
 
-		virtual ASpell* clone () const;
-
-		void launch (const ATarget& target) const;
 
 
 };
