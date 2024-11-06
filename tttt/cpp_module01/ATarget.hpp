@@ -28,6 +28,6 @@ class ATarget
 		virtual ATarget* clone () const = 0;
 
 
-		void getHitBySpell(const ASpell& spell) c;
+		void getHitBySpell(const ASpell& spell) const;
 
 };
