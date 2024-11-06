@@ -1,5 +1,6 @@
 
 
+#include "Warlock.hpp"
 
 
 		void	Warlock::introduce () const
