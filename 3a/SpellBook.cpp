@@ -21,7 +21,7 @@ SpellBook& SpellBook::operator=(const SpellBook& origine)
 		{
 			if (spell)
 			{
-				if (MAP.find(spell->getName()] == MAP.end())
+				if (MAP.find(spell->getName()) == MAP.end())
 				{
 					MAP[spell->getName()] = spell->clone();
 				}
@@ -32,7 +32,7 @@ SpellBook& SpellBook::operator=(const SpellBook& origine)
 
 			if (MAP.find(spell) != MAP.end())
 			{
-				MAP.erase(MAP.find(spell);
+				MAP.erase(MAP.find(spell));
 			}
 
 
@@ -42,7 +42,7 @@ SpellBook& SpellBook::operator=(const SpellBook& origine)
 			ASpell* t = 0;
 
 
-			if (MAP[spell] != MAP.end())
+			if (MAP[spel != MAP.end())
 			{
 				t = MAP[spell];
 			}
