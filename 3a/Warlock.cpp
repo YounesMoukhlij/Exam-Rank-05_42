@@ -6,7 +6,7 @@
 /*   By: youmoukh <youmoukh@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/17 14:20:09 by youmoukh          #+#    #+#             */
-/*   Updated: 2024/11/06 15:50:43 by youmoukh         ###   ########.fr       */
+/*   Updated: 2024/11/06 15:53:49 by youmoukh         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -62,7 +62,7 @@ void	Warlock::setTitle(const std::string& _title)
 		{
 			if (MAP.find(spell) != MAP.end())
 			{
-				delete MAP[spell];
+				// delete MAP[spell];
 				MAP.erase(MAP.find(spell));
 			}
 		}
