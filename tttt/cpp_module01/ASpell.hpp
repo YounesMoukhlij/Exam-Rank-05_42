@@ -23,7 +23,7 @@ class ASpell
 
 
 
-		virtual
+		virtual ASpell* clone () const = 0;
 
 
 
