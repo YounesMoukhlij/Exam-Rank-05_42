@@ -21,7 +21,7 @@ class Fwoosh
 };
 
 
-Fwoosh::Fwoosh() : ASpell("Fwoosh", "fwoosh")
+Fwoosh::Fwoosh() : ASpell("Fwoosh", "fwooshed")
 {
 
 }
