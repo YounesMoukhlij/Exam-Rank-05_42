@@ -42,3 +42,6 @@ Warlock & Warlock::operator=(const Warlock & o)
 		{
 			return _effects;
 		}
+
+		void	Warlock::setTitle(const std::string& title)
+		{}
