@@ -58,7 +58,8 @@ SpellBook& SpellBook::operator=(const SpellBook& origine)
 
 			if (it != MAP.end())
 			{
-				MAP.erase()
+				delete (it_)
+				MAP.erase(*it);
 			}
 
 
