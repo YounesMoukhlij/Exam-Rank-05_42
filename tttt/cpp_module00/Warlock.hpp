@@ -33,3 +33,4 @@ Warlock & Warlock::operator=(const Warlock & o)
 
 	return (this);
 }
+
