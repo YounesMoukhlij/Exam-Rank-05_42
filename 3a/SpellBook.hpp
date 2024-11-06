@@ -31,6 +31,6 @@ class Warlock
 
 		void	learnSpell(ASpell* spell);
 		void	forgetSpell(std::string spell);
-		void	launchSpell(std::string spell, const ATarget& tar);
+		void	createSpell(std::string spell, const ATarget& tar);
 
 };
