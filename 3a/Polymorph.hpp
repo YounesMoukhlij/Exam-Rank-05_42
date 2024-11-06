@@ -28,7 +28,7 @@ ASpell* Polymorph::clone () const
 }
 
 
-Polymorph::Polymorph() : ASpell("Polymorph", "burnt to a crisp")
+Polymorph::Polymorph() : ASpell("Polymorph", "turned into a critter")
 {
 
 }
