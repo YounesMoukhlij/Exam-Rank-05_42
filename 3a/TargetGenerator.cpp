@@ -33,3 +33,22 @@
 			}
 			return t;
 		}
+
+
+
+
+		SpellBook::SpellBook(const SpellBook& origine)
+		{
+			*this = origine;
+		}
+
+
+SpellBook& SpellBook::operator=(const SpellBook& origine)
+{
+		MAP = origine.MAP;
+	return *this;
+}
+		SpellBook::~SpellBook()
+		{}
+		SpellBook::SpellBook()
+		{}
