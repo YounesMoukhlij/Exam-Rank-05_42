@@ -29,7 +29,7 @@ class TargetGenerator
 
 
 
-		void	TargetGenerator::learnSpell(ASpell* spell)
+		void	TargetGenerator::learnTargetType(ASpell* spell)
 		{
 			if (spell)
 			{
@@ -54,7 +54,7 @@ class TargetGenerator
 			ASpell* t = 0;
 
 
-			if (MAP[spell] != MAP.end())
+			if (MAP.find(spell) != MAP.end())
 			{
 				t = MAP[spell];
 			}
