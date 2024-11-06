@@ -44,20 +44,6 @@ ATarget::ATarget(const std::string& _name, const std::string& _title) : name(_na
 	std::cout << _name << " : This looks like another boring day." << std::endl;
 }
 
-ATarget::~ATarget()
-{
-	std::cout << name << ": My job here is done!" << std::endl;
-}
-
-const std::string& 	ATarget::getName() const
-{
-	return (name);
-}
-
-const std::string& 	ATarget::getTitle() const
-{
-	return (title);	
-}
 
 
 
