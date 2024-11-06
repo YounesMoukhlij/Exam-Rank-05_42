@@ -39,7 +39,7 @@ class TargetGenerator
 				}
 			}
 		}
-		void	TargetGenerator::forgetSpell(const std::string& spell)
+		void	TargetGenerator::forgetTargetType(const std::string& spell)
 		{
 
 			if (MAP.find(spell) != MAP.end())
@@ -49,7 +49,7 @@ class TargetGenerator
 
 
 		}
-		ASpell*	TargetGenerator::createSpell(std::string& spell)
+		ASpell*	TargetGenerator::createTarget(std::string& spell)
 		{
 			ASpell* t = 0;
 
