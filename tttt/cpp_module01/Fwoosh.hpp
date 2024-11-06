@@ -9,17 +9,17 @@
 #include "ASpell.hpp"
 
 
-class ASpell
+class Fwoosh
 {
 	protected:
-		// ASpell();
-		ASpell(const ASpell& origine);
-		ASpell& operator=(const ASpell& origine);
+		// Fwoosh();
+		Fwoosh(const Fwoosh& origine);
+		Fwoosh& operator=(const Fwoosh& origine);
 		std::string	_name;
 		std::string	_effects;
 	public:
-		ASpell(const std::string& name, const std::string&  effects);
-		virtual ~ASpell();
+		Fwoosh(const std::string& name, const std::string&  effects);
+		virtual ~Fwoosh();
 
 
 		const std::string&    	getName() const;
@@ -27,7 +27,7 @@ class ASpell
 
 
 
-		virtual ASpell* clone () const = 0;
+		virtual ASpell* clone () const;
 
 		void launch (const ATarget& target) const;
 
