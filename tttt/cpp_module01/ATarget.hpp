@@ -30,7 +30,7 @@ class ATarget
 };
 
 
-ATarget::ATarget(const std::string& type) : _type(_type), _effects(effects)
+ATarget::ATarget(const std::string& type) : _type(type)
 {
 
 }
@@ -55,6 +55,5 @@ const std::string&  ATarget::getEffects() const
 ATarget& ATarget::operator=(const ATarget& origine)
 {
 		_name = origine._name;
-		_effects = origine._effects;
 	return *this;
 }
