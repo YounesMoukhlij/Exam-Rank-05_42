@@ -27,7 +27,7 @@ class Warlock
 
 		void	introduce () const
 		{
-			<NAME>: I am <NAME>", "<TITLE>"!"
+			<NAME<< ": I am "<NAME>", "<TITLE>"!"
 		}
 
 Warlock & Warlock::operator=(const Warlock & o)
