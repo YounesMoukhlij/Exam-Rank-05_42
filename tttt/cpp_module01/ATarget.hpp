@@ -30,6 +30,10 @@ class ATarget
 		void getHitBySpell(const ASpell& spell);
 
 };
+		void getHitBySpell(const ASpell& spell)
+		{
+			
+		}
 
 
 ATarget::ATarget(const std::string& type) : _type(type)
