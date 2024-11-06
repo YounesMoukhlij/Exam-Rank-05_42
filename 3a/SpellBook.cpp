@@ -21,7 +21,7 @@ SpellBook& SpellBook::operator=(const SpellBook& origine)
 		{
 			if (spell)
 			{
-				if (MAP[spell->getName()] == MAP.end())
+				if (MAP.find(spell->getName()] == MAP.end())
 				{
 					MAP[spell->getName()] = spell->clone();
 				}
@@ -30,7 +30,7 @@ SpellBook& SpellBook::operator=(const SpellBook& origine)
 		void	SpellBook::forgetSpell(const std::string& spell)
 		{
 
-			if (MAP[spell] != MAP.end())
+			if (MAP.find(spell) != MAP.end())
 			{
 				MAP.erase(MAP.find(spell);
 			}
