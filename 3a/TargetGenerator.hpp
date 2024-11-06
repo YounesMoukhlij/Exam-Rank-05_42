@@ -29,7 +29,7 @@ class TargetGenerator
 
 
 
-		void	TargetGenerator::learnTargetType(ASpell* spell)
+		void	TargetGenerator::learnTargetType(ATarget* spell)
 		{
 			if (spell)
 			{
