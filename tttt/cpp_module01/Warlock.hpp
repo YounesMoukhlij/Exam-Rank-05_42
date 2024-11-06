@@ -6,7 +6,7 @@
 /*   By: youmoukh <youmoukh@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/17 14:20:11 by youmoukh          #+#    #+#             */
-/*   Updated: 2024/11/06 15:30:32 by youmoukh         ###   ########.fr       */
+/*   Updated: 2024/11/06 15:30:41 by youmoukh         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -46,7 +46,7 @@ class Warlock
 		{
 			if (MAP.find(spell) == MAP.end())
 			{
-				Ma
+				MAP[spell.] = spell
 			}
 		}
 		void	Warlock::forgetSpell(std::string spell);
