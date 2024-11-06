@@ -6,7 +6,7 @@
 /*   By: youmoukh <youmoukh@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/17 14:20:09 by youmoukh          #+#    #+#             */
-/*   Updated: 2024/11/06 16:06:26 by youmoukh         ###   ########.fr       */
+/*   Updated: 2024/11/06 16:10:34 by youmoukh         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -61,6 +61,8 @@ void	Warlock::setTitle(const std::string& _title)
 				}
 			}
 		}
+		
+		
 		void	Warlock::forgetSpell(std::string spell)
 		{
 			if (MAP.find(spell) != MAP.end())
