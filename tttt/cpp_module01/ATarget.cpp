@@ -1,6 +1,6 @@
 
 
-#include "ATarget.hp"
+#include "ATarget.hpp"
 
 		void ATarget::getHitBySpell(const ASpell& spell)
 		{
