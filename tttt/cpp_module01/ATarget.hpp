@@ -32,7 +32,7 @@ class ATarget
 };
 		void ATarget::getHitBySpell(const ASpell& spell)
 		{
-			std::cout << )
+			std::cout << _type << spell.getEffects() 
 		}
 
 
