@@ -57,7 +57,6 @@ const std::string&  ATarget::getEffects() const
 }
 
 
-
 ATarget& ATarget::operator=(const ATarget& origine)
 {
 	_type = origine._type;
