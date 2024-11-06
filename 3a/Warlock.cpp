@@ -6,7 +6,7 @@
 /*   By: youmoukh <youmoukh@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/17 14:20:09 by youmoukh          #+#    #+#             */
-/*   Updated: 2024/11/06 16:42:45 by youmoukh         ###   ########.fr       */
+/*   Updated: 2024/11/06 16:43:00 by youmoukh         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -56,6 +56,7 @@ void	Warlock::setTitle(const std::string& _title)
 			if (spell)
 			{
 				MAP.learnSpell(spell);
+				
 				if (MAP.find(spell->getName()) == MAP.end())
 				{
 					MAP[spell->getName()] = spell->clone();
@@ -66,6 +67,8 @@ void	Warlock::setTitle(const std::string& _title)
 		
 		void	Warlock::forgetSpell(std::string spell)
 		{
+				MAP.forgetSpell(spell);
+			
 			if (MAP.find(spell) != MAP.end())
 			{
 				delete MAP[spell];
@@ -74,6 +77,8 @@ void	Warlock::setTitle(const std::string& _title)
 		}
 		void	Warlock::launchSpell(std::string spell, const ATarget& tar)
 		{
+			
+			
 			if (MAP.find(spell) != MAP.end())
 			{
 				MAP[spell]->launch(tar);
