@@ -49,7 +49,7 @@ class TargetGenerator
 
 
 		}
-		ATarget*	TargetGenerator::createTarget(std::string& spell)
+		ATarget*	TargetGenerator::createTarget(const std::string& spell)
 		{
 			ATarget* t = 0;
 
