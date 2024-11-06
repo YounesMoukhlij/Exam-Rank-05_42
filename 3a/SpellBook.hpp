@@ -55,9 +55,9 @@ SpellBook& SpellBook::operator=(const SpellBook& origine)
 		void	SpellBook::forgetSpell(const std::string& spell)
 		{
 
-			if (it != MAP.end())
+			if (MAP[spell] != MAP.end())
 			{
-
+				MAP
 			}
 
 
