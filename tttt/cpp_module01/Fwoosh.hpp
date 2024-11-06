@@ -11,17 +11,9 @@
 
 class Fwoosh
 {
-		Fwoosh();
 	public:
-		Fwoosh(const std::string& name, const std::string&  effects);
-		virtual ~Fwoosh();
-
-
-		const std::string&    	getName() const;
-		const std::string&	 	getEffects() const;
-
-
-		ASpell* clone () const;
+		Fwoosh();
+		~Fwoosh();ASpell* clone () const;
 
 
 
