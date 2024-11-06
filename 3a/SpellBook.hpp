@@ -22,17 +22,12 @@ class SpellBook
 
 		~SpellBook();
 
-
-		const std::string&    	getName() const;
-		const std::string&	 	getTitle() const;
-		void					introduce() const;
-		void					setTitle(const std::string& _title);
-
 		void	learnSpell(ASpell* spell);
 		void	forgetSpell(const std::string& spell);
 		ASpell*	createSpell(std::string& spell);
 
 };
+		~SpellBook();
 
 		void	learnSpell(ASpell* spell);
 		void	forgetSpell(const std::string& spell);
