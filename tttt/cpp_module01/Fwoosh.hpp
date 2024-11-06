@@ -21,6 +21,9 @@ class Fwoosh
 };
 
 ASpell* Fwoosh::clone () const
+{
+	return new Fwoosh();
+}
 
 
 Fwoosh::Fwoosh() : ASpell("Fwoosh", "fwooshed")
