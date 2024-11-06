@@ -6,17 +6,17 @@
 #include <iostream>
 
 
-class ASpell
+class ATarget
 {
 	protected:
-		ASpell();
-		ASpell(const ASpell& origine);
-		ASpell& operator=(const ASpell& origine);
+		ATarget();
+		ATarget(const ATarget& origine);
+		ATarget& operator=(const ATarget& origine);
 		std::string	_name;
 		std::string	_effects;
 	public:
-		ASpell(const std::string& name, const std::string&  effects);
-		virtual ~ASpell();
+		ATarget(const std::string& name, const std::string&  effects);
+		virtual ~ATarget();
 
 
 		const std::string&    	getName() const;
@@ -24,7 +24,7 @@ class ASpell
 
 
 
-		virtual ASpell* clone () const = 0;
+		virtual ATarget* clone () const = 0;
 
 
 
