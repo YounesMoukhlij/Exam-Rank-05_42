@@ -36,5 +36,11 @@ class SpellBook
 		{
 
 		}
-		void	SpellBook::forgetSpell(const std::string& spell);
-		ASpell*	SpellBook::createSpell(std::string& spell);
+		void	SpellBook::forgetSpell(const std::string& spell)
+		{
+
+		}
+		ASpell*	SpellBook::createSpell(std::string& spell)
+		[
+			
+		]
