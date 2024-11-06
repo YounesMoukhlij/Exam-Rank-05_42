@@ -3,7 +3,7 @@
 
 
 #include <iostream>
-#include "ATA"
+#include "ATarget.hpp"
 
 
 class ASpell
