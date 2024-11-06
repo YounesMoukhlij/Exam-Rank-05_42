@@ -19,6 +19,10 @@ ATarget::~ATarget()
 {
 
 }
+ATarget::~ATarget()
+{
+
+}
 		ATarget::ATarget(const ATarget& origine)
 		{
 			*this = origine;
