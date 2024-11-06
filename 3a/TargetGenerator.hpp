@@ -12,13 +12,13 @@
 class TargetGenerator
 {
 	private:
-		TargetGenerator();
 		TargetGenerator(const TargetGenerator& origine);
 		TargetGenerator& operator=(const TargetGenerator& origine);
 
 		std::map<std::string , ATarget *> MAP;
 	public:
 
+		TargetGenerator();
 		~TargetGenerator();
 
 		void	learnTargetType(ATarget* spell);
