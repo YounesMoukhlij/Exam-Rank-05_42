@@ -16,5 +16,8 @@ class Warlock
 		const std::string& getName() const;
 		const std::string& getEffects() const;
 
-		
+		~Warlock();
+		Warlock();
+
+		void	i
 }
