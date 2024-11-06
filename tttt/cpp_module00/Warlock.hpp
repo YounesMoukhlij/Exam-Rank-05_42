@@ -9,9 +9,10 @@ class Warlock
 	private:
 		std::string _name;
 		std::string _effects;
-	public:
 		Warlock& operator=(const Warlock& o);
+	public:
 		Warlock(const Warlock& o);
+		Warlock(cons);
 
 		const std::string& getName() const;
 		const std::string& getEffects() const;
