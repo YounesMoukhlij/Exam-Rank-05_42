@@ -11,13 +11,32 @@ Inconspicuous Red-brick Wall
 #include "ASpell.hpp"
 
 
-class Dummy : public ATarget
+class BrickWall : public ATarget
 {
 	public:
-		Dummy();
-		~Dummy();
+		BrickWall();
+		~BrickWall();
 		ATarget* clone () const;
 
 
 
 };
+
+
+#include "BrickWall.hpp"
+
+ATarget* BrickWall::clone () const
+{
+	return new BrickWall();
+}
+
+
+BrickWall::BrickWall() : ATarget("Target Practice BrickWall")
+{
+
+}
+
+BrickWall::~BrickWall()
+{
+
+}
