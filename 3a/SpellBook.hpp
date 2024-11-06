@@ -49,8 +49,7 @@ SpellBook& SpellBook::operator=(const SpellBook& origine)
 			std::map<std::string, ASpell *>::iterator it = MAP.find(spell->getName());
 			if (it != MAP.end())
 			{
-				MAP[spell->getName()] = spell->clone
-				
+				MAP[spell->getName()] = spell->clone();
 			}
 		}
 		void	SpellBook::forgetSpell(const std::string& spell)
@@ -60,7 +59,6 @@ SpellBook& SpellBook::operator=(const SpellBook& origine)
 			if (it != MAP.end())
 			{
 				delete (it->second);
-				MAP.erase(*it);
 			}
 
 
