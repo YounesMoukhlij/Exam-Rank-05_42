@@ -13,7 +13,8 @@ class Fwoosh
 {
 	public:
 		Fwoosh();
-		~Fwoosh();ASpell* clone () const;
+		~Fwoosh();
+		ASpell* clone () const;
 
 
 
