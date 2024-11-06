@@ -48,13 +48,9 @@ const std::string&   ASpell::getName() const
 
 const std::string&  ASpell::getEffects() const
 {
-	return _title;
+	return _effects;
 }
 
-void	ASpell::setTitle(const std::string& title)
-{
-	_title = title;
-}
 
 
 
