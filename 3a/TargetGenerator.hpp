@@ -33,9 +33,9 @@ class TargetGenerator
 		{
 			if (spell)
 			{
-				if (MAP.find(spell->getName()) == MAP.end())
+				if (MAP.find(spell->getType()) == MAP.end())
 				{
-					MAP[spell->getName()] = spell->clone();
+					MAP[spell->getType()] = spell->clone();
 				}
 			}
 		}
