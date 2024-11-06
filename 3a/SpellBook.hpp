@@ -30,7 +30,7 @@ class Warlock
 		void					setTitle(const std::string& _title);
 
 		void	learnSpell(ASpell* spell);
-		void	forgetSpell(std::string spell);
-		void	createSpell(std::string spell, const ATarget& tar);
+		void	forgetSpell(const std::string& spell);
+		void	createSpell(std::string& spell, const ATarget& tar);
 
 };
