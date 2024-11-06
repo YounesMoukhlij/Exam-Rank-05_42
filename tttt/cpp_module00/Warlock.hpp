@@ -31,7 +31,7 @@ Warlock & Warlock::operator=(const Warlock & o)
 	_name = o._name;
 	_title = o._title;
 
-	return (this);
+	return (*this);
 }
 
 		const std::string& Warlock::getName() const
@@ -47,3 +47,6 @@ Warlock & Warlock::operator=(const Warlock & o)
 		{
 			_title = title;
 		}
+
+
+		Warlock(const std::string& name, const std::string& title);
