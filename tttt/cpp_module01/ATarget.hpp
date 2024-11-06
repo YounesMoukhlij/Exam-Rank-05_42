@@ -46,6 +46,10 @@ ATarget::~ATarget()
 {
 
 }
+		ATarget::ATarget(const ATarget& origine)
+		{
+			*this = originel
+		}
 
 
 const std::string&   ATarget::getType() const
