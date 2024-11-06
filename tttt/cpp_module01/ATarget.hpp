@@ -30,29 +30,29 @@ class ATarget
 };
 
 
-ASpell::ASpell(const std::string& name, const std::string& title) : _name(name), _effects(effects)
+ATarget::ATarget(const std::string& name, const std::string& title) : _name(name), _effects(effects)
 {
 
 }
 
-ASpell::~ASpell()
+ATarget::~ATarget()
 {
 
 }
 
-const std::string&   ASpell::getName() const
+const std::string&   ATarget::getType() const
 {
-	return _name;
+	return _type;
 }
 
-const std::string&  ASpell::getEffects() const
+const std::string&  ATarget::getEffects() const
 {
 	return _effects;
 }
 
 
 
-ASpell& ASpell::operator=(const ASpell& origine)
+ATarget& ATarget::operator=(const ATarget& origine)
 {
 		_name = origine._name;
 		_effects = origine._effects;
