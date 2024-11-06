@@ -7,7 +7,7 @@
 
 class ASpell
 {
-	private:
+	protected:
 		ASpell();
 		ASpell(const ASpell& origine);
 		ASpell& operator=(const ASpell& origine);
@@ -20,6 +20,10 @@ class ASpell
 
 		const std::string&    	getName() const;
 		const std::string&	 	getEffects() const;
+
+
+
+		virtual
 
 
 
