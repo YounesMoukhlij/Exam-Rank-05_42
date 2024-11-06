@@ -4,7 +4,7 @@
 #include "ASpell.hpp"
 #include "BrickWall.hpp"
 #include "Warlock.hpp"
-#include "Warlock.hpp"
+#include "SpellBook.hpp"
 #include "TargetGenerator.hpp"
 #include "Polymorph.hpp"
 
