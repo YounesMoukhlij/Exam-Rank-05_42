@@ -46,11 +46,13 @@ SpellBook& SpellBook::operator=(const SpellBook& origine)
 
 		void	SpellBook::learnSpell(ASpell* spell)
 		{
-
-			if (MAP[spell->getName()] == MAP.end())
+			if (spell)
 			{
-				MAP[spell->getName()] = spell->clone();
-			}
+				if (MAP[spell->getName()] == MAP.end())
+				{
+					MAP[spell->getName()] = spell->clone();
+				}
+				
 		}
 		void	SpellBook::forgetSpell(const std::string& spell)
 		{
@@ -66,7 +68,7 @@ SpellBook& SpellBook::operator=(const SpellBook& origine)
 		{
 			ASpell* t = 0;
 
-			
+
 			if (MAP[spell] != MAP.end())
 			{
 				t = MAP[spell];
