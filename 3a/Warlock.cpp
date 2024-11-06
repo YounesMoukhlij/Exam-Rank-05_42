@@ -6,7 +6,7 @@
 /*   By: youmoukh <youmoukh@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/17 14:20:09 by youmoukh          #+#    #+#             */
-/*   Updated: 2024/11/06 17:03:16 by youmoukh         ###   ########.fr       */
+/*   Updated: 2024/11/06 17:04:23 by youmoukh         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -71,6 +71,9 @@ void	Warlock::setTitle(const std::string& _title)
 		void	Warlock::launchSpell(std::string spell, const ATarget& tar)
 		{
 			
-			MAP.createSpell(spell);
+			if (MAP.createSpell(spell))
+			{
+				MAP.createSpell(spell)->
+			}
 	
 		}
