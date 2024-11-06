@@ -42,6 +42,11 @@ class SpellBook
 		}
 		void	SpellBook::forgetSpell(const std::string& spell)
 		{
+			std::map<std::string, ASpell *>::iterator it = MAP.find(spell.getName());
+			if (it != MAP.end())
+			{
+
+			}
 
 		}
 		ASpell*	SpellBook::createSpell(std::string& spell)
