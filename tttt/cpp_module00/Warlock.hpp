@@ -27,7 +27,7 @@ class Warlock
 
 		void	introduce () const
 		{
-			std::cout << _name << ": I am "<< _name <<", "<TITLE>"!"
+			std::cout << _name << ": I am "<< _name <<", "<< _title <<"!" << std::endl;
 		}
 
 Warlock & Warlock::operator=(const Warlock & o)
