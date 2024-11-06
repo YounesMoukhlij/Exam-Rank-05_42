@@ -25,10 +25,11 @@ class ASpell
 
 		virtual ASpell* clone () const = 0;
 
-		void launch (const ATar) const;
+		void launch (const ATarget& target) const;
 
 
 };
+		void ASpell::launch (const ATarget& target) const;
 
 
 ASpell::ASpell(const std::string& name, const std::string& title) : _name(name), _effects(effects)
