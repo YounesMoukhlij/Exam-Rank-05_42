@@ -51,5 +51,7 @@ class SpellBook
 		}
 		ASpell*	SpellBook::createSpell(std::string& spell)
 		{
-			ASpell 
+			ASpell* t = 0;
+			if
+			return t;
 		}
