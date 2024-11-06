@@ -3,11 +3,11 @@
 
 		void ASpell::launch (const ATarget& target) const
 		{
-			target.getHitBySpell(this);
+			target.getHitBySpell(*this);
 		}
 
 
-ASpell::ASpell(const std::string& name, const std::string& title) : _name(name), _effects(effects)
+ASpell::ASpell(const std::string& name, const std::string& effects) : _name(name), _effects(effects)
 {
 
 }
