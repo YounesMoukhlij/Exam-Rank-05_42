@@ -19,5 +19,7 @@ class Warlock
 		~Warlock();
 		Warlock();
 
-		void	i
+		void	introduce () const;
+
+		void	setTitle()
 }
