@@ -14,7 +14,7 @@ class ATarget
 	protected:
 		std::string	_type;
 	public:
-		ATarget();
+
 		ATarget(const ATarget& origine);
 		ATarget& operator=(const ATarget& origine);
 		ATarget(const std::string& type);
