@@ -48,7 +48,7 @@ ATarget::~ATarget()
 }
 		ATarget::ATarget(const ATarget& origine)
 		{
-			*this = originel
+			*this = origine;
 		}
 
 
