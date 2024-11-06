@@ -33,7 +33,7 @@ class TargetGenerator
 		{
 			if (spell)
 			{
-				if (MAP.find(spell->getName()] == MAP.end())
+				if (MAP.find(spell->getName()) == MAP.end())
 				{
 					MAP[spell->getName()] = spell->clone();
 				}
@@ -42,7 +42,7 @@ class TargetGenerator
 		void	TargetGenerator::forgetSpell(const std::string& spell)
 		{
 
-			if (MAP[spell] != MAP.end())
+			if (MAP.find(spell) != MAP.end())
 			{
 				MAP.erase(MAP[spell]);
 			}
