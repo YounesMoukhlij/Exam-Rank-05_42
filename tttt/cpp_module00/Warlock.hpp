@@ -49,9 +49,12 @@ Warlock & Warlock::operator=(const Warlock & o)
 		}
 
 
-		Warlock(const std::string& name, const std::string& title) : _name (name), _title(title)
+		Warlock::Warlock(const std::string& name, const std::string& title) : _name (name), _title(title)
 		{
 
 		}
 
-		~Warlock();
+		Warlock::~Warlock()
+		{
+			std::cout << 
+		}
