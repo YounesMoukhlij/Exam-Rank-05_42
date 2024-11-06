@@ -31,7 +31,7 @@ Warlock & Warlock::operator=(const Warlock & o)
 	_name = o._name;
 	_title = o._title;
 
-	return (*this);
+	return (this);
 }
 
 		const std::string& Warlock::getName() const
@@ -57,5 +57,5 @@ Warlock & Warlock::operator=(const Warlock & o)
 
 		Warlock::~Warlock()
 		{
-			std::cout << _name << : My job here is done!
+			std::cout << _name << ": My job here is done!" << std::endl;
 		}
