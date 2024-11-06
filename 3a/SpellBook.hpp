@@ -51,5 +51,5 @@ class SpellBook
 		}
 		ASpell*	SpellBook::createSpell(std::string& spell)
 		{
-			
+			ASpell 
 		}
