@@ -23,7 +23,7 @@ ATarget* Dummy::clone () const
 }
 
 
-Dummy::Dummy() : ATarget("Dummy", "Dummyed")
+Dummy::Dummy() : ATarget("Target Practice Dummy")
 {
 
 }
