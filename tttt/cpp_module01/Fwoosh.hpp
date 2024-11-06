@@ -9,7 +9,7 @@
 #include "ASpell.hpp"
 
 
-class Fwoosh
+class Fwoosh : public
 {
 	public:
 		Fwoosh();
