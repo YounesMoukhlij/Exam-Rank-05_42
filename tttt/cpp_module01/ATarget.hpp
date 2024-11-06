@@ -25,7 +25,7 @@ class ATarget
 		virtual ATarget* clone () const = 0;
 
 
-		getHitBySpell(const ASpell& p)
+		void getHitBySpell(const ASpell& spell);
 
 };
 
