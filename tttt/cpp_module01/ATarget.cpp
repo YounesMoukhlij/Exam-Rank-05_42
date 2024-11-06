@@ -39,17 +39,8 @@ ATarget& ATarget::operator=(const ATarget& origine)
 }
 
 
-ATarget::ATarget(const std::string& _name, const std::string& _title) : name(_name), title(_title)
-{
-	std::cout << _name << " : This looks like another boring day." << std::endl;
-}
 
 
 
 
-ATarget& ATarget::operator=(const ATarget& origine)
-{
-	this->name = origine.name;
-	this->title = origine.title;
-	return (*this);
-}
+
