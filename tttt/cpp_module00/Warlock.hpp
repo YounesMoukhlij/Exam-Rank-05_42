@@ -56,5 +56,5 @@ Warlock & Warlock::operator=(const Warlock & o)
 
 		Warlock::~Warlock()
 		{
-			std::cout << 
+			std::cout << _name << 
 		}
