@@ -17,3 +17,4 @@ class Fireball : public ASpell
 
 
 };
+
