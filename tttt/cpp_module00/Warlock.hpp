@@ -34,3 +34,5 @@ Warlock & Warlock::operator=(const Warlock & o)
 	return (this);
 }
 
+		const std::string& getName() const;
+		const std::string& getEffects() const;
