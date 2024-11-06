@@ -37,18 +37,18 @@
 
 
 
-		SpellBook::SpellBook(const SpellBook& origine)
+		TargetGenerator::TargetGenerator(const TargetGenerator& origine)
 		{
 			*this = origine;
 		}
 
 
-SpellBook& SpellBook::operator=(const SpellBook& origine)
+TargetGenerator& TargetGenerator::operator=(const TargetGenerator& origine)
 {
 		MAP = origine.MAP;
 	return *this;
 }
-		SpellBook::~SpellBook()
+		TargetGenerator::~TargetGenerator()
 		{}
-		SpellBook::SpellBook()
+		TargetGenerator::TargetGenerator()
 		{}
