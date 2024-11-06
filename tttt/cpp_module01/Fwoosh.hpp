@@ -21,3 +21,12 @@ class Fwoosh
 };
 
 
+ATarget::ATarget(const std::string& type) : _type(type)
+{
+
+}
+
+ATarget::~ATarget()
+{
+
+}
