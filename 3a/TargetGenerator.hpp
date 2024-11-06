@@ -49,9 +49,9 @@ class TargetGenerator
 
 
 		}
-		ASpell*	TargetGenerator::createTarget(std::string& spell)
+		ATarget*	TargetGenerator::createTarget(std::string& spell)
 		{
-			ASpell* t = 0;
+			ATarget* t = 0;
 
 
 			if (MAP.find(spell) != MAP.end())
