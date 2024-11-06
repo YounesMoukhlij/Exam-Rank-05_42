@@ -16,7 +16,7 @@ class Warlock
 		Warlock(const std::string& name, const std::string& title);
 
 		const std::string& getName() const;
-		const std::string& f() const;
+		const std::string& getTitle() const;
 
 		~Warlock();
 
@@ -38,7 +38,7 @@ Warlock & Warlock::operator=(const Warlock & o)
 		{
 			return _name;
 		}
-		const std::string& Warlock::getEffects() const
+		const std::string& Warlock::getTitle() const
 		{
 			return _effects;
 		}
