@@ -56,6 +56,11 @@ SpellBook& SpellBook::operator=(const SpellBook& origine)
 		{
 			std::map<std::string, ASpell *>::iterator it = MAP.find(spell);
 
+			if (it != MAP.end())
+			{
+				MAP.erase()
+			}
+
 
 		}
 		ASpell*	SpellBook::createSpell(std::string& spell)
