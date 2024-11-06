@@ -44,7 +44,7 @@ class TargetGenerator
 
 			if (MAP.find(spell) != MAP.end())
 			{
-				MAP.erase(MAP[spell]);
+				MAP.erase(MAP.find(spell]);
 			}
 
 
