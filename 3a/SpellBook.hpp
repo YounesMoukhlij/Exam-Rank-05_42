@@ -29,6 +29,8 @@ class SpellBook
 };
 		SpellBook::~SpellBook()
 		{}
+		SpellBook::SpellBook()
+		{}
 
 		void	SpellBook::learnSpell(ASpell* spell)
 		{
