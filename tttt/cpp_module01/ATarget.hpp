@@ -14,7 +14,7 @@ class ATarget
 		ATarget& operator=(const ATarget& origine);
 		std::string	_type;
 	public:
-		ATarget(const std::string& name, const std::string&  effects);
+		ATarget(const std::string& type);
 		virtual ~ATarget();
 
 
