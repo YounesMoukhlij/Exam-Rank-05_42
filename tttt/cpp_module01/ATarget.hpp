@@ -18,8 +18,7 @@ class ATarget
 		virtual ~ATarget();
 
 
-		const std::string&    	getName() const;
-		const std::string&	 	getEffects() const;
+		const std::string&    	getType() const;
 
 
 
