@@ -47,14 +47,13 @@ SpellBook& SpellBook::operator=(const SpellBook& origine)
 		void	SpellBook::learnSpell(ASpell* spell)
 		{
 
-			if (i == MAP.end())
+			if (MAP[spell->getName()] == MAP.end())
 			{
 				MAP[spell->getName()] = spell->clone();
 			}
 		}
 		void	SpellBook::forgetSpell(const std::string& spell)
 		{
-			std::map<std::string, ASpell *>::iterator it = MAP.find(spell);
 
 			if (it != MAP.end())
 			{
