@@ -11,10 +11,10 @@ class ASpell
 		ASpell();
 		ASpell(const ASpell& origine);
 		ASpell& operator=(const ASpell& origine);
-		std::string	name;
-		std::string	effects;
+		std::string	_name;
+		std::string	_effects;
 	public:
-		ASpell(const std::string& _name, const std::string&  _effects);
+		ASpell(const std::string& name, const std::string&  effects);
 		~ASpell();
 
 
@@ -31,7 +31,7 @@ class ASpell
 };
 
 
-ASpell::ASpell(const std::string& name, const std::string& title) : _name(name), _title(title)
+ASpell::ASpell(const std::string& name, const std::string& title) : _name(name), _title(effects)
 {
 	std::cout << _name << ": This looks like another boring day." << std::endl;
 }
