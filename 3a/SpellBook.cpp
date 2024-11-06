@@ -32,7 +32,7 @@ SpellBook& SpellBook::operator=(const SpellBook& origine)
 
 			if (MAP[spell] != MAP.end())
 			{
-				MAP.erase(MAP[spell]);
+				MAP.erase(MAP.find(spell);
 			}
 
 
