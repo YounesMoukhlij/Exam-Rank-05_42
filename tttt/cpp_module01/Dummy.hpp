@@ -23,7 +23,7 @@ ATarget* Dummy::clone () const
 }
 
 
-Dummy::Dummy() : ASpell("Dummy", "Dummyed")
+Dummy::Dummy() : ATarget("Dummy", "Dummyed")
 {
 
 }
