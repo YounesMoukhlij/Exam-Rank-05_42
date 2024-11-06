@@ -23,7 +23,7 @@ class Warlock
 		Warlock& operator=(const Warlock& origine);
 		std::string	name;
 		std::string	title;
-		std::map<std::string
+		std::map<std::string, ASpell*> MAP;
 	public:
 		Warlock(const std::string& _name, const std::string&  _title);
 		~Warlock();
@@ -33,6 +33,8 @@ class Warlock
 		const std::string&	 	getTitle() const;
 		void					introduce() const;
 		void					setTitle(const std::string& _title);
+
+		void	learnSpell()
 
 };
 
