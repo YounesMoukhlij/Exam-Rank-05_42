@@ -54,6 +54,6 @@ const std::string&  ATarget::getEffects() const
 
 ATarget& ATarget::operator=(const ATarget& origine)
 {
-		_name = origine._name;
+	_type = origine._type;
 	return *this;
 }
