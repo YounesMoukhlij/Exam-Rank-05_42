@@ -15,7 +15,7 @@ class ASpell
 		std::string	_effects;
 	public:
 		ASpell(const std::string& name, const std::string&  effects);
-		~ASpell();
+		virtual ~ASpell();
 
 
 		const std::string&    	getName() const;
@@ -31,14 +31,14 @@ class ASpell
 };
 
 
-ASpell::ASpell(const std::string& name, const std::string& title) : _name(name), _title(effects)
+ASpell::ASpell(const std::string& name, const std::string& title) : _name(name), _effects(effects)
 {
-	std::cout << _name << ": This looks like another boring day." << std::endl;
+
 }
 
 ASpell::~ASpell()
 {
-	std::cout << _name << ": My job here is done!" << std::endl;
+
 }
 
 const std::string&   ASpell::getName() const
