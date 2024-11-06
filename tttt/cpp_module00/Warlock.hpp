@@ -35,7 +35,7 @@ Warlock & Warlock::operator=(const Warlock & o)
 	_name = o._name;
 	_title = o._title;
 
-	return (this);
+	return (*this);
 }
 
 		 Warlock::Warlock(const Warlock& o)
