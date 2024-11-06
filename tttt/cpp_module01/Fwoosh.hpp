@@ -21,7 +21,7 @@ class Fwoosh
 };
 
 
-Fwoosh::Fwoosh(const std::string& type) : _type(type)
+Fwoosh::Fwoosh() : ASpell("")
 {
 
 }
