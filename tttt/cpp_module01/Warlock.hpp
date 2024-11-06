@@ -6,7 +6,7 @@
 /*   By: youmoukh <youmoukh@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/17 14:20:11 by youmoukh          #+#    #+#             */
-/*   Updated: 2024/11/06 15:29:26 by youmoukh         ###   ########.fr       */
+/*   Updated: 2024/11/06 15:29:45 by youmoukh         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,7 +38,10 @@ class Warlock
 
 		void	learnSpell(ASpell* spell);
 		void	forgetSpell(std::string spell);
-		void	launchSpell(std::string spell, const A);
+		void	launchSpell(std::string spell,  ATarget& tar);
 
 };
 
+		void	WarlocklearnSpell(ASpell* spell);
+		void	forgetSpell(std::string spell);
+		void	launchSpell(std::string spell,  ATarget& tar);
