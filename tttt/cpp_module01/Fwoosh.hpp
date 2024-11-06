@@ -20,6 +20,8 @@ class Fwoosh
 
 };
 
+ASpell* Fwoosh::clone () const
+
 
 Fwoosh::Fwoosh() : ASpell("Fwoosh", "fwooshed")
 {
