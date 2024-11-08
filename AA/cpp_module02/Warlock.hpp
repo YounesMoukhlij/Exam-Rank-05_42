@@ -16,7 +16,7 @@ class Warlock
 		Warlock& operator=(const Warlock& origine);
 		std::string	_name;
 		std::string	_title;
-		SpellB
+		SpellBook MAP;
 	public:
 		Warlock(const std::string& name, const std::string&  title);
 		~Warlock();
