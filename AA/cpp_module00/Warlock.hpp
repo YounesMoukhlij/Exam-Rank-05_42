@@ -25,4 +25,12 @@ class Warlock
 };
 
 
+Warlock::Warlock(const Warlock& o)
+{
+	
+}
+
+Warlock
+
+
 Warlock
