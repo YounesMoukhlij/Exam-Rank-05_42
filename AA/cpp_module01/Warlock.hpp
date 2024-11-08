@@ -1,6 +1,7 @@
 #pragma once
 
 #include <iostream>
+#include <map>
 
 class Warlock
 {
@@ -10,6 +11,7 @@ class Warlock
 		Warlock& operator=(const Warlock& origine);
 		std::string	_name;
 		std::string	_title;
+		
 	public:
 		Warlock(const std::string& name, const std::string&  title);
 		~Warlock();
