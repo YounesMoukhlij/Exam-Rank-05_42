@@ -9,7 +9,7 @@ class Dummy
 	public:
 		Dummy();
 		 ~Dummy();
-		 ASpell*  clone () const;
+		 ATarget*  clone () const;
 
 
 };
@@ -23,7 +23,7 @@ Dummy::Dummy() : ATarget("Target Practice Dummy")
 
 		 }
 
-		 ASpell*  Dummy::clone () const
+		 ATarget*  Dummy::clone () const
 		 {
 			return new Dummy();
 		 }
