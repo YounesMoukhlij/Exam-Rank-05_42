@@ -34,7 +34,7 @@ TargetGenerator& TargetGenerator::operator=(const TargetGenerator& o)
 					MAP[spell->getType()] = spell->clone();
 			}
 		}
-		void	TargetGenerator::forgetTargetType(std::string spell)
+		void	TargetGenerator::forgetTargetType(std::string& spell)
 		{
 				if (MAP.find(spell) != MAP.end())
 				{
@@ -44,7 +44,7 @@ TargetGenerator& TargetGenerator::operator=(const TargetGenerator& o)
 
 
 		}
-		ATarget*	TargetGenerator::createTarget(std::string spell)
+		ATarget*	TargetGenerator::createTarget(std::string& spell)
 		{
 			ATarget * t = 0;
 			if (MAP.find(spell) != MAP.end())
