@@ -7,7 +7,7 @@
 #include "BrickWall.hpp"
 #include "Fireball.hpp"
 #include "Fireball.hpp"
-#include "Spell.hpp"
+#include "SpellBook.hpp"
 #include "TargetGenerator.hpp"
 
 
