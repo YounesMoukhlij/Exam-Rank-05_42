@@ -24,7 +24,7 @@ class Warlock
 
 };
 
-void	
+void	Warlock::i
 
 Warlock::Warlock(const Warlock& o)
 {
