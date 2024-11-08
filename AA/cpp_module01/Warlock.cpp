@@ -45,7 +45,7 @@ const std::string& Warlock::getTitle() const
 	return _title;
 }
 
-		void	Warlock::learnSpell(ASpell * spell)
+		void	Warlock::learnSpell(ASpell* spell)
 		{
 			if (spell)
 			{
