@@ -2,6 +2,7 @@
 #pragma once
 
 #include <iostream>
+#include <iostream>
 
 class ASpell
 {
@@ -20,7 +21,7 @@ class ASpell
 		const std::string&	 	getEffects() const;
 
 		virtual ASpell*  clone () const = 0;
-		void	launch(const ATarget& tat)
+		void	launch(const ATarget& tar);
 
 };
 
