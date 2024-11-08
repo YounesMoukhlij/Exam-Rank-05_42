@@ -3,17 +3,17 @@
 
 #include <iostream>
 
-class Warlock
+class ASpell
 {
 	private:
-		Warlock();
-		Warlock(const Warlock& origine);
-		Warlock& operator=(const Warlock& origine);
+		ASpell();
+		ASpell(const ASpell& origine);
+		ASpell& operator=(const ASpell& origine);
 		std::string	name;
 		std::string	title;
 	public:
-		Warlock(const std::string& _name, const std::string&  _title);
-		~Warlock();
+		ASpell(const std::string& _name, const std::string&  _title);
+		~ASpell();
 
 
 		const std::string&    	getName() const;
