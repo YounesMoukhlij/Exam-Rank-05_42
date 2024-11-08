@@ -56,8 +56,7 @@ const std::string& Warlock::getTitle() const
 		{
 				if (MAP.find(spell) != MAP.end())
 				{
-					delete MAP[spell];
-					MAP.erase(MAP.find(spell));
+					MforgetSpell()
 				}
 
 
