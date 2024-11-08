@@ -20,8 +20,8 @@ class TargetGenerator
 
 
 		void	learnTargetType(ATarget * spell);
-		void	forgetTargetType(std::string& spell);
-		ATarget*	createTarget(std::string& spell);
+		void	forgetTargetType(const std::string& spell);
+		ATarget*	createTarget(const std::string& spell);
 
 };
 

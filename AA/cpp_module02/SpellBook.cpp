@@ -33,7 +33,7 @@ SpellBook& SpellBook::operator=(const SpellBook& o)
 					MAP[spell->getName()] = spell->clone();
 			}
 		}
-		void	SpellBook::forgetSpell(std::string& spell)
+		void	SpellBook::forgetSpell( std::string& spell)
 		{
 				if (MAP.find(spell) != MAP.end())
 				{
@@ -57,5 +57,5 @@ SpellBook& SpellBook::operator=(const SpellBook& o)
 
 		SpellBook::SpellBook()
 		{
-			
+
 		}
