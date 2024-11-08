@@ -7,8 +7,8 @@ class ASpell
 {
 	private:
 		ASpell();
-		ASpell(const ASpell& origine);
-		ASpell& operator=(const ASpell& origine);
+		ASpell(const ASpell& o);
+		ASpell& operator=(const ASpell& o);
 		std::string	_name;
 		std::string	_effects;
 	public:
@@ -34,10 +34,6 @@ ASpell::~ASpell()
 
 }
 
-void	ASpell::introduce() const
-{
-	std::cout << _name << ": I am " << _name << ", " << _title << "!" << std::endl;
-}
 
 ASpell::ASpell(const ASpell& o)
 {
