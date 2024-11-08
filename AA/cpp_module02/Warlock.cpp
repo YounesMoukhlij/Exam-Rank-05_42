@@ -56,7 +56,7 @@ const std::string& Warlock::getTitle() const
 		{
 				if (MAP.find(spell) != MAP.end())
 				{
-					MforgetSpell()
+					MAP.forgetSpell(spell);
 				}
 
 
@@ -65,7 +65,7 @@ const std::string& Warlock::getTitle() const
 		{
 				if (MAP.find(spell) != MAP.end())
 				{
-					MAP[spell]->launch(tar);
+
 				}
 
 		}
