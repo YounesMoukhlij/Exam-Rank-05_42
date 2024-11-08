@@ -3,7 +3,7 @@
 class Fwoosh;
 
 
-Fwoosh::Fwoosh() : ASpell("Fwoosh", "Fwoosh")
+Fwoosh::Fwoosh() : ASpell("Fwoosh", "fwooshed")
 {
 
 }
