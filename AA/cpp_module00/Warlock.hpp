@@ -7,5 +7,7 @@
 
 class Warlock
 {
-	pr
+	private:
+		std::string 
+
 }
