@@ -24,7 +24,7 @@ class SpellBook
 		const std::string&    	getName() const;
 		const std::string&	 	getTitle() const;
 		void					introduce() const;
-		void					setTitle(const std::string& title);
+
 
 		void	learnSpell(ASpell * spell);
 		void	forgetSpell(std::string& spell);
