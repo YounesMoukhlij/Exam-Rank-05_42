@@ -1,6 +1,7 @@
 #pragma once
 
 #include <iostream>
+#include "ASpell.hpp"
 #include <map>
 
 class Warlock
@@ -39,5 +40,6 @@ class Warlock
 		void	Warlock::forgetSpell(std::string spell)
 		{
 			
+
 		}
 		void	Warlock::launchSpell(std::string spell, ATarget& tar);
