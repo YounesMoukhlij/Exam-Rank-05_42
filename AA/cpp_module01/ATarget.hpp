@@ -3,7 +3,7 @@
 #include <iostream> 
 #include "ASpell.hpp"
 
-class 
+class ASpell;
 
 class ATarget
 {
