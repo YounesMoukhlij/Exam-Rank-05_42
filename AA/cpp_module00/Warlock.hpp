@@ -26,7 +26,7 @@ class Warlock
 
 void	Warlock::introduce() const
 {
-	std::cout << 
+	std::cout << _name << ": I am "
 }
 
 Warlock::Warlock(const Warlock& o)
