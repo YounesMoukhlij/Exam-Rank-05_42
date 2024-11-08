@@ -20,6 +20,7 @@ class ASpell
 		const std::string&	 	getEffects() const;
 
 		virtual ASpell*  clone () const = 0;
+		void	launch(const ATarget& tat)
 
 };
 
