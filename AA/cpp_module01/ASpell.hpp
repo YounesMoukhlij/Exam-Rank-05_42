@@ -9,16 +9,15 @@ class ASpell
 		ASpell();
 		ASpell(const ASpell& origine);
 		ASpell& operator=(const ASpell& origine);
-		std::string	name;
-		std::string	title;
+		std::string	_name;
+		std::string	_title;
 	public:
-		ASpell(const std::string& _name, const std::string&  _title);
+		ASpell(const std::string& name, const std::string&  title);
 		~ASpell();
 
 
 		const std::string&    	getName() const;
 		const std::string&	 	getTitle() const;
-		void					introduce() const;
-		void					setTitle(const std::string& _title);
+
 
 };
