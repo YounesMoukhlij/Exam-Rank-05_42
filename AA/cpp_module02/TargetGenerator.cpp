@@ -6,6 +6,10 @@ TargetGenerator::~TargetGenerator()
 {
 
 }
+TargetGenerator::TargetGenerator()
+{
+
+}
 
 
 
