@@ -21,7 +21,7 @@ ATarget::ATarget(const std::string& type) : _type (type)
 
 void	ATarget::getHitBySpell(const ASpell& spell)
 {
-	std::cout << _type << " has been "<< ASpell.getE"!"
+	std::cout << _type << " has been " << ASpell.getEffects() << "!" << std::endl;
 }
 
 ATarget& ATarget::operator=(const ATarget& o)
