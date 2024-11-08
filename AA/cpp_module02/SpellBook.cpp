@@ -33,7 +33,7 @@ SpellBook& SpellBook::operator=(const SpellBook& o)
 					MAP[spell->getName()] = spell->clone();
 			}
 		}
-		void	SpellBook::forgetSpell( std::string& spell)
+		void	SpellBook::forgetSpell( const std::string& spell)
 		{
 				if (MAP.find(spell) != MAP.end())
 				{
@@ -43,7 +43,7 @@ SpellBook& SpellBook::operator=(const SpellBook& o)
 
 
 		}
-		ASpell*	SpellBook::createSpell(std::string& spell)
+		ASpell*	SpellBook::createSpell( const std::string& spell)
 		{
 			ASpell * t = 0;
 			if (MAP.find(spell) != MAP.end())
