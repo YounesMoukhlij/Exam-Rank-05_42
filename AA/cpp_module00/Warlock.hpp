@@ -54,11 +54,11 @@ Warlock& Warlock::operator=(const Warlock& o)
 	return (*this);
 }
 
-		const std::string& getName() const
+		const std::string& Warlock::getName() const
 		{
 			return _name;
 		}
-		const std::string& getTitle() const
+		const std::string& Warlock::getTitle() const
 		{
 			return _title;
 		}
