@@ -1,16 +1,16 @@
 #include "Dummy.hpp"
 
 
-Dummy::Dummy() : ATarget("Target Practice Dummy")
+Fwoosh::Fwoosh() : ATarget("Target Practice Fwoosh")
 {
 
 }
-		 Dummy::~Dummy()
+		 Fwoosh::~Fwoosh()
 		 {
 
 		 }
 
-		 ATarget*  Dummy::clone () const
+		 ATarget*  Fwoosh::clone () const
 		 {
-			return new Dummy();
+			return new Fwoosh();
 		 }
