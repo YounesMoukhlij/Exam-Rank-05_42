@@ -13,13 +13,13 @@ class ASpell
 		std::string	_effects;
 	public:
 		ASpell(const std::string& name, const std::string&  effects);
-		~ASpell();
+		virtual ~ASpell();
 
 
 		const std::string&    	getName() const;
 		const std::string&	 	getEffects() const;
 
-		virtual ASpell*  clone ()
+		virtual ASpell*  clone () const = 0;
 
 
 };
