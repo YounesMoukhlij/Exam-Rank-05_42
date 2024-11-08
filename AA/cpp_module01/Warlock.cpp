@@ -44,3 +44,30 @@ const std::string& Warlock::getTitle() const
 {
 	return _title;
 }
+
+		void	Warlock::learnSpell(ASpell * spell)
+		{
+			if (spell)
+			{
+				if (MAP.find(spell->getName()) == MAP.end())
+					MAP[spell->getName()] == spell->clone();
+			}
+		}
+		void	Warlock::forgetSpell(std::string spell)
+		{
+				if (MAP.find(spell) != MAP.end())
+				{
+					delete MAP[spell];
+					MAP.erase(MAP.find(spell));
+				}
+
+
+		}
+		void	Warlock::launchSpell(std::string spell, ATarget& tar)
+		{
+				if (MAP.find(spell) != MAP.end())
+				{
+					MAP[spell]->launch(tar);
+				}
+
+		}
