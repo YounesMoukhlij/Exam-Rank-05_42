@@ -65,7 +65,7 @@ const std::string& Warlock::getTitle() const
 		{
 				if (MAP.find(spell) != MAP.end())
 				{
-					MAP.createSpell(spell)->;
+					MAP.createSpell(spell)-> ;
 				}
 
 		}
