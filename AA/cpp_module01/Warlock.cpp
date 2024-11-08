@@ -50,7 +50,7 @@ const std::string& Warlock::getTitle() const
 			if (spell)
 			{
 				if (MAP.find(spell->getName()) == MAP.end())
-					MAP[spell->getName()] == spell->clone();
+					MAP[spell->getName()] = spell->clone();
 			}
 		}
 		void	Warlock::forgetSpell(std::string spell)
