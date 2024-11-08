@@ -50,7 +50,7 @@ ATarget& ATarget::operator=(const ATarget& o)
 	return (*this);
 }
 
-const std::string& ATarget::getName() const
+const std::string& ATarget::getType() const
 {
 	return _type;
 }
