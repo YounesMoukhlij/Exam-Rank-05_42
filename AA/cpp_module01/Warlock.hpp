@@ -41,7 +41,8 @@ class Warlock
 		{
 				if (MAP.find(spell->getName()) == MAP.end())
 				{
-					deel
+					delete MAP[spell];
+					MAP.era
 				}
 
 
