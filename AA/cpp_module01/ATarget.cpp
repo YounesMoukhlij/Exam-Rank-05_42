@@ -21,7 +21,7 @@ ATarget::ATarget(const std::string& type) : _type (type)
 
 void	ATarget::getHitBySpell(const ASpell& spell)
 {
-	
+	<TYPE> has been <EFFECTS>!
 }
 
 ATarget& ATarget::operator=(const ATarget& o)
