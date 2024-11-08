@@ -54,10 +54,7 @@ const std::string& Warlock::getTitle() const
 		}
 		void	Warlock::forgetSpell(std::string spell)
 		{
-				if (MAP.find(spell) != MAP.end())
-				{
 					MAP.forgetSpell(spell);
-				}
 
 
 		}
