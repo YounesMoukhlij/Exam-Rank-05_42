@@ -23,7 +23,12 @@ class Warlock
 		void				introduce() const;
 
 };
-		void				setTitle(const std::string& title);
+
+
+void				Warlock::setTitle(const std::string& title)
+{
+	_title = title;
+}
 
 Warlock::~Warlock()
 {
