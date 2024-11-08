@@ -21,7 +21,7 @@ class SpellBook
 
 		void	learnTargetType(ATarget * spell);
 		void	forgetTargetType(std::string& spell);
-		ATarget*	createSpell(std::string& spell);
+		ATarget*	createTarget(std::string& spell);
 
 };
 
