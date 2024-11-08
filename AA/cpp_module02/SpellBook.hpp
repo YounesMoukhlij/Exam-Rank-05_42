@@ -22,7 +22,7 @@ class SpellBook
 
 		void	learnSpell(ASpell * spell);
 		void	forgetSpell(std::string& spell);
-		void	createSpell(std::string& spell);
+		ASpell*	createSpell(std::string& spell);
 
 };
 
@@ -74,7 +74,7 @@ SpellBook& SpellBook::operator=(const SpellBook& o)
 
 
 		}
-		void	SpellBook::createSpell(std::string spell, ATarget& tar)
+		ASpell*	SpellBook::createSpell(std::string spell, ATarget& tar)
 		{
 				if (MAP.find(spell) != MAP.end())
 				{
