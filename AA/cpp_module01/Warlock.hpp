@@ -51,7 +51,7 @@ class Warlock
 		{
 				if (MAP.find(spell->getName()) != MAP.end())
 				{
-					MAP.f
+					MAP[spell]->launch()
 				}
 
 		}
