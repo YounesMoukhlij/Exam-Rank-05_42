@@ -12,6 +12,8 @@ class Warlock
 		std::string _title;
 	public:
 		Warlock(const std::string& name, const std::string& title );
-		Warlock();
+		~Warlock();
+		Warlock(const Warlock7 o);
+		Warlock(const Warlock7 o);
 
 }
