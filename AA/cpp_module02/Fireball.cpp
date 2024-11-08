@@ -1,18 +1,18 @@
-#include "Fwoosh.hpp"
-
-class Fwoosh;
+#include "Fireball.hpp"
 
 
-Fwoosh::Fwoosh() : ASpell("Fwoosh", "fwooshed")
+
+
+Fireball::Fireball() : ASpell("Fireball", "Fireballed")
 {
 
 }
-		 Fwoosh::~Fwoosh()
+		 Fireball::~Fireball()
 		 {
 
 		 }
 
-		 ASpell*  Fwoosh::clone () const
+		 ASpell*  Fireball::clone () const
 		 {
-			return new Fwoosh();
+			return new Fireball();
 		 }
