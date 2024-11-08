@@ -2,6 +2,7 @@
 
 #include <iostream>
 #include "ASpell.hpp"
+#include "ASpell.hpp"
 #include "ATarget.hpp"
 #include <map>
 
