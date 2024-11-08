@@ -22,47 +22,47 @@ class ASpell
 
 };
 
-#include "Warlock.hpp"
+#include "ASpell.hpp"
 
-void				Warlock::setTitle(const std::string& title)
+void				ASpell::setTitle(const std::string& title)
 {
 	_title = title;
 }
 
-Warlock::~Warlock()
+ASpell::~ASpell()
 {
 	std::cout <<  _name << ": My job here is done!" << std::endl;
 }
 
-void	Warlock::introduce() const
+void	ASpell::introduce() const
 {
 	std::cout << _name << ": I am " << _name << ", " << _title << "!" << std::endl;
 }
 
-Warlock::Warlock(const Warlock& o)
+ASpell::ASpell(const ASpell& o)
 {
 	*this = o;
 }
 
-Warlock::Warlock(const std::string& name, const std::string& title ) : _name (name), _title(title)
+ASpell::ASpell(const std::string& name, const std::string& title ) : _name (name), _title(title)
 {
 	std::cout << _name << ": This looks like another boring day." << std::endl;
 }
 
 
 
-Warlock& Warlock::operator=(const Warlock& o)
+ASpell& ASpell::operator=(const ASpell& o)
 {
 	_name = o._name;
 	_title = o._title;
 	return (*this);
 }
 
-const std::string& Warlock::getName() const
+const std::string& ASpell::getName() const
 {
 	return _name;
 }
-const std::string& Warlock::getTitle() const
+const std::string& ASpell::getTitle() const
 {
 	return _title;
 }
