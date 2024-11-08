@@ -11,7 +11,7 @@ class Warlock
 		Warlock& operator=(const Warlock& origine);
 		std::string	_name;
 		std::string	_title;
-		
+		std::map<std::string, ASpell *> MAP;
 	public:
 		Warlock(const std::string& name, const std::string&  title);
 		~Warlock();
@@ -32,7 +32,7 @@ class Warlock
 		{
 			if (spell)
 			{
-				if ()
+				if (M)
 			}
 		}
 		void	Warlock::forgetSpell(std::string spell);
