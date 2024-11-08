@@ -8,10 +8,10 @@ class Warlock
 		Warlock();
 		Warlock(const Warlock& origine);
 		Warlock& operator=(const Warlock& origine);
-		std::string	name;
-		std::string	title;
+		std::string	_name;
+		std::string	_title;
 	public:
-		Warlock(const std::string& _name, const std::string&  _title);
+		Warlock(const std::string& name, const std::string&  titl);
 		~Warlock();
 
 
