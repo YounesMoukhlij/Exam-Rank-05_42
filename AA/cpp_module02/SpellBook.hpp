@@ -29,52 +29,48 @@ class SpellBook
 
 
 
-#include "Warlock.hpp"
+#include "SpellBook.hpp"
 
-void				Warlock::setTitle(const std::string& title)
-{
-	_title = title;
-}
 
-Warlock::~Warlock()
+SpellBook::~SpellBook()
 {
 	std::cout <<  _name << ": My job here is done!" << std::endl;
 }
 
-void	Warlock::introduce() const
+void	SpellBook::introduce() const
 {
 	std::cout << _name << ": I am " << _name << ", " << _title << "!" << std::endl;
 }
 
-Warlock::Warlock(const Warlock& o)
+SpellBook::SpellBook(const SpellBook& o)
 {
 	*this = o;
 }
 
-Warlock::Warlock(const std::string& name, const std::string& title ) : _name (name), _title(title)
+SpellBook::SpellBook(const std::string& name, const std::string& title ) : _name (name), _title(title)
 {
 	std::cout << _name << ": This looks like another boring day." << std::endl;
 }
 
 
 
-Warlock& Warlock::operator=(const Warlock& o)
+SpellBook& SpellBook::operator=(const SpellBook& o)
 {
 	_name = o._name;
 	_title = o._title;
 	return (*this);
 }
 
-const std::string& Warlock::getName() const
+const std::string& SpellBook::getName() const
 {
 	return _name;
 }
-const std::string& Warlock::getTitle() const
+const std::string& SpellBook::getTitle() const
 {
 	return _title;
 }
 
-		void	Warlock::learnSpell(ASpell* spell)
+		void	SpellBook::learnSpell(ASpell* spell)
 		{
 			if (spell)
 			{
@@ -82,7 +78,7 @@ const std::string& Warlock::getTitle() const
 					MAP[spell->getName()] = spell->clone();
 			}
 		}
-		void	Warlock::forgetSpell(std::string spell)
+		void	SpellBook::forgetSpell(std::string spell)
 		{
 				if (MAP.find(spell) != MAP.end())
 				{
@@ -92,7 +88,7 @@ const std::string& Warlock::getTitle() const
 
 
 		}
-		void	Warlock::launchSpell(std::string spell, ATarget& tar)
+		void	SpellBook::launchSpell(std::string spell, ATarget& tar)
 		{
 				if (MAP.find(spell) != MAP.end())
 				{
