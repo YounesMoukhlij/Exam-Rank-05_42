@@ -43,7 +43,7 @@ SpellBook& SpellBook::operator=(const SpellBook& o)
 
 
 		}
-		ASpell*	SpellBook::createSpell(std::string spell)
+		ASpell*	SpellBook::createSpell(std::string& spell)
 		{
 			ASpell * t = 0;
 			if (MAP.find(spell) != MAP.end())
