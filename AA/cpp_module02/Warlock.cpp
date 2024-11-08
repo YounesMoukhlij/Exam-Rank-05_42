@@ -63,9 +63,9 @@ const std::string& Warlock::getTitle() const
 		}
 		void	Warlock::launchSpell(std::string spell, ATarget& tar)
 		{
-				if (MAP.find(spell) != MAP.end())
+				if (MAP.createSpell(spell))
 				{
-					MAP.createSpell(spell)-> ;
+					MAP.createSpell(spell)->;
 				}
 
 		}
