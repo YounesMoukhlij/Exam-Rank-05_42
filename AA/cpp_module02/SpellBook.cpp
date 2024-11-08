@@ -55,4 +55,7 @@ SpellBook& SpellBook::operator=(const SpellBook& o)
 		}
 
 
-		SpellBook();
+		SpellBook::SpellBook()
+		{
+			
+		}
