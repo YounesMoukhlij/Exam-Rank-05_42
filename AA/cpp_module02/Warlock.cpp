@@ -65,7 +65,7 @@ const std::string& Warlock::getTitle() const
 		{
 				if (MAP.createSpell(spell))
 				{
-					MAP.createSpell(spell)->;
+					MAP.createSpell(spell)->luan;
 				}
 
 		}
