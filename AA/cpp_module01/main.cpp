@@ -1,7 +1,8 @@
 #include "Fwoosh.hpp"
 #include "Warlock.hpp"
 #include "Dummy.hpp"
-#include "AT.hpp"
+#include "ATarget.hpp"
+#include "ASpell.hpp"
 
 
 
