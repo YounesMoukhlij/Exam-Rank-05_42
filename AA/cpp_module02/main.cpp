@@ -3,9 +3,12 @@
 #include "Dummy.hpp"
 #include "ATarget.hpp"
 #include "ASpell.hpp"
-#include "ASpell.hpp"
-#include "ASpell.hpp"
-#include "ASpell.hpp"
+#include "Polymorph.hpp"
+#include "BrickWall.hpp"
+#include "Fireball.hpp"
+#include "Fireball.hpp"
+#include "Fireball.hpp"
+#include "Fireball.hpp"
 
 
 
