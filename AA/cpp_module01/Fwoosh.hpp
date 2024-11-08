@@ -8,9 +8,9 @@
 class Fwoosh
 {
 	public:
-		ASpell();
-		 ~ASpell();
-		 ASpell*  clone () const;
+		Fwoosh();
+		 ~Fwoosh();
+		 Fwoosh*  clone () const;
 
 
 };
