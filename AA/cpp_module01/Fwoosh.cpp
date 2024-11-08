@@ -1,4 +1,4 @@
-#include "Dummy.hpp"
+#include "Fwoosh.hpp"
 
 
 Fwoosh::Fwoosh() : ATarget("Target Practice Fwoosh")
@@ -10,7 +10,7 @@ Fwoosh::Fwoosh() : ATarget("Target Practice Fwoosh")
 
 		 }
 
-		 ATarget*  Fwoosh::clone () const
+		 ASpell*  Fwoosh::clone () const
 		 {
 			return new Fwoosh();
 		 }
