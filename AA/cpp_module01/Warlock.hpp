@@ -4,6 +4,7 @@
 #include "ASpell.hpp"
 #include <map>
 
+
 class Warlock
 {
 	private:
