@@ -19,7 +19,7 @@ class SpellBook
 		~SpellBook();
 
 
-		void	learnSpell(ASpell * spell);
+		void	learnTargetType(ASpell * spell);
 		void	forgetSpell(std::string& spell);
 		ASpell*	createSpell(std::string& spell);
 
