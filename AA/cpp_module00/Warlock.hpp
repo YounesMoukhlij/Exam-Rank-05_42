@@ -27,10 +27,11 @@ class Warlock
 
 Warlock::Warlock(const Warlock& o)
 {
-	
+
 }
 
-Warlock
+Warlock::		Warlock(const std::string& name, const std::string& title );
+
 
 
 Warlock
