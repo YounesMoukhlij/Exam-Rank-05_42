@@ -30,3 +30,5 @@ const std::string& ATarget::getType() const
 {
 	return _type;
 }
+
+		void	getHitBySpell(const ASpell& spell);

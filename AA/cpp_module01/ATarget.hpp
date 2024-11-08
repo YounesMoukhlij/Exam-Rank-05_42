@@ -17,7 +17,7 @@ class ATarget
 		const std::string&    	getName() const;
 		const std::string&	 	getEffects() const;
 
-		void	getHitBySpell(const)
+		void	getHitBySpell(const ASpell& spell);
 		virtual ATarget*  clone () const = 0;
 
 
