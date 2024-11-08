@@ -5,7 +5,7 @@
 
 #include "ASpell.hpp"
 
-class Fwoosh : public
+class Fwoosh : public ASpell
 {
 	public:
 		Fwoosh();

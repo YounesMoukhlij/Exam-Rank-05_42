@@ -6,7 +6,7 @@
 
 class ATarget;
 
-class Dummy
+class Dummy : public ATarget
 {
 	public:
 		Dummy();
