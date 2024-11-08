@@ -49,7 +49,7 @@ const std::string& Warlock::getTitle() const
 		{
 			if (spell)
 			{
-				MAP.
+				MAP.learnSpell(spell);
 			}
 		}
 		void	Warlock::forgetSpell(std::string spell)
