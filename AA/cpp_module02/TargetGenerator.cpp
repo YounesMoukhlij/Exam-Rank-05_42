@@ -30,8 +30,8 @@ TargetGenerator& TargetGenerator::operator=(const TargetGenerator& o)
 		{
 			if (spell)
 			{
-				if (MAP.find(spell->getName()) == MAP.end())
-					MAP[spell->getName()] = spell->clone();
+				if (MAP.find(spell->getT()) == MAP.end())
+					MAP[spell->getT()] = spell->clone();
 			}
 		}
 		void	TargetGenerator::forgetTargetType(std::string spell)
