@@ -7,6 +7,9 @@ ASpell::~ASpell()
 
 }
 
+		void	ASpell::launch(const ATarget& tar)
+
+
 
 ASpell::ASpell(const ASpell& o)
 {
