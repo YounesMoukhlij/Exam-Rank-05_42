@@ -5,12 +5,13 @@
 
 #include "ASpell.hpp"
 
-class ASpell
+class Fwoosh
 {
 	public:
 		ASpell();
 		 ~ASpell();
-		virtual ASpell*  clone () const = 0;
+		 ASpell*  clone () const;
 
 
 };
+
