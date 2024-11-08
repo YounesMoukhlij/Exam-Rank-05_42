@@ -4,7 +4,8 @@
 
 #include "ATarget.hpp"
 
-class ATarg
+class ATarget;
+
 class Dummy
 {
 	public:

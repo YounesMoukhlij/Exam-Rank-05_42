@@ -1,5 +1,7 @@
 #include "Fwoosh.hpp"
 
+class Fwoosh;
+
 
 Fwoosh::Fwoosh() : ASpell("Target Practice Fwoosh")
 {
