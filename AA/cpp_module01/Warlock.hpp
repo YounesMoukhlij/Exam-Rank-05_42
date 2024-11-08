@@ -26,6 +26,12 @@ class Warlock
 
 };
 
-		void	learnSpell(ASpell * spell);
-		void	forgetSpell(std::string spell);
-		void	launchSpell(std::string spell, ATarget& tar);
+		void	Warlock::learnSpell(ASpell * spell)
+		{
+			if (spell)
+			{
+				if ()
+			}
+		}
+		void	Warlock::forgetSpell(std::string spell);
+		void	Warlock::launchSpell(std::string spell, ATarget& tar);
