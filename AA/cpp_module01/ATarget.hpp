@@ -22,40 +22,40 @@ class ATarget
 
 };
 
-#include "ASpell.hpp"
+#include "ATarget.hpp"
 
 
 
-ASpell::~ASpell()
+ATarget::~ATarget()
 {
 
 }
 
 
-ASpell::ASpell(const ASpell& o)
+ATarget::ATarget(const ATarget& o)
 {
 	*this = o;
 }
 
-ASpell::ASpell(const std::string& name, const std::string& effects ) : _name (name), _effects(effects)
+ATarget::ATarget(const std::string& name, const std::string& effects ) : _name (name), _effects(effects)
 {
 
 }
 
 
 
-ASpell& ASpell::operator=(const ASpell& o)
+ATarget& ATarget::operator=(const ATarget& o)
 {
 	_name = o._name;
 	_effects = o._effects;
 	return (*this);
 }
 
-const std::string& ASpell::getName() const
+const std::string& ATarget::getName() const
 {
 	return _name;
 }
-const std::string& ASpell::getEffects() const
+const std::string& ATarget::getEffects() const
 {
 	return _effects;
 }
