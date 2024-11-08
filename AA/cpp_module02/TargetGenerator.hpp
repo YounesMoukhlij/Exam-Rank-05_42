@@ -8,15 +8,15 @@
 
 
 
-class SpellBook
+class TargetGenerator
 {
 	private:
-		SpellBook();
-		SpellBook(const SpellBook& origine);
-		SpellBook& operator=(const SpellBook& origine);
+		TargetGenerator();
+		TargetGenerator(const TargetGenerator& origine);
+		TargetGenerator& operator=(const TargetGenerator& origine);
 		std::map<std::string, ATarget *> MAP;
 	public:
-		~SpellBook();
+		~TargetGenerator();
 
 
 		void	learnTargetType(ATarget * spell);
@@ -28,17 +28,17 @@ class SpellBook
 
 
 
-#include "SpellBook.hpp"
+#include "TargetGenerator.hpp"
 
 
-SpellBook::~SpellBook()
+TargetGenerator::~TargetGenerator()
 {
 
 }
 
 
 
-SpellBook::SpellBook(const SpellBook& o)
+TargetGenerator::TargetGenerator(const TargetGenerator& o)
 {
 	*this = o;
 }
@@ -47,7 +47,7 @@ SpellBook::SpellBook(const SpellBook& o)
 
 
 
-SpellBook& SpellBook::operator=(const SpellBook& o)
+TargetGenerator& TargetGenerator::operator=(const TargetGenerator& o)
 {
 	MAP = o.MAP;
 	return (*this);
@@ -55,7 +55,7 @@ SpellBook& SpellBook::operator=(const SpellBook& o)
 
 
 
-		void	SpellBook::learnSpell(ASpell* spell)
+		void	TargetGenerator::learnSpell(ASpell* spell)
 		{
 			if (spell)
 			{
@@ -63,7 +63,7 @@ SpellBook& SpellBook::operator=(const SpellBook& o)
 					MAP[spell->getName()] = spell->clone();
 			}
 		}
-		void	SpellBook::forgetSpell(std::string spell)
+		void	TargetGenerator::forgetSpell(std::string spell)
 		{
 				if (MAP.find(spell) != MAP.end())
 				{
@@ -73,7 +73,7 @@ SpellBook& SpellBook::operator=(const SpellBook& o)
 
 
 		}
-		ASpell*	SpellBook::createSpell(std::string spell)
+		ASpell*	TargetGenerator::createSpell(std::string spell)
 		{
 			ASpell * t = 0;
 			if (MAP.find(spell) != MAP.end())
