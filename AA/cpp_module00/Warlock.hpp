@@ -24,7 +24,11 @@ class Warlock
 
 };
 
-~Warlock();
+Warlock::~Warlock()
+{
+std::cout <<  _name <<NAME>: My job here is done!
+	
+}
 
 void	Warlock::introduce() const
 {
