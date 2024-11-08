@@ -4,26 +4,26 @@
 
 #include "ASpell.hpp"
 
-class Fwoosh
+class Dummy
 {
 	public:
-		Fwoosh();
-		 ~Fwoosh();
+		Dummy();
+		 ~Dummy();
 		 ASpell*  clone () const;
 
 
 };
 
-Fwoosh::Fwoosh() : ASpell("Fwoosh", "fwooshed")
+Dummy::Dummy() : ATarget("Dummy", "Dummyed")
 {
 
 }
-		 Fwoosh::~Fwoosh()
+		 Dummy::~Dummy()
 		 {
 
 		 }
 
-		 ASpell*  Fwoosh::clone () const
+		 ASpell*  Dummy::clone () const
 		 {
-			return new Fwoosh();
+			return new Dummy();
 		 }
