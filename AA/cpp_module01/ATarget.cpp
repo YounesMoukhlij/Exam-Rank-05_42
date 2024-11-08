@@ -20,8 +20,9 @@ ATarget::ATarget(const std::string& type) : _type (type)
 
 
 void	ATarget::getHitBySpell(const ASpell& spell)
-
-
+{
+	
+}
 
 ATarget& ATarget::operator=(const ATarget& o)
 {
