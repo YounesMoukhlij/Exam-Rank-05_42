@@ -55,7 +55,7 @@ TargetGenerator& TargetGenerator::operator=(const TargetGenerator& o)
 
 
 
-		void	TargetGenerator::learnTargetType(ASpell* spell)
+		void	TargetGenerator::learnTargetType(ATarget* spell)
 		{
 			if (spell)
 			{
@@ -73,9 +73,9 @@ TargetGenerator& TargetGenerator::operator=(const TargetGenerator& o)
 
 
 		}
-		ASpell*	TargetGenerator::createTarget(std::string spell)
+		ATarget*	TargetGenerator::createTarget(std::string spell)
 		{
-			ASpell * t = 0;
+			ATarget * t = 0;
 			if (MAP.find(spell) != MAP.end())
 			{
 				t = MAP[spell];
