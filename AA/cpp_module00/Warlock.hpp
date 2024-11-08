@@ -26,8 +26,7 @@ class Warlock
 
 Warlock::~Warlock()
 {
-std::cout <<  _name << ": My job here is done!" << 
-	
+	std::cout <<  _name << ": My job here is done!" << std::endl;
 }
 
 void	Warlock::introduce() const
