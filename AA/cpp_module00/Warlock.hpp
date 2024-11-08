@@ -2,4 +2,10 @@
 
 #pragma once
 
-#include <iostr
+#include <iostream>
+
+
+class Warlock
+{
+	pr
+}
