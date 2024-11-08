@@ -54,14 +54,7 @@ SpellBook& SpellBook::operator=(const SpellBook& o)
 	return (*this);
 }
 
-const std::string& SpellBook::getName() const
-{
-	return _name;
-}
-const std::string& SpellBook::getTitle() const
-{
-	return _title;
-}
+
 
 		void	SpellBook::learnSpell(ASpell* spell)
 		{
@@ -81,7 +74,7 @@ const std::string& SpellBook::getTitle() const
 
 
 		}
-		void	SpellBook::launchSpell(std::string spell, ATarget& tar)
+		void	SpellBook::createSpell(std::string spell, ATarget& tar)
 		{
 				if (MAP.find(spell) != MAP.end())
 				{
