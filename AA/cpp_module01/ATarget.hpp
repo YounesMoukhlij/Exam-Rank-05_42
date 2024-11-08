@@ -46,16 +46,11 @@ ATarget::ATarget(const std::string& name, const std::string& effects ) : _name (
 
 ATarget& ATarget::operator=(const ATarget& o)
 {
-	_name = o._name;
-	_effects = o._effects;
+	_type = o._type;
 	return (*this);
 }
 
 const std::string& ATarget::getName() const
 {
-	return _name;
-}
-const std::string& ATarget::getEffects() const
-{
-	return _effects;
+	return _type;
 }
