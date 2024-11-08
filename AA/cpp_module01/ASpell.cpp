@@ -9,7 +9,7 @@ ASpell::~ASpell()
 
 		void	ASpell::launch(const ATarget& tar)
 		{
-			tar.getHitBySpell(this);
+			tar.getHitBySpell(*this);
 		}
 
 

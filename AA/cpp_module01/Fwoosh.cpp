@@ -1,7 +1,7 @@
 #include "Fwoosh.hpp"
 
 
-Fwoosh::Fwoosh() : ATarget("Target Practice Fwoosh")
+Fwoosh::Fwoosh() : ASpell("Target Practice Fwoosh")
 {
 
 }
