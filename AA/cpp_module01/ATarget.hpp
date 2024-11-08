@@ -2,23 +2,23 @@
 
 #include <iostream>
 
-class ASpell
+class ATarget
 {
 	private:
-		ASpell();
-		ASpell(const ASpell& o);
-		ASpell& operator=(const ASpell& o);
+		ATarget();
+		ATarget(const ATarget& o);
+		ATarget& operator=(const ATarget& o);
 		std::string	_name;
 		std::string	_effects;
 	public:
-		ASpell(const std::string& name, const std::string&  effects);
-		virtual ~ASpell();
+		ATarget(const std::string& name, const std::string&  effects);
+		virtual ~ATarget();
 
 
 		const std::string&    	getName() const;
 		const std::string&	 	getEffects() const;
 
-		virtual ASpell*  clone () const = 0;
+		virtual ATarget*  clone () const = 0;
 
 
 };
