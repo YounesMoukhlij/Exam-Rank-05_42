@@ -24,7 +24,10 @@ class Warlock
 
 };
 
-void	Warlock::i
+void	Warlock::introduce() const
+{
+	std::cout << 
+}
 
 Warlock::Warlock(const Warlock& o)
 {
