@@ -34,7 +34,7 @@ class Warlock
 			{
 				if (MAP.find(spell->getName()) == MAP.end())
 				{
-					MAP[spell]
+					MAP[spell->getName()] == spell->clone()
 				}
 			}
 		}
