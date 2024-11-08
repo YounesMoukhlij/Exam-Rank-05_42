@@ -53,3 +53,6 @@ SpellBook& SpellBook::operator=(const SpellBook& o)
 			return t;
 
 		}
+
+
+		SpellBook();
