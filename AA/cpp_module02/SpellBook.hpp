@@ -34,13 +34,10 @@ class SpellBook
 
 SpellBook::~SpellBook()
 {
-	std::cout <<  _name << ": My job here is done!" << std::endl;
+
 }
 
-void	SpellBook::introduce() const
-{
-	std::cout << _name << ": I am " << _name << ", " << _title << "!" << std::endl;
-}
+
 
 SpellBook::SpellBook(const SpellBook& o)
 {
