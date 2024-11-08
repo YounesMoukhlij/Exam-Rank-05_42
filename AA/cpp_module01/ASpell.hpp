@@ -24,10 +24,7 @@ class ASpell
 
 #include "ASpell.hpp"
 
-void				ASpell::setTitle(const std::string& title)
-{
-	_title = title;
-}
+
 
 ASpell::~ASpell()
 {
