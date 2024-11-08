@@ -23,6 +23,7 @@ class Warlock
 		void				introduce() const;
 
 };
+		void				setTitle(const std::string& title);
 
 Warlock::~Warlock()
 {
@@ -58,5 +59,6 @@ Warlock& Warlock::operator=(const Warlock& o)
 			return _name;
 		}
 		const std::string& getTitle() const
-		{}
-			return _name;
+		{
+			return _title;
+		}
