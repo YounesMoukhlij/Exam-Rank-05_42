@@ -3,7 +3,7 @@
 
 
 
-Polymorph::Polymorph() : ASpell("Polymorph", "Polymorphed")
+Polymorph::Polymorph() : ASpell("Polymorph", "turned into a critter")
 {
 
 }
