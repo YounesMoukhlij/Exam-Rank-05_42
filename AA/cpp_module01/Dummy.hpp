@@ -14,7 +14,7 @@ class Dummy
 
 };
 
-Dummy::Dummy() : ATarget("Dummy", "Dummyed")
+Dummy::Dummy() : ATarget("Target Practice Dummy")
 {
 
 }
