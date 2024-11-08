@@ -4,7 +4,8 @@
 #include <iostream>
 #include "ATarget.hpp"
 
-class ATarget
+class ATarget;
+
 class ASpell
 {
 	private:
