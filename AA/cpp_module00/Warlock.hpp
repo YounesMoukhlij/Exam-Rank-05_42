@@ -45,7 +45,7 @@ Warlock::Warlock(const Warlock& o)
 	*this = o;
 }
 
-Warlock::Warlock(const std::string& name, const std::string& title )
+Warlock::Warlock(const std::string& name, const std::string& title ) : _name (na)
 {
 	std::cout << _name << ": This looks like another boring day." << std::endl;
 }
