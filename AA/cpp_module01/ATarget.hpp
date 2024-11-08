@@ -1,6 +1,7 @@
 #pragma once
 
-#include <iostream>
+#include <iostream> 
+#include "ASpell.hpp"
 
 class ATarget
 {
@@ -15,7 +16,6 @@ class ATarget
 
 
 		const std::string&    	getName() const;
-		const std::string&	 	getEffects() const;
 
 		void	getHitBySpell(const ASpell& spell);
 		virtual ATarget*  clone () const = 0;
