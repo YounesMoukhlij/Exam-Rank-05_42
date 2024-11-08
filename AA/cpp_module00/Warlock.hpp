@@ -13,7 +13,8 @@ class Warlock
 	public:
 		Warlock(const std::string& name, const std::string& title );
 		~Warlock();
-		Warlock(const Warlock7 o);
-		Warlock(const Warlock7 o);
+		Warlock(const Warlock& o);
+		Warlock& operator=(const Warlock& o);
+		
 
 }
