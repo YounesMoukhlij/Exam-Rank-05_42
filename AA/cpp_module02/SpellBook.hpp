@@ -44,17 +44,13 @@ SpellBook::SpellBook(const SpellBook& o)
 	*this = o;
 }
 
-SpellBook::SpellBook(const std::string& name, const std::string& title ) : _name (name), _title(title)
-{
-	std::cout << _name << ": This looks like another boring day." << std::endl;
-}
+
 
 
 
 SpellBook& SpellBook::operator=(const SpellBook& o)
 {
-	_name = o._name;
-	_title = o._title;
+	MAP = o.MAP;
 	return (*this);
 }
 
