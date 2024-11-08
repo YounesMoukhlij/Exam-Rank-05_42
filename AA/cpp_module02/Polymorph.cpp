@@ -3,16 +3,16 @@
 
 
 
-Fwoosh::Fwoosh() : ASpell("Fwoosh", "fwooshed")
+Polymorph::Polymorph() : ASpell("Polymorph", "Polymorphed")
 {
 
 }
-		 Fwoosh::~Fwoosh()
+		 Polymorph::~Polymorph()
 		 {
 
 		 }
 
-		 ASpell*  Fwoosh::clone () const
+		 ASpell*  Polymorph::clone () const
 		 {
-			return new Fwoosh();
+			return new Polymorph();
 		 }
