@@ -31,7 +31,7 @@ void				ASpell::setTitle(const std::string& title)
 
 ASpell::~ASpell()
 {
-	std::cout <<  _name << ": My job here is done!" << std::endl;
+
 }
 
 void	ASpell::introduce() const
