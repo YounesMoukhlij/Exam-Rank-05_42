@@ -39,7 +39,7 @@ class Warlock
 		}
 		void	Warlock::forgetSpell(std::string spell)
 		{
-				if (MAP.find(spell->getName()) = MAP.end())
+				if (MAP.find(spell->getName()) != MAP.end())
 				{
 					delete MAP[spell];
 					MAP.erase(MAP.find(spell));
@@ -49,6 +49,9 @@ class Warlock
 		}
 		void	Warlock::launchSpell(std::string spell, ATarget& tar)
 		{
-				if (MAP.find(spell->getName()) == MAP.end())
+				if (MAP.find(spell->getName()) != MAP.end())
+				{
+					
+				}
 
 		}
