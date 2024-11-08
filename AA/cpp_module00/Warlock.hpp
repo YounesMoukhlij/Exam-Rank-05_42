@@ -16,6 +16,9 @@ class Warlock
 		Warlock(const Warlock& o);
 		Warlock& operator=(const Warlock& o);
 
-		const std::string& getName() const
+		const std::string& getName() const;
+		const std::string& getTitle() const;
+
+		voi
 
 }
