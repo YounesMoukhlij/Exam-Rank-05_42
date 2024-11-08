@@ -81,5 +81,6 @@ SpellBook& SpellBook::operator=(const SpellBook& o)
 			{
 				t = MAP[spell];
 			}
+			return t;
 
 		}
