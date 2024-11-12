@@ -4,17 +4,18 @@
 
 #include "ATarget.hpp"
 
-cla
+class ATarget;
+
 class ASpell
 {
 	private:
 		std::string _name;
 		std::string _effects;
-		ASpell();
 		ASpell(const ASpell& origine);
 		ASpell& operator=(const ASpell& origine);
 	public:
 		~ASpell();
+		ASpell();
 		ASpell(const std::string& name, const std::string& effects);
 
 
