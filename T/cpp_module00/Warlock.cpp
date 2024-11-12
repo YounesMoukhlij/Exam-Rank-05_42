@@ -36,4 +36,7 @@
 			_title = title;
 		}
 
-		void introduce() const;
+		void introduce() const
+		{
+			
+		}
