@@ -13,7 +13,7 @@
 				}
 			}
 		}
-		void	TargetGenerator::forgetTargetType(const std::string  tar)
+		void	TargetGenerator::forgetTargetType(const std::string & tar)
 		{
 			if (MAP.find(tar) != MAP.end())
 			{
@@ -21,7 +21,7 @@
 				MAP.erase(MAP.find(tar));
 			}
 		}
-		ATarget*	TargetGenerator::createTarget(std::string& const tar)
+		ATarget*	TargetGenerator::createTarget(const std::string &  tar)
 		{
 			ATarget * t = 0;
 			if (MAP.find(tar) != MAP.end())
