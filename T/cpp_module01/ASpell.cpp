@@ -34,7 +34,7 @@
 			return _effects;
 		}
 
-		void ASpell::launch(const ATarget& tar) const
+		void ASpell::launch(const ATarget& tar) 
 		{
 			tar.getHitBySpell(*this);
 		}
