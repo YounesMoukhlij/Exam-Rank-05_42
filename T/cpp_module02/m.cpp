@@ -4,7 +4,7 @@
 #include "Fireball.hpp"
 #include "Warlock.hpp"
 #include "TargetGenerator.hpp"
-#include "TargetGenerator.hpp"
+#include "SpellBook.hpp"
 
 int main()
 {
