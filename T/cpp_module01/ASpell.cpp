@@ -9,7 +9,7 @@
 		{
 			*this = origine;
 		}
-		ASpell::ASpell(const std::string& name, const std::string& title) : _name (name), _effects(title)
+		ASpell::ASpell(const std::string& name, const std::string& effects) : _name (name), _effects(effects)
 		{
 
 		}
