@@ -4,6 +4,10 @@
 		{
 
 		}
+		ASpell::ASpell()
+		{
+
+		}
 
 		ASpell::ASpell(const ASpell& origine)
 		{
