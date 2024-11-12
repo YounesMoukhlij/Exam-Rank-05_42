@@ -28,7 +28,7 @@
 			{
 				t = MAP[spell];
 			}
-			return tl
+			return t;
 		}
 
 		SpellBook::~SpellBook()
