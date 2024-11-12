@@ -30,21 +30,19 @@
 			}
 		}
 
-				Warlock::~Warlock()
+		SpellBook::~SpellBook()
 		{
-			std::cout << _name << ": My job here is done!" << std::endl;
+
 		}
 
-		Warlock::Warlock(const Warlock& origine)
+		SpellBook::SpellBook(const SpellBook& origine)
 		{
 			*this = origine;
 		}
-		Warlock::Warlock(const std::string& name, const std::string& title) : _name (name), _title(title)
-		{
-			std::cout << _name << ": This looks like another boring day." << std::endl;
-		}
+		SpellBook::SpellBook(const std::string& name, const std::string& title) : _name (name), _title(title)
+		{}
 
-		Warlock& Warlock::operator=(const Warlock& origine)
+		SpellBook& SpellBook::operator=(const SpellBook& origine)
 		{
 			_name = origine._name;
 			_title = origine._title;
