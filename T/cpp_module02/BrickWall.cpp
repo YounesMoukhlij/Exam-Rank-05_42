@@ -3,7 +3,7 @@
 
 
 
-		BrickWall::BrickWall() : ATarget("Target Practice BrickWall")
+		BrickWall::BrickWall() : ATarget("Inconspicuous Red-brick Wall")
 		{
 
 		}
