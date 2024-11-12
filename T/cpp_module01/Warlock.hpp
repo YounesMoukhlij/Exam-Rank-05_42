@@ -47,7 +47,7 @@ class Warlock
 		}
 		void	Warlock::forgetSpell(std::string spell)
 		{
-			if (MAP.find(spell->getName()) != MAP.end())
+			if (MAP.find(spell) != MAP.end())
 			{
 				delete MAP[spell];
 				MAP.erase(MAP.find(spell));
@@ -57,7 +57,7 @@ class Warlock
 		{
 			if (MAP.find(spell->getName()) != MAP.end())
 			{
-				
+
 			}
 		}
 
