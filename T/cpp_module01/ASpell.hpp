@@ -14,7 +14,7 @@ class ASpell
 		ASpell(const ASpell& origine);
 		ASpell& operator=(const ASpell& origine);
 	public:
-		~ASpell();
+		virtual ~ASpell();
 		ASpell();
 		ASpell(const std::string& name, const std::string& effects);
 
@@ -23,5 +23,6 @@ class ASpell
 		const std::string& getEffects() const ;
 
 		void launch(const ATarget& tar);
+		
 
 };
