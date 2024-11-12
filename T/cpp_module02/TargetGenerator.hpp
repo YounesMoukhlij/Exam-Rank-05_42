@@ -15,7 +15,7 @@ class TargetGenerator
 	private:
 		TargetGenerator(const TargetGenerator& origine);
 		TargetGenerator& operator=(const TargetGenerator& origine);
-		std::map<std::string, ATarget*> MAP;
+		std::map<std::string, ATarget* > MAP;
 	public:
 		TargetGenerator();
 		~TargetGenerator();
