@@ -35,5 +35,8 @@ class Warlock
 		void	launchSpell(std::string spell);
 };
 
+		void Warlock::learnSpell(ASpell* spell)
+		void	Warlock::forgetSpell(std::string spell);
+		void	Warlock::launchSpell(std::string spell);
 
 
