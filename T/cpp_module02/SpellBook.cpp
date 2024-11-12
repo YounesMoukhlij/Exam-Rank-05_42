@@ -26,8 +26,9 @@
 			ASpell * t;
 			if (MAP.find(spell) != MAP.end())
 			{
-				
+				t = MAP[spell];
 			}
+			return tl
 		}
 
 		SpellBook::~SpellBook()
