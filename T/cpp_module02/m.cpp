@@ -3,7 +3,8 @@
 #include "Polymorph.hpp"
 #include "Fireball.hpp"
 #include "Warlock.hpp"
-#include "Warlock.hpp"
+#include "TargetGenerator.hpp"
+#include "TargetGenerator.hpp"
 
 int main()
 {
