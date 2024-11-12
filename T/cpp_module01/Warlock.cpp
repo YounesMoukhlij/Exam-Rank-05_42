@@ -60,7 +60,7 @@
 				MAP.erase(MAP.find(spell));
 			}
 		}
-		void	Warlock::launchSpell(std::string spell, ATarget& tar)
+		void	Warlock::launchSpell(std::string spell, const ATarget& tar)
 		{
 			if (MAP.find(spell) != MAP.end())
 			{
