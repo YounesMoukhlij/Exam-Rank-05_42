@@ -3,6 +3,7 @@
 #pragma once
 
 #include <iostream>
+#include "ASpell.hpp"
 
 
 class Warlock
@@ -26,7 +27,8 @@ class Warlock
 
 
 
-		learnSpell(ASpell* )
+		void learnSpell(ASpell* spell);
+		void	
 };
 
 
