@@ -10,18 +10,18 @@ class ASpell;
 
 
 
-class Warlock
+class SpellBook
 {
 	private:
 		std::string _name;
 		std::string _title;
-		Warlock();
-		Warlock(const Warlock& origine);
-		Warlock& operator=(const Warlock& origine);
+		SpellBook();
+		SpellBook(const SpellBook& origine);
+		SpellBook& operator=(const SpellBook& origine);
 		SpellBook MAP;
 	public:
-		~Warlock();
-		Warlock(const std::string& name, const std::string& title);
+		~SpellBook();
+		SpellBook(const std::string& name, const std::string& title);
 
 
 		const std::string& getName() const;
