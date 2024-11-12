@@ -7,7 +7,7 @@
 #include "ASpell.hpp"
 #include "ATarget.hpp"
 
-
+c
 class Warlock
 {
 	private:
