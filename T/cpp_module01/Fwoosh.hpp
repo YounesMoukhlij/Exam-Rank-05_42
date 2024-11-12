@@ -8,6 +8,6 @@ class Fwoosh
 	public:
 		Fwoosh();
 		~Fwoosh();
-		ASpell* Fwoos
+		ASpell* clone() const;
 
 };
