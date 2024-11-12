@@ -7,5 +7,6 @@
 
 class Warlock
 {
-	
+	private:
+		std::strin
 }
