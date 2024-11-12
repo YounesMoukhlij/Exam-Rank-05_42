@@ -45,7 +45,10 @@ class Warlock
 				}
 			}
 		}
-		void	Warlock::forgetSpell(std::string spell);
+		void	Warlock::forgetSpell(std::string spell)
+		{
+			if (MAP.find(spell->getName()) == MAP.end())
+		}
 		void	Warlock::launchSpell(std::string spell);
 
 
