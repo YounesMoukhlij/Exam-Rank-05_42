@@ -26,7 +26,7 @@
 			if (MAP.find(spell) != MAP.end())
 			{
 
-				MAP[spell]->la;
+				MAP[spell]->;
 			}
 		}
 
