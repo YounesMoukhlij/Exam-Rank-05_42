@@ -23,6 +23,7 @@ class ASpell
 		const std::string& getEffects() const ;
 
 		void launch(const ATarget& tar);
-		
+
+		virtual ASpell* clone () c
 
 };
