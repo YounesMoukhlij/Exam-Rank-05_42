@@ -44,7 +44,6 @@
 
 		SpellBook& SpellBook::operator=(const SpellBook& origine)
 		{
-			_name = origine._name;
-			_title = origine._title;
+			MAP = origine.MAP;
 			return (*this);
 		}
