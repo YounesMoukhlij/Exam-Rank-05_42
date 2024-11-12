@@ -34,10 +34,13 @@ class Warlock
 		}
 		Warlock::Warlock(const std::string& name, const std::string& title)
 		{
-			std::cout << _name << ": This looks like another boring day." 
+			std::cout << _name << ": This looks like another boring day." << std::endl;
 		}
 
-		Warlock& Warlock::operator=(const Warlock& origine);
+		Warlock& Warlock::operator=(const Warlock& origine)
+		{
+			_name = origine
+		}
 
 		const std::string& Warlock::getName() const;
 		const std::string& Warlock::getTitle() const;
