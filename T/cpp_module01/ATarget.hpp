@@ -24,5 +24,5 @@ class ATarget
 		void getHitBySpell(const ASpell& spell) const
 		{
 
-			std::cout << _type << " has been "
+			std::cout << _type << " has been " << _effects << "!" << std::endl
 		}
