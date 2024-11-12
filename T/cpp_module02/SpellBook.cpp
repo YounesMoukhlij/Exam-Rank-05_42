@@ -1,4 +1,8 @@
-		void Warlock::learnSpell(ASpell* spell)
+#include "SpellBook.hpp"
+
+
+
+		void SpellBook::learnSpell(ASpell* spell)
 		{
 			
 			if (spell)
@@ -9,7 +13,7 @@
 				}
 			}
 		}
-		void	Warlock::forgetSpell(std::string spell)
+		void	SpellBook::forgetSpell(std::string spell)
 		{
 			if (MAP.find(spell) != MAP.end())
 			{
@@ -17,7 +21,7 @@
 				MAP.erase(MAP.find(spell));
 			}
 		}
-		void	Warlock::launchSpell(std::string spell, const ATarget& tar)
+		ASpell*	SpellBook::laucreateSpellnchSpell(std::string spell, const ATarget& tar)
 		{
 			if (MAP.find(spell) != MAP.end())
 			{
