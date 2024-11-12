@@ -4,6 +4,7 @@
 
 #include <iostream>
 #include "ASpell.hpp"
+#include "ATarget.hpp"
 
 
 class Warlock
