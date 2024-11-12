@@ -47,6 +47,7 @@
 			
 			if (spell)
 			{
+				MAP.
 				if (MAP.find(spell->getName()) == MAP.end())
 				{
 					MAP[spell->getName()] = spell->clone();
