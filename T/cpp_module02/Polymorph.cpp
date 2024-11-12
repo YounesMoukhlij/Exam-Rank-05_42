@@ -1,17 +1,17 @@
 
-#include "Fireball.hpp"
+#include "Polymorph.hpp"
 
 
 
-		Fireball::Fireball() : ASpell("Fireball", "turned into a critter")
+		Polymorph::Polymorph() : ASpell("Polymorph", "turned into a critter")
 		{
 
 		}
-		Fireball::~Fireball()
+		Polymorph::~Polymorph()
 		{
 
 		}
-		ASpell* Fireball::clone() const
+		ASpell* Polymorph::clone() const
 		{
-			return new Fireball();
+			return new Polymorph();
 		}
