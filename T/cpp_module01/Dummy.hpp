@@ -3,11 +3,11 @@
 #include <iostream>
 
 
-class ATarget
+class Dummy : public ATarget
 {
 	public:
 		Dummy();
 		~Dummy();
-		ASpell* clone() const;
+		ATarget* clone() const;
 
 };
