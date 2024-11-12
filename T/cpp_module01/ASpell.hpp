@@ -22,6 +22,9 @@ class ASpell
 		const std::string& getEffects() const ;
 
 		void launch(const ATarget& tar);
-		void launch(const ATarget& tar);
 
 };
+		void ASpell::launch(const ATarget& tar)
+		{
+			
+		}
