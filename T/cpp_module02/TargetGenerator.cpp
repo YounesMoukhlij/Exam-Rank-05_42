@@ -21,8 +21,7 @@
 				MAP.erase(MAP.find(spell));
 			}
 		}
-		ASpell*	SpellBook::createTarget(std::string& spell)
-		{
+ATarget		{
 			ASpell * t;
 			if (MAP.find(spell) != MAP.end())
 			{
