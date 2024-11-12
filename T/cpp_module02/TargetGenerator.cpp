@@ -13,7 +13,7 @@
 				}
 			}
 		}
-		void	TargetGenerator::forgetTargetType(std::string& spell)
+		void	TargetGenerator::forgetTargetType(std::string& tar)
 		{
 			if (MAP.find(spell) != MAP.end())
 			{
