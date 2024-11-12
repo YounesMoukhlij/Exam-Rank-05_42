@@ -16,13 +16,13 @@
 
 		ATarget& ATarget::operator=(const ATarget& origine)
 		{
-			_name = origine._name;
-			_effects = origine._effects;
+
+			_type = origine._type;
 			return (*this);
 		}
 
 
 		const std::string& ATarget::getType() const
 		{
-			return _effects;
+			return _type;
 		}
