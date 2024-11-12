@@ -38,5 +38,5 @@
 
 		void introduce() const
 		{
-			std::cout << _name << ": I am" << _name << ", " <<  _title << "!" << std::end
+			std::cout << _name << ": I am" << _name << ", " <<  _title << "!" << std::endl;
 		}
