@@ -13,5 +13,5 @@
 		}
 		ASpell* Fwoosh::clone() const
 		{
-			ret
+			return new Fwoosh();
 		}
