@@ -25,9 +25,13 @@ class Warlock
 };
 		Warlock::~Warlock()
 		{
-			std::cout << _name << ": My job here is done!" << st
+			std::cout << _name << ": My job here is done!" << std::endl;
 		}
-		Warlock::Warlock(const Warlock& origine);
+
+		Warlock::Warlock(const Warlock& origine)
+		{
+			*this = originel
+		}
 		Warlock::Warlock(const std::string& name, const std::string& title);
 
 		Warlock& Warlock::operator=(const Warlock& origine);
