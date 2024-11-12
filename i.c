@@ -7,7 +7,7 @@ int main()
 	int j = 1;
 
 	i = ++j;
-	printf("i = %d\n", i);
+	printf("++ji = %d\n", i);
 
 	j = 1;
 	i = j++;
