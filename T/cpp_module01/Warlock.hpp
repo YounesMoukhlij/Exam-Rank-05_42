@@ -39,7 +39,7 @@ class Warlock
 		{
 			if (spell)
 			{
-				if (MAP.find(spell-))
+				if (MAP.find(spell->g))
 			}
 		}
 		void	Warlock::forgetSpell(std::string spell);
