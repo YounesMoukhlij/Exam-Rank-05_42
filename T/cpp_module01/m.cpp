@@ -1,7 +1,7 @@
 
 #include "Warlock.hpp"
-#include "Warlock.hpp"
-#include "Warlock.hpp"
+#include "Dummy.hpp"
+#include "Fwoosh.hpp"
 #include "Warlock.hpp"
 
 
