@@ -12,5 +12,5 @@ int main()
 	j = 1;
 	i = j++;
 	printf("j++ --> i = %d\n", i);
-	printf("j++ --> i = %d\n", i);
+	printf("j++ --> j = %d\n", j);
 }
