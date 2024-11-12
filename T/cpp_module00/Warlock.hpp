@@ -50,9 +50,12 @@ class Warlock
 		}
 		const std::string& Warlock::getTitle() const
 		{
-			return _t
+			return _title
 		}
 
-		void	Warlock::setTitle(const std::string& title);
+		void	Warlock::setTitle(const std::string& title)
+		{
+			_title = title;
+		}
 
 
