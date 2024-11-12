@@ -2,7 +2,7 @@
 
 		ASpell::~ASpell()
 		{
-			std::cout << _name << ": My job here is done!" << std::endl;
+
 		}
 
 		ASpell::ASpell(const ASpell& origine)
@@ -11,7 +11,7 @@
 		}
 		ASpell::ASpell(const std::string& name, const std::string& title) : _name (name), _title(title)
 		{
-			std::cout << _name << ": This looks like another boring day." << std::endl;
+
 		}
 
 		ASpell& ASpell::operator=(const ASpell& origine)
@@ -25,7 +25,7 @@
 		{
 			return _name;
 		}
-		const std::string& ASpell::getTitle() const
+		const std::string& ASpell::getEffects() const
 		{
 			return _title;
 		}
