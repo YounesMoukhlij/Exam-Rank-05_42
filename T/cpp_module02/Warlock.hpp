@@ -20,7 +20,6 @@ class Warlock
 		Warlock();
 		Warlock(const Warlock& origine);
 		Warlock& operator=(const Warlock& origine);
-		SpellBook
 		SpellBook MAP;
 	public:
 		~Warlock();
