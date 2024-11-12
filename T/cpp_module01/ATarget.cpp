@@ -4,6 +4,10 @@
 		{
 
 		}
+		ATarget::ATarget()
+		{
+
+		}
 
 		ATarget::ATarget(const ATarget& origine)
 		{
