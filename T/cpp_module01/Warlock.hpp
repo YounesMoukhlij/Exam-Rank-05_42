@@ -36,6 +36,12 @@ class Warlock
 };
 
 		void Warlock::learnSpell(ASpell* spell)
+		{
+			if (spell)
+			{
+				if (MAP.)
+			}
+		}
 		void	Warlock::forgetSpell(std::string spell);
 		void	Warlock::launchSpell(std::string spell);
 
