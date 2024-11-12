@@ -2,31 +2,31 @@
 
 
 
-		void TargetGenerator::learnTargetType(ASpell* spell)
+		void TargetGenerator::learnTargetType(ATarget* tar)
 		{
 			
-			if (spell)
+			if (tar)
 			{
-				if (MAP.find(spell->getType()) == MAP.end())
+				if (MAP.find(tar->getType()) == MAP.end())
 				{
-					MAP[spell->getType()] = spell->clone();
+					MAP[tar->getType()] = tar->clone();
 				}
 			}
 		}
 		void	TargetGenerator::forgetTargetType(std::string& tar)
 		{
-			if (MAP.find(spell) != MAP.end())
+			if (MAP.find(tar) != MAP.end())
 			{
-				delete MAP[spell];
-				MAP.erase(MAP.find(spell));
+				delete MAP[tar];
+				MAP.erase(MAP.find(tar));
 			}
 		}
-		ATarget*	TargetGenerator::createTarget(std::string& spell)
+		ATarget*	TargetGenerator::createTarget(std::string& tar)
 		{
 			ATarget * t = 0;
-			if (MAP.find(spell) != MAP.end())
+			if (MAP.find(tar) != MAP.end())
 			{
-				t = MAP[spell];
+				t = MAP[tar];
 			}
 			return t;
 		}
