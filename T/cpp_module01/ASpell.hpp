@@ -24,7 +24,3 @@ class ASpell
 		void launch(const ATarget& tar);
 
 };
-		void ASpell::launch(const ATarget& tar)
-		{
-			tar.getHitBySpell(*this);
-		}
