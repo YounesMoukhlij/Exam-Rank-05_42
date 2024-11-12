@@ -35,3 +35,5 @@
 		{
 			_title = title;
 		}
+
+		void introduce() const;
