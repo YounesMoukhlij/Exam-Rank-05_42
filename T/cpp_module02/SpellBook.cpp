@@ -26,7 +26,7 @@
 			if (MAP.find(spell) != MAP.end())
 			{
 
-				MAP[spell]->launch(tar);
+				MAP[spell]->la;
 			}
 		}
 
