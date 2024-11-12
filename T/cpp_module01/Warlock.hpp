@@ -50,9 +50,15 @@ class Warlock
 			if (MAP.find(spell->getName()) != MAP.end())
 			{
 				delete MAP[spell];
-				MAP.erase(M)
+				MAP.erase(MAP.find(spell));
 			}
 		}
-		void	Warlock::launchSpell(std::string spell);
+		void	Warlock::launchSpell(std::string spell)
+		{
+			if (MAP.find(spell->getName()) != MAP.end())
+			{
+
+			}
+		}
 
 
