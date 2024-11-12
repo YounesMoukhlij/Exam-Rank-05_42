@@ -44,12 +44,12 @@
 
 		void Warlock::learnSpell(ASpell* spell)
 		{
-				std::cout << " YYYY " << std::endl;
 			
 			if (spell)
 			{
 				if (MAP.find(spell->getName()) == MAP.end())
 				{
+				std::cout << " YYYY " << std::endl;
 					MAP[spell->getName()] = spell->clone();
 				}
 			}
