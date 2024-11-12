@@ -58,6 +58,6 @@
 		{
 			if (MAP.createSpell(spell))
 			{
-				MAP.createSpell(spell)-
+				MAP.createSpell(spell)->launch(tar);
 			}
 		}
