@@ -19,7 +19,7 @@ class ATarget
 		virtual ~ATarget();
 		ATarget(const std::string& type);
 
-		virtual ASpell* clone () const = 0;
+		virtual ATarget* clone () const = 0;
 
 
 		const std::string& getType() const ;
