@@ -18,4 +18,6 @@ class ATarget
 
 		const std::string& getType() const ;
 
+		getHitBySpell(const ASpell) const;
+
 };
