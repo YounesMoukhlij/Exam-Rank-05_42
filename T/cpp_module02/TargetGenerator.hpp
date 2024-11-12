@@ -23,6 +23,6 @@ class SpellBook
 
 
 		void learnTargetType(ATarget* tar);
-		void forgetTargetType(string const &tar )
-		ASpell*	createSpell(std::string& spell);
+		void forgetTargetType(string const &tar );
+		ATarget* createTarget(string const &tar);
 };
