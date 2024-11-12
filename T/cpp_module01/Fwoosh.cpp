@@ -3,6 +3,15 @@
 
 
 
-		Fwoosh::Fwoosh();
-		~Fwoosh();
-		ASpell* clone() const;
+		Fwoosh::Fwoosh()
+		{
+
+		}
+		Fwoosh::~Fwoosh()
+		{
+
+		}
+		ASpell* Fwoosh::clone() const
+		{
+			ret
+		}
