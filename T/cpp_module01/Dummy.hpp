@@ -3,11 +3,11 @@
 #include <iostream>
 
 
-class Fwoosh
+class ATarget
 {
 	public:
-		Fwoosh();
-		~Fwoosh();
+		Dummy();
+		~Dummy();
 		ASpell* clone() const;
 
 };
