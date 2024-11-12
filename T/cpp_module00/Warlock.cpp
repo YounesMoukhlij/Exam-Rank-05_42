@@ -38,5 +38,5 @@
 
 		void introduce() const
 		{
-			
+			std::cout << _ma
 		}
