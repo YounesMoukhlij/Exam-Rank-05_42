@@ -64,6 +64,7 @@
 		{
 			if (MAP.find(spell) != MAP.end())
 			{
+				std::cout << " asasd "
 				MAP[spell]->launch(tar);
 			}
 		}
