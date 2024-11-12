@@ -9,7 +9,7 @@
 		{
 			*this = origine;
 		}
-		ASpell::ASpell(const std::string& name, const std::string& title) : _name (name), _title(title)
+		ASpell::ASpell(const std::string& name, const std::string& title) : _name (name), _effects(title)
 		{
 
 		}
@@ -17,7 +17,7 @@
 		ASpell& ASpell::operator=(const ASpell& origine)
 		{
 			_name = origine._name;
-			_title = origine._title;
+			_effects = origine._effects;
 			return (*this);
 		}
 
@@ -27,5 +27,5 @@
 		}
 		const std::string& ASpell::getEffects() const
 		{
-			return _title;
+			return _effects;
 		}
