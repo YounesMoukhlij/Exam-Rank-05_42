@@ -25,7 +25,7 @@ class Warlock
 };
 		Warlock::~Warlock()
 		{
-			std::cout << ""
+			std::cout << _name << ": My job here is done!" << st
 		}
 		Warlock::Warlock(const Warlock& origine);
 		Warlock::Warlock(const std::string& name, const std::string& title);
