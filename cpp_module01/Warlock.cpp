@@ -6,7 +6,7 @@
 /*   By: youmoukh <youmoukh@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/03 17:40:12 by youmoukh          #+#    #+#             */
-/*   Updated: 2024/11/12 12:23:47 by youmoukh         ###   ########.fr       */
+/*   Updated: 2024/11/12 12:24:00 by youmoukh         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -68,7 +68,7 @@ void	Warlock::forgetSpell(std::string spell)
 {
 	if (MAP.find(spell) != MAP.end())
 	{
-		// delete MAP[spell];
+		delete MAP[spell];
 		MAP.erase(MAP.find(spell));
 	}
 }
