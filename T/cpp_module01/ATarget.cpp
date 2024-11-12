@@ -9,7 +9,7 @@
 		{
 			*this = origine;
 		}
-		ATarget::		ATarget(const std::string& type) : _name (type), _effects(effects)
+		ATarget::		ATarget(const std::string& type) : _type (type)
 		{
 
 		}
