@@ -64,6 +64,6 @@
 		{
 			if (MAP.find(spell) != MAP.end())
 			{
-				MAP.find(spell)->launch(tar);
+				MAP.[spell]->launch(tar);
 			}
 		}
