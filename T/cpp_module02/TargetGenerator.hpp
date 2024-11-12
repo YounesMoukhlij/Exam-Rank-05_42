@@ -23,6 +23,6 @@ class TargetGenerator
 
 
 		void learnTargetType(ATarget* tar);
-		void forgetTargetType(std:string const &tar);
-		ATarget* createTarget(std:string const &tar);
+		void forgetTargetType(std::string const &tar);
+		ATarget* createTarget(std::string const &tar);
 };
