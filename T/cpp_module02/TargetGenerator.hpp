@@ -6,7 +6,7 @@
 #include "SpellBook.hpp"
 #include "ATarget.hpp"
 
-class ASpell;
+class ATarget;
 
 
 
