@@ -21,11 +21,8 @@
 			return (*this);
 		}
 
-		const std::string& ATarget::getName() const
-		{
-			return _name;
-		}
-		const std::string& ATarget::getEffects() const
+
+		const std::string& ATarget::getType() const
 		{
 			return _effects;
 		}
