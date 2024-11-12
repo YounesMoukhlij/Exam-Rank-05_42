@@ -8,5 +8,8 @@
 class Warlock
 {
 	private:
-		std::strin
+		std::string _name;
+		std::string _title;
+	public:
+		Warlock()
 }
