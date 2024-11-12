@@ -39,7 +39,7 @@
 		{
 			*this = origine;
 		}
-		SpellBook::SpellBook(const std::string& name, const std::string& title) : _name (name), _title(title)
+		SpellBook::SpellBook()
 		{}
 
 		SpellBook& SpellBook::operator=(const SpellBook& origine)
