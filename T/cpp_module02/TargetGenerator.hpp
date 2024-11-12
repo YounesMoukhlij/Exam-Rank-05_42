@@ -22,7 +22,7 @@ class SpellBook
 
 
 
-		void learnSpell(ASpell* spell);
+		void learnTargetType(ATarget* tar);
 		void	forgetSpell(std::string& spell);
 		ASpell*	createSpell(std::string& spell);
 };
