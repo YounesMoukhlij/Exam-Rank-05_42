@@ -12,10 +12,10 @@ class Warlock
 		std::string _title;
 		Warlock();
 		Warlock(const Warlock& origine);
+		Warlock& operator=(const Warlock& origine);
 	public:
 		~Warlock();
 		Warlock(const std::string& name, const std::string& title);
-		Warlock& operator=(const Warlock& origine);
 
 
 		const std::string& getName() const;
@@ -25,7 +25,7 @@ class Warlock
 };
 		Warlock::~Warlock()
 		{
-
+			std::cout << ""
 		}
 		Warlock::Warlock(const Warlock& origine);
 		Warlock::Warlock(const std::string& name, const std::string& title);
