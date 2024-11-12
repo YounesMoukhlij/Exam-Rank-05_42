@@ -2,6 +2,8 @@
 
 #include <iostream>
 
+#include "ATarget.hpp"
+
 
 class ASpell
 {
@@ -19,6 +21,7 @@ class ASpell
 		const std::string& getName() const;
 		const std::string& getEffects() const ;
 
-		launch(const ATa)
+		void launch(const ATarget& tar);
+		void launch(const ATarget& tar);
 
 };
