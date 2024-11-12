@@ -38,5 +38,5 @@
 
 		void Warlock::introduce() const
 		{
-			std::cout << _name << ": I am" << _name << ", " <<  _title << "!" << std::endl;
+			std::cout << _name << ": I am " << _name << ", " <<  _title << "!" << std::endl;
 		}
