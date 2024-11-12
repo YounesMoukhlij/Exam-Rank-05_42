@@ -1,17 +1,17 @@
 
-#include "Fwoosh.hpp"
+#include "Dummy.hpp"
 
 
 
-		Fwoosh::Fwoosh()
+		Dummy::Dummy()
 		{
 
 		}
-		Fwoosh::~Fwoosh()
+		Dummy::~Dummy()
 		{
 
 		}
-		ASpell* Fwoosh::clone() const
+		ATarget* Dummy::clone() const
 		{
-			return new Fwoosh();
+			return new Dummy();
 		}
