@@ -22,11 +22,11 @@
 			return (*this);
 		}
 
-		const std::string& Warlock::getName() 
+		const std::string& Warlock::getName() const
 		{
 			return _name;
 		}
-		const std::string& Warlock::getTitle() 
+		const std::string& Warlock::getTitle() c
 		{
 			return _title;
 		}
