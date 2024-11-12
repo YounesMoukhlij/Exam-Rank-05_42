@@ -28,7 +28,7 @@
 		}
 		const std::string& Warlock::getTitle() const
 		{
-			return _title
+			return _title;
 		}
 
 		void	Warlock::setTitle(const std::string& title)
