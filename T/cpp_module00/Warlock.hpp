@@ -30,9 +30,12 @@ class Warlock
 
 		Warlock::Warlock(const Warlock& origine)
 		{
-			*this = originel
+			*this = origine;
 		}
-		Warlock::Warlock(const std::string& name, const std::string& title);
+		Warlock::Warlock(const std::string& name, const std::string& title)
+		{
+			std::cout << 
+		}
 
 		Warlock& Warlock::operator=(const Warlock& origine);
 
