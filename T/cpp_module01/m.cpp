@@ -2,6 +2,7 @@
 #include "Warlock.hpp"
 #include "Dummy.hpp"
 #include "Fwoosh.hpp"
+#include "ATarget.hpp"
 
 
 
