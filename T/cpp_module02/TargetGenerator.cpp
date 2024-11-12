@@ -13,7 +13,7 @@
 				}
 			}
 		}
-		void	TargetGenerator::forgetTargetType(std::string& const tar)
+		void	TargetGenerator::forgetTargetType(const std::string  tar)
 		{
 			if (MAP.find(tar) != MAP.end())
 			{
