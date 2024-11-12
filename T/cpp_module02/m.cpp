@@ -3,6 +3,7 @@
 #include "Polymorph.hpp"
 #include "Fireball.hpp"
 #include "Warlock.hpp"
+#include "Warlock.hpp"
 
 int main()
 {
