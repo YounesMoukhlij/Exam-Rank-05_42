@@ -5,6 +5,7 @@
 #include <iostream>
 #include <map>
 #include "ASpell.hpp"
+#include "SpellBook.hpp"
 #include "ATarget.hpp"
 
 class ASpell;
@@ -19,8 +20,8 @@ class Warlock
 		Warlock();
 		Warlock(const Warlock& origine);
 		Warlock& operator=(const Warlock& origine);
-		
-		std::map<std::string, ASpell *> MAP;
+		SpellBook
+		SpellBook MAP;
 	public:
 		~Warlock();
 		Warlock(const std::string& name, const std::string& title);
