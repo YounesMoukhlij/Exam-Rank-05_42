@@ -7,9 +7,9 @@ int main()
 	int j = 1;
 
 	i = ++j;
-	printf("++ji = %d\n", i);
+	printf("++j --> i = %d\n", i);
 
 	j = 1;
 	i = j++;
-	printf("i = %d\n", i);
+	printf("j++ --> i = %d\n", i);
 }
