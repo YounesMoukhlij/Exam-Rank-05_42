@@ -56,6 +56,7 @@
 		}
 		void	Warlock::launchSpell(std::string spell, const ATarget& tar)
 		{
+			launchSpell
 			if (MAP.find(spell) != MAP.end())
 			{
 
