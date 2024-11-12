@@ -33,6 +33,6 @@ class SpellBook
 
 
 		void learnSpell(ASpell* spell);
-		void	forgetSpell(std::string spell);
-		void	launchSpell(std::string spell, const ATarget& tar);
+		void	forgetSpell(std::string& spell);
+		ASpell*	launchSpell(std::string& spell);
 };
