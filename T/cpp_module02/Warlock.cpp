@@ -47,20 +47,12 @@
 			
 			if (spell)
 			{
-				MAP.
-				if (MAP.find(spell->getName()) == MAP.end())
-				{
-					MAP[spell->getName()] = spell->clone();
-				}
+				MAP.learnSpell(spell);
 			}
 		}
 		void	Warlock::forgetSpell(std::string spell)
 		{
-			if (MAP.find(spell) != MAP.end())
-			{
-				delete MAP[spell];
-				MAP.erase(MAP.find(spell));
-			}
+				MAP.forgetSpell(spell);
 		}
 		void	Warlock::launchSpell(std::string spell, const ATarget& tar)
 		{
