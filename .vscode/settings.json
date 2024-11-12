@@ -11,6 +11,7 @@
 		"memory": "cpp",
 		"ostream": "cpp",
 		"streambuf": "cpp",
-		"type_traits": "cpp"
+		"type_traits": "cpp",
+		"iosfwd": "cpp"
 	}
 }
