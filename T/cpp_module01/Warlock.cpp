@@ -49,7 +49,6 @@
 			{
 				if (MAP.find(spell->getName()) == MAP.end())
 				{
-				std::cout << " YYYY " << std::endl;
 					MAP[spell->getName()] = spell->clone();
 				}
 			}
