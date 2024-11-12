@@ -22,8 +22,8 @@ class Warlock
 
 		void	setTitle(const std::string& title);
 };
-		~Warlock();
-		Warlock(const Warlock& origine);
+		Warlock::~Warlock();
+		Warlock::Warlock(const Warlock& origine);
 		Warlock(const std::string& name, const std::string& title);
 
 		Warlock& operator=(const Warlock& origine);
