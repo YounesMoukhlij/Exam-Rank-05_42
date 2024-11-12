@@ -2,7 +2,7 @@
 
 
 
-		void TargetGenerator::learnSpell(ASpell* spell)
+		void TargetGenerator::learnTargetType(ASpell* spell)
 		{
 			
 			if (spell)
