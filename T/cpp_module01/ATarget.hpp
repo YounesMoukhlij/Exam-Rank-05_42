@@ -15,7 +15,7 @@ class ATarget
 		ATarget(const std::string& type);
 
 
-		const std::string& getName() const;
+
 		const std::string& getType() const ;
 
 };
