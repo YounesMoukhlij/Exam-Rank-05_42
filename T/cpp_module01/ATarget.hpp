@@ -18,6 +18,11 @@ class ATarget
 
 		const std::string& getType() const ;
 
-		voidgetHitBySpell(const ASpell& spell) const;
+		void getHitBySpell(const ASpell& spell) const;
 
 };
+		void getHitBySpell(const ASpell& spell) const
+		{
+
+			std::cout << _type << " has been "
+		}
