@@ -7,7 +7,6 @@ class ATarget
 {
 	private:
 		std::string _type;
-
 		ATarget();
 		ATarget(const ATarget& origine);
 		ATarget& operator=(const ATarget& origine);
@@ -17,6 +16,6 @@ class ATarget
 
 
 		const std::string& getName() const;
-		const std::string& getEffects() const ;
+		const std::string& getType() const ;
 
 };
