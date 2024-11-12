@@ -17,8 +17,6 @@ class ASpell
 
 
 		const std::string& getName() const;
-		const std::string& get() const ;
+		const std::string& getEffects() const ;
 
-		void	setTitle(const std::string& title);
-		void introduce() const;
 };
