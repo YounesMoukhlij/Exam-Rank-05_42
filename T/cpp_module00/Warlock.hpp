@@ -44,8 +44,14 @@ class Warlock
 			return (*this);
 		}
 
-		const std::string& Warlock::getName() const;
-		const std::string& Warlock::getTitle() const;
+		const std::string& Warlock::getName() const
+		{
+			return _name;
+		}
+		const std::string& Warlock::getTitle() const
+		{
+			return _t
+		}
 
 		void	Warlock::setTitle(const std::string& title);
 
