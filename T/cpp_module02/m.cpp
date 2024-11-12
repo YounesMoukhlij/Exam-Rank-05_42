@@ -1,3 +1,9 @@
+#include "Warlock.hpp"
+#include "Warlock.hpp"
+#include "Warlock.hpp"
+#include "Warlock.hpp"
+#include "Warlock.hpp"
+
 int main()
 {
   Warlock richard("Richard", "foo");
