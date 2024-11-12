@@ -26,5 +26,5 @@ class ASpell
 };
 		void ASpell::launch(const ATarget& tar)
 		{
-			tar.getHitBySp
+			tar.getHitBySpell(*this);
 		}
