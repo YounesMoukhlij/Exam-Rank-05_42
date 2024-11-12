@@ -23,7 +23,7 @@
 		}
 		ASpell*	SpellBook::createSpell(std::string& spell)
 		{
-			ASpell * t;
+			ASpell * t = 0;
 			if (MAP.find(spell) != MAP.end())
 			{
 				t = MAP[spell];

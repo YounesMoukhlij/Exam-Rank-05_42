@@ -23,7 +23,7 @@
 		}
 		ATarget*	TargetGenerator::createTarget(std::string& spell)
 		{
-			ATarget * t;
+			ATarget * t = 0;
 			if (MAP.find(spell) != MAP.end())
 			{
 				t = MAP[spell];
