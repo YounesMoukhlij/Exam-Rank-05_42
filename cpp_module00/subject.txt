@@ -55,6 +55,7 @@ Here's an example of a test main function and its associated output:
 
 
 
+
 ~$ ./a.out | cat -e
 Richard: This looks like another boring day.$
 Richard: I am Richard, Mistress of Magma!$
