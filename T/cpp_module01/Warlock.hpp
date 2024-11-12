@@ -3,6 +3,7 @@
 #pragma once
 
 #include <iostream>
+#include <map>
 #include "ASpell.hpp"
 #include "ATarget.hpp"
 
@@ -15,6 +16,7 @@ class Warlock
 		Warlock();
 		Warlock(const Warlock& origine);
 		Warlock& operator=(const Warlock& origine);
+		std::
 	public:
 		~Warlock();
 		Warlock(const std::string& name, const std::string& title);
