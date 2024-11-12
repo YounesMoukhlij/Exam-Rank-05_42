@@ -3,7 +3,7 @@
 
 
 
-		Dummy::Dummy()
+		Dummy::Dummy() : ATarget("Target Practice Dummy")
 		{
 
 		}
