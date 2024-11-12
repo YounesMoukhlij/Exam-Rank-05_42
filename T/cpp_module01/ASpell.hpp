@@ -24,6 +24,6 @@ class ASpell
 
 		void launch(const ATarget& tar);
 
-		virtual ASpell* clone () c
+		virtual ASpell* clone () const = 0;
 
 };

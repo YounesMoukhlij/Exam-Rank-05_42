@@ -16,9 +16,10 @@ class ATarget
 		ATarget& operator=(const ATarget& origine);
 	public:
 		ATarget();
-		~ATarget();
+		virtual ~ATarget();
 		ATarget(const std::string& type);
 
+		virtual ASpell* clone () const = 0;
 
 
 		const std::string& getType() const ;
