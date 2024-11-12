@@ -19,6 +19,7 @@ class Warlock
 		Warlock();
 		Warlock(const Warlock& origine);
 		Warlock& operator=(const Warlock& origine);
+		
 		std::map<std::string, ASpell *> MAP;
 	public:
 		~Warlock();
