@@ -57,7 +57,7 @@ class Warlock
 		{
 			if (MAP.find(spell) != MAP.end())
 			{
-				
+				M
 			}
 		}
 
