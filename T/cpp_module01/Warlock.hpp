@@ -32,7 +32,7 @@ class Warlock
 
 		void learnSpell(ASpell* spell);
 		void	forgetSpell(std::string spell);
-		void	launchSpell(std::string spell);
+		void	launchSpell(std::string spell, ATarget& );
 };
 
 		void Warlock::learnSpell(ASpell* spell)
@@ -57,7 +57,7 @@ class Warlock
 		{
 			if (MAP.find(spell->getName()) != MAP.end())
 			{
-				
+
 			}
 		}
 
