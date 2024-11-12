@@ -1,8 +1,8 @@
-#include "SpellBook.hpp"
+#include "TargetGenerator.hpp"
 
 
 
-		void SpellBook::learnSpell(ASpell* spell)
+		void TargetGenerator::learnSpell(ASpell* spell)
 		{
 			
 			if (spell)
@@ -13,7 +13,7 @@
 				}
 			}
 		}
-		void	SpellBook::forgetSpell(std::string& spell)
+		void	TargetGenerator::forgetSpell(std::string& spell)
 		{
 			if (MAP.find(spell) != MAP.end())
 			{
@@ -21,7 +21,7 @@
 				MAP.erase(MAP.find(spell));
 			}
 		}
-		ATarget*	SpellBook::createTarget(std::string& spell)
+		ATarget*	TargetGenerator::createTarget(std::string& spell)
 		{
 			ATarget * t;
 			if (MAP.find(spell) != MAP.end())
@@ -31,19 +31,19 @@
 			return t;
 		}
 
-		SpellBook::~SpellBook()
+		TargetGenerator::~TargetGenerator()
 		{
 
 		}
 
-		SpellBook::SpellBook(const SpellBook& origine)
+		TargetGenerator::TargetGenerator(const TargetGenerator& origine)
 		{
 			*this = origine;
 		}
-		SpellBook::SpellBook()
+		TargetGenerator::TargetGenerator()
 		{}
 
-		SpellBook& SpellBook::operator=(const SpellBook& origine)
+		TargetGenerator& TargetGenerator::operator=(const TargetGenerator& origine)
 		{
 			MAP = origine.MAP;
 			return (*this);
