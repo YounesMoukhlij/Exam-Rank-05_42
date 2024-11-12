@@ -13,12 +13,10 @@ class ASpell;
 class SpellBook
 {
 	private:
-		std::string _name;
-		std::string _title;
 		SpellBook();
 		SpellBook(const SpellBook& origine);
 		SpellBook& operator=(const SpellBook& origine);
-		std::map<std::string, ASpell MAP;
+		std::map<std::string, ASpell*> MAP;
 	public:
 		~SpellBook();
 		SpellBook(const std::string& name, const std::string& title);
