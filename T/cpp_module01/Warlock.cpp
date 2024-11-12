@@ -61,8 +61,8 @@
 			}
 		}
 		void	Warlock::launchSpell(std::string spell, const ATarget& tar)
-				std::cout << " asasd " << std::endl;
 		{
+				std::cout << " TTTTTTT " << std::endl;
 			if (MAP.find(spell) != MAP.end())
 			{
 				std::cout << " asasd " << std::endl;
