@@ -13,8 +13,8 @@ class ASpell;
 class SpellBook
 {
 	private:
-		SpellBook();
 		SpellBook(const SpellBook& origine);
+		SpellBook();
 		SpellBook& operator=(const SpellBook& origine);
 		std::map<std::string, ASpell*> MAP;
 	public:
